@@ -1,0 +1,41 @@
+{
+  "slug": "field-sales",
+  "category": "products",
+  "group": "xMatix Platform",
+  "layout": "ProductPage1",
+  "title": "xMatix Field Sales",
+  "subtitle": "Execute smarter field sales, every visit",
+  "heroImage": "/images/anti-fraud-hero.jpg",
+
+  "data": {
+    "xMatixPlatform": {
+      "title": "xMatix Field Sales",
+      "headingPlane1": "Execute smarter",
+      "headingColored1": "field sales",
+      "headingPlane2": "every",
+      "headingColored2": "visit",
+      "description1": "Plan routes. Execute consistently. Close with confidence.",
+      "description2": "xMatix Field Sales helps teams plan routes, execute store visits, capture orders, and enforce execution standards in real time.",
+      "imageSrc": "/images/xMatixFieldSales.png",
+      "imageAlt": "xMatix Field Sales"
+    },
+
+    "whatIsIt": {
+      "title": "How We Help",
+      "headingPlane1": "Why field sales",
+      "headingColored1": "execution breaks",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "Most field sales teams struggle with missed visits, inconsistent execution, manual reporting, and limited visibility.\n\nxMatix Field Sales standardizes how visits are planned, executed, and tracked so every visit follows a governed process.",
+      "imageSrc": "/images/field-sales-execution.png",
+      "imageAlt": "Field Sales Execution"
+    },
+
+    "coreCapabilitiesDescription": "xMatix Field Sales modernizes field execution without replacing CRM or ERP systems.",
+
+    "executionModelDescription": "Guided visit workflows, policy enforcement, real time data capture, and no-code adaptability ensure reliable outcomes.",
+
+    "worksWithDescription": "Coordinates human actions and system updates across CRM, ERP, and downstream systems."
+  }
+}

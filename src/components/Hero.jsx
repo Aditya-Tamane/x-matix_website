@@ -1,5 +1,6 @@
 import React from 'react';
 import CTA from './common/Button/button';
+import { CpuChipIcon } from '@heroicons/react/24/outline';
 
 export default function Hero() {
   return (
@@ -16,7 +17,9 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <span className="badge">The Next Generation of Dealer Management</span>
+        <h5 className="section-card-title">
+            <CpuChipIcon width={18.75} height={18.75} /> The Next Generation of Dealer Management
+          </h5>
 
         <h1
           className="hero-title"

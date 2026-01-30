@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ComposablesCard from "./ui/ComposablesCard"
+import { SparklesIcon } from '@heroicons/react/24/outline';
 
 const features = [
   {
@@ -39,10 +40,10 @@ const features = [
 export default function Why() {
   return (
     <section className="why-section">
-      <div className="container">
-        <div className="heading-wrapper">
-          <span className="badge">Why xMatix</span>
-          </div>
+      <div className="container" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <h5 className="section-card-title">
+            <SparklesIcon width={18.75} height={18.75} /> Why xMatix
+          </h5>
           <h2> <span className="highlight">Built for execution</span>, not just record-keeping </h2>
           <p className='sub-text'>Most enterprise systems are designed to store data and manage transactions. xMatix is designed to execute work,<br/> orchestrating people, systems, and intelligent agents to deliver operational outcomes in real time.</p>
         

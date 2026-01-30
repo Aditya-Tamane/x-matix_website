@@ -1,3 +1,4 @@
+import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
 import { Card } from "./common/Card/card"
 
 const domains = [
@@ -24,8 +25,10 @@ export default function Domains() {
 
   return (
     <section className="domains-section">
-      <div className="heading-wrapper">
-        <span className="badge">What you can run</span>
+      <div className="heading-wrapper" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <h5 className="section-card-title">
+            <ComputerDesktopIcon width={18.75} height={18.75} /> What you can run
+          </h5>
         <h2>
           <span className="highlight">One platform.</span> Multiple execution domains.
         </h2>
