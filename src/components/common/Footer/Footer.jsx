@@ -1,19 +1,25 @@
-import React from "react";
+import Link from 'next/link';
+import './Footer.css';
+import Image from 'next/image';
+import Logo from '../../../../public/images/Logo.png';
 
 export default function Footer() {
   return (
-    <footer className="section">
+    <footer className="footer-section">
       <div className="footer-inner">
-        {/* Brand */}
         <div className="footer-brand">
           <div className="brand-title">
-            <span className="x">x</span>Matix
+            <Link href={'/'}>
+              <Image
+                src={Logo}
+                alt='xMatix'
+                width={127.5}
+                height={48}
+              />
+            </Link>
           </div>
-
-          <p className="brand-tagline">
-            Experience how xMatix can simplify operations &amp; amplify
-            <br />
-            intelligence across your organization.
+          <p className="brand-tagline">Experience how xMatix can simplify operations &amp; amplify
+            <br /> intelligence across your organization.
           </p>
 
           <div className="social-icons">
@@ -60,8 +66,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* Bottom */}
       <div className="footer-bottom">
         <p>© xMatix. All Rights Reserved.</p>
         <a href="#" className="back-to-top">
