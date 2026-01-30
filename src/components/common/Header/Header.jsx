@@ -25,12 +25,14 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
     <header className="header">
       <nav className="nav-pill">
         <div className="logo">
-          <Image
-           src={Logo}
-           alt={'xMatix'}
-           width={'85'}
-           height={'32'}
-          />
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt={'xMatix'}
+              width={'85'}
+              height={'32'}
+            />
+           </Link>
         </div>
 
         <ul className="nav-links">
