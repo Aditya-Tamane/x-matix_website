@@ -1,0 +1,20 @@
+.core-card-wrapper {
+    border: 1px solid #fff3;
+    border-radius: 12px;
+    flex: 1;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.core-card-wrapper>span {
+    margin-bottom: 12px;
+}
+.core-card-wrapper h6.heading {
+   text-align: center;
+}
+.core-card-wrapper p.content {
+    text-align: center;
+   margin-top: 6px;
+   margin-bottom: 12px;
+}

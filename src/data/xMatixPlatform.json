@@ -1,0 +1,24 @@
+{
+    "xMatixPlatform": {
+        "title": "xMatix Platform",
+        "headingPlane1": "The execution foundation for",
+        "headingColored1": "modern operations",
+        "headingPlane2": "",
+        "headingColored2": "",
+        "description1": "Design, automate, and govern business workflows without heavy code.",
+        "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+        "imageSrc": "/images/xMatixPlatform.png",
+        "imageAlt": "xMatix Platform"
+    },
+    "whatIsIt": {
+        "title": "What it is",
+        "headingPlane1": "",
+        "headingColored1": "Designed for execution,",
+        "headingPlane2": "not static configuration",
+        "headingColored2": "",
+        "description1": "",
+        "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications. \nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done—across sales, service, supply chain, finance, and workforce operations.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change, not static configuration.",
+        "imageSrc": "/images/xMatixPlatform.png",
+        "imageAlt": "xMatix Platform"
+    }
+}
