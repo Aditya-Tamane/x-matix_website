@@ -2,38 +2,43 @@ import { notFound } from 'next/navigation';
 import fs from 'fs/promises';
 import path from 'path';
 import * as Layouts from '@/globals/layouts';
-import PageContent from '@/components/PageContent';
 
 const DATA_DIR = path.join(process.cwd(), 'src', 'globals', 'page-data');
 
 function slugify(str) {
-  return (str || 'other').toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+  return (str || 'other')
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
 }
 
 export default async function DynamicSolutionPage({ params }) {
-  const { slug } = await params; // FIX: Await params
+  const { slug } = await params;
 
-  if (!slug || !Array.isArray(slug)) return notFound();
-
-  const actualFileSlug = slug[slug.length - 1];
-  const filePath = path.join(DATA_DIR, 'solutions', `${actualFileSlug}.json`);
-  
-  let data;
-  try {
-    const file = await fs.readFile(filePath, 'utf8');
-    data = JSON.parse(file);
-  } catch {
+  if (!slug || !Array.isArray(slug) || slug.length === 0) {
     return notFound();
   }
 
-  const LayoutComponent = Layouts[data.layout];
-  if (!LayoutComponent) return <div>Layout not found</div>;
+  const fileSlug = slug.at(-1); // last segment = filename without .json
+  const filePath = path.join(DATA_DIR, 'solutions', `${fileSlug}.json`);
 
-  return (
-    <LayoutComponent title={data.title} subtitle={data.subtitle} heroImage={data.heroImage}>
-      <PageContent sections={data.sections || []} />
-    </LayoutComponent>
-  );
+  let pageData;
+  try {
+    pageData = JSON.parse(await fs.readFile(filePath, 'utf8'));
+  } catch (err) {
+    console.error(`Failed to load solution JSON: ${filePath}`, err);
+    return notFound();
+  }
+
+  const Layout = Layouts[pageData.layout];
+  if (!Layout) {
+    console.warn(`Layout not found: ${pageData.layout}`);
+    return notFound();
+  }
+
+  // Most straightforward fix
+  return <Layout {...pageData} />;
 }
 
 export async function generateStaticParams() {
@@ -43,11 +48,15 @@ export async function generateStaticParams() {
     const paths = [];
     for (const file of files) {
       if (!file.endsWith('.json')) continue;
-      const data = JSON.parse(await fs.readFile(path.join(dir, file), 'utf8'));
+      const raw = await fs.readFile(path.join(dir, file), 'utf8');
+      const data = JSON.parse(raw);
       paths.push({
-        slug: [slugify(data.group), file.replace('.json', '')]
+        slug: [slugify(data.group), file.replace(/\.json$/, '')]
       });
     }
     return paths;
-  } catch { return []; }
+  } catch (err) {
+    console.error('generateStaticParams failed for solutions', err);
+    return [];
+  }
 }

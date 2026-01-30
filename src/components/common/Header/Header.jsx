@@ -19,7 +19,9 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
   return (
     <header className="header">
       <nav className="nav-pill">
-        <div className="logo">xMatix</div>
+        <Link href="/" className="logo">
+          xMatix
+        </Link>
 
         <ul className="nav-links">
           <li
