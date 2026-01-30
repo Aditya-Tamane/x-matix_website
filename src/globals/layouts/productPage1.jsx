@@ -78,6 +78,7 @@ import CoreCapabilitiesCard from "../../components/common/Core-capabilities-card
 import RequestDemo from "../../components/RequestDemo";
 import Image from "next/image";
 import ModulesImage from '../../../public/images/Modules.png';
+import '../../styles/products.css';
 
 import {
   CommandLineIcon,
@@ -94,11 +95,8 @@ import {
 
 export default function ProductPage1(props) {
   const { data, title, subtitle } = props;
-
-  // Use title/subtitle from props if provided, otherwise fallback to data
   const displayTitle = title || data?.title || "xMatix Platform";
   const displaySubtitle = subtitle || data?.subtitle || "";
-
   return (
     <>
       <SectionCard

@@ -2,6 +2,11 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import './Header.css';
+import { ChevronDownIcon } from '@heroicons/react/24/outline'
+import Button from '../Button/button';
+import Image from 'next/image';
+import Logo from '../../../../public/images/Logo.png'
 
 export default function Header({ menuItems = { products: { groups: [], itemsByGroup: {} }, solutions: { groups: [], itemsByGroup: {} } } }) {
   const pathname = usePathname();
@@ -19,7 +24,14 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
   return (
     <header className="header">
       <nav className="nav-pill">
-        <div className="logo">xMatix</div>
+        <div className="logo">
+          <Image
+           src={Logo}
+           alt={'xMatix'}
+           width={'85'}
+           height={'32'}
+          />
+        </div>
 
         <ul className="nav-links">
           <li
@@ -31,7 +43,7 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
             onMouseLeave={() => setActiveMega(null)}
           >
             <button className={`nav-button ${pathname.startsWith('/products') ? 'active' : ''}`}>
-              Products ▼
+              Products <ChevronDownIcon width={18} height={18}/>
             </button>
 
             {activeMega === 'products' && (
@@ -82,7 +94,7 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
             onMouseLeave={() => setActiveMega(null)}
           >
             <button className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}>
-              Solutions ▼
+              Solutions <ChevronDownIcon width={18} height={18}/>
             </button>
 
             {activeMega === 'solutions' && (
@@ -109,7 +121,7 @@ export default function Header({ menuItems = { products: { groups: [], itemsByGr
           </li>
 
           <li>
-            <button className="contact-btn">Contact Us</button>
+            <Button title='Contact Us'/>
           </li>
         </ul>
       </nav>

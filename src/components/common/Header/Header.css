@@ -1,0 +1,42 @@
+header.header {
+    background: #000000;
+}
+nav.nav-pill {
+    border: 1px solid #ffffff4a;
+    border-radius: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 7rem;
+    padding: 0 12px;
+    display: flex;
+    position: relative;
+    height: 52px;
+}
+.nav-button {
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: .5rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.dropdown-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.mega-dropdown {
+    z-index: 100;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 15px;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    box-shadow: 0 15px 35px #00000080;
+}
