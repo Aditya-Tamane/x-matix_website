@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 3rem;
 }
 .flex-reverse {
     flex-direction: row-reverse;
@@ -20,18 +19,16 @@
 }
 .section-card-title {
     letter-spacing: 1px;
-    border-bottom: 2px solid #00a4ef;
-    margin-bottom: .75rem;
-    font-size: 1.25rem;
-    display: flex;
-    align-items: center;
+    border-bottom: 2px solid rgb(0, 164, 239);
     flex-direction: row;
-    width: max-content;
+    align-items: center;
     gap: 10px;
-}
-.section-card-title svg{
-    width: 24px;
-    height: 24px;
+    width: max-content;
+    margin-bottom: 0.75rem;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+    padding-bottom: 4px;
 }
 .section-card-heading {
     font-size: 3rem;
