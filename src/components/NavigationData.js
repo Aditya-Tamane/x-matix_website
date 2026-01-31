@@ -88,7 +88,7 @@ export async function getMenuItems() {
   };
 
   // ── 1. Left column items ─────────────────────────────────────────────
-  const leftDir = path.join(DATA_ROOT, 'left-items');
+  const leftDir = path.join(DATA_ROOT,'products', 'left-items');
   try {
     const files = await fs.readdir(leftDir);
     for (const file of files) {
@@ -100,7 +100,7 @@ export async function getMenuItems() {
       menu.products.leftItems.push({
         title: data.title || 'Untitled',
         subtitle: data.subtitle || '',
-        href: `/explore/${data.slug || file.replace(/\.json$/, '')}`,
+        href: `/products/${data.slug || file.replace(/\.json$/, '')}`,
         slug: data.slug || file.replace(/\.json$/, ''),
       });
     }

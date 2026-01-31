@@ -1,11 +1,9 @@
 {
-  "slug": "anti-ubvb",
-  "category": "products",
-  "group": "xMatix Platform",
-  "layout": "ProductPage1",
-  "title": "Anti-Product hjvhjhebvh",
-  "subtitle": "Real-time AI-powered fraud detection",
-  "heroImage": "/images/anti-fraud-hero.jpg",
+  "title": "xMatix Data Fabrics",
+  "subtitle": "The low-code / no-code execution foundation",
+  "slug": "data-fabrics",          
+  "layout": "ProductPage1",           
+  "heroImage": "/images/platform-hero.jpg",
 
   "data": {
     "xMatixPlatform": {
