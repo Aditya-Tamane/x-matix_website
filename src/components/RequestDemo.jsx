@@ -9,7 +9,7 @@ const img = {
   alt: 'Business handshake',
 }
 
-function RequestDemo() {
+function RequestDemo({data={}}) {
   return (
     <section className="section">
       <ComposablesCard

@@ -1,9 +1,9 @@
 {
-  "slug": "field-service",
+  "slug": "warehouse",
   "category": "products",
   "group": "xMatix Platform",
-  "layout": "ProductPage1",
-  "title": "xMatix Service",
+  "layout": "LayoutC",
+  "title": "xMatix Warehouse",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",
 

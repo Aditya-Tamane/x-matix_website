@@ -1,3 +1,4 @@
+import { Squares2X2Icon } from "@heroicons/react/24/outline";
 import { Card } from "./common/Card/card"
 
 const useCases = [
@@ -34,11 +35,11 @@ const useCases = [
 ];
 
 export default function UseCases() {
-  return (
-    <section className="use-cases-section">
-        <div className="heading-wrapper">
-        <span className="badge">What you can run</span>
-      </div>
+  return ( 
+    <section className="use-cases-section" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <h5 className="section-card-title">
+            <Squares2X2Icon width={18.75} height={18.75} /> Use Cases
+        </h5>
       <h2><span className="highlight">Execute outcomes</span> across your operations</h2>
 
       <div className="use-cases-grid">

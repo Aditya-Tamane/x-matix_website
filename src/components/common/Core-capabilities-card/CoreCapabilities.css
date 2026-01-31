@@ -12,9 +12,13 @@
 }
 .core-card-wrapper h6.heading {
    text-align: center;
+   font-size: 18px;
+   font-weight: 600;
 }
 .core-card-wrapper p.content {
     text-align: center;
-   margin-top: 6px;
-   margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
 }
