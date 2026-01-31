@@ -1,5 +1,5 @@
 {
-  "slug": "Procurement",
+  "slug": "procurement",
   "category": "products",
   "group": "xMatix Platform",
   "layout": "ProductPage1",
@@ -28,7 +28,7 @@
       "headingColored2": "",
       "description1": "",
       "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/whatIsIt.png",
+      "imageSrc": "/images/xMatixPlatform.png",
       "imageAlt": "xMatix Platform"
     },
 

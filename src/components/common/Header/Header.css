@@ -39,4 +39,114 @@ nav.nav-pill {
     top: 36px;
     left: 0;
     box-shadow: 0 15px 35px #00000080;
+    padding: 20px 32px;
+}
+.mega-inner {
+  display: flex;
+  gap: 32px;
+}
+
+/* ===== LEFT COLUMN ===== */
+.mega-left {
+  width: 280px;
+}
+
+.mega-left h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.mega-left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* EACH LEFT ITEM */
+.mega-left li {
+  list-style: none;
+}
+
+/* MAKE LINK BLOCK-LEVEL */
+.mega-left li a {
+  display: block;
+  text-decoration: none;
+}
+
+.left-title {
+  display: block;
+  color: #e5e7eb;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.left-subtitle {
+  display: block;
+  color: #94a3b8;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* ===== DIVIDER ===== */
+.mega-divider {
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #334155,
+    transparent
+  );
+}
+
+/* ===== RIGHT SIDE ===== */
+.mega-right {
+  flex: 1;
+}
+
+.products-columns {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  row-gap: 18px;
+  column-gap: 32px;
+}
+
+.product-link {
+  color: #e5e7eb;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.product-link:hover {
+  color: #60a5fa;
+}
+
+/* ===== SOLUTIONS ===== */
+.solutions-mega {
+  padding: 32px;
+  min-height: 300px;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.solution-group h4 {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.solution-link {
+  display: block;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.solution-link:hover {
+  color: #60a5fa;
 }

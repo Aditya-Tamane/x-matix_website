@@ -57,11 +57,16 @@ export default async function DynamicProductPage({ params }) {
   const filePath = path.join(DATA_DIR, 'products', `${fileSlug}.json`);
 
   let pageData;
+ try {
+  pageData = JSON.parse(await fs.readFile(filePath, 'utf8'));
+} catch {
+  const filePath = path.join(DATA_DIR, 'products', 'left-items', `${fileSlug}.json`);
   try {
     pageData = JSON.parse(await fs.readFile(filePath, 'utf8'));
   } catch {
     return notFound();
   }
+}
 
   const Layout = Layouts[pageData.layout];
   if (!Layout) {

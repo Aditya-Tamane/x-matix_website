@@ -1,129 +1,134 @@
 'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import './Header.css';
-import { ChevronDownIcon } from '@heroicons/react/24/outline'
-import Button from '../Button/button';
+import { ChevronDownIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import Logo from '../../../../public/images/Logo.png'
+import Logo from '../../../../public/images/Logo.png';
+import Button from '../Button/button';
+import './Header.css';
 
-export default function Header({ menuItems = { products: { groups: [], itemsByGroup: {} }, solutions: { groups: [], itemsByGroup: {} } } }) {
+export default function Header({
+  menuItems = {
+    products: {
+      leftItems: [],
+      products: [],
+    },
+    solutions: { groups: [], itemsByGroup: {} },
+  },
+}) {
   const pathname = usePathname();
   const [activeMega, setActiveMega] = useState(null);
 
-  const prodData = menuItems.products || { groups: [], itemsByGroup: {} };
-  const solData = menuItems.solutions || { groups: [], itemsByGroup: {} };
+  const prodData = {
+    leftItems: [],
+    products: [],
+    ...menuItems.products,
+  };
 
-  const defaultProdGroup = prodData.groups[0] || null;
-  const defaultSolGroup = solData.groups[0] || null;
-
-  const [activeProdGroup, setActiveProdGroup] = useState(defaultProdGroup);
-  const [activeSolGroup, setActiveSolGroup] = useState(defaultSolGroup);
+  const solData = menuItems.solutions;
 
   return (
     <header className="header">
       <nav className="nav-pill">
         <div className="logo">
           <Link href="/">
-            <Image
-              src={Logo}
-              alt={'xMatix'}
-              width={'85'}
-              height={'32'}
-            />
-           </Link>
+            <Image src={Logo} alt="xMatix" width={85} height={32} priority />
+          </Link>
         </div>
 
         <ul className="nav-links">
+
+          {/* ───────── PRODUCTS ───────── */}
           <li
             className="dropdown-container"
-            onMouseEnter={() => {
-              setActiveMega('products');
-              setActiveProdGroup(defaultProdGroup);
-            }}
+            onMouseEnter={() => setActiveMega('products')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button className={`nav-button ${pathname.startsWith('/products') ? 'active' : ''}`}>
-              Products <ChevronDownIcon width={18} height={18}/>
+            <button
+              className={`nav-button ${pathname.startsWith('/products') ? 'active' : ''}`}
+            >
+              Products <ChevronDownIcon width={18} height={18} />
             </button>
 
             {activeMega === 'products' && (
               <div className="mega-dropdown products-mega">
-                <div className="mega-content">
-                  <div className="left-column">
+                <div className="mega-inner">
+
+                  {/* LEFT COLUMN */}
+                  <div className="mega-left">
                     <h3>Our Products</h3>
                     <ul>
-                      {prodData.groups.map((group) => (
-                        <li
-                          key={group}
-                          className={`group-item ${activeProdGroup === group ? 'active' : ''}`}
-                          onClick={() => setActiveProdGroup(group)}
-                        >
-                          <div className="group-title">{group}</div>
-                          <div className="group-subtitle">
-                            {prodData.itemsByGroup[group]?.[0]?.subtitle || 'Explore our tools'}
-                          </div>
+                      {prodData.leftItems.map(item => (
+                        <li key={item.slug}>
+                          <Link href={item.href}>
+                            <div className="left-title">{item.title}</div>
+                            <div className="left-subtitle">{item.subtitle}</div>
+                          </Link>
                         </li>
                       ))}
                     </ul>
                   </div>
 
-                  <div className="right-grid">
-                    {activeProdGroup && prodData.itemsByGroup[activeProdGroup] ? (
-                      <div className="products-grid">
-                        {prodData.itemsByGroup[activeProdGroup].map((item) => (
-                          <Link key={item.slug} href={item.href} className="product-card">
-                            <div className="product-title">{item.title}</div>
-                          </Link>
-                        ))}
-                      </div>
-                    ) : (
-                      <div className="placeholder">Select a category</div>
-                    )}
+                  <div className="mega-divider" />
+
+                  {/* RIGHT SIDE */}
+                  <div className="mega-right">
+                    <div className="products-columns">
+                      {prodData.products.map(product => (
+                        <Link
+                          key={product.href}
+                          href={product.href}
+                          className="product-link"
+                        >
+                          {product.title}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
+
                 </div>
               </div>
             )}
           </li>
 
+          {/* ───────── SOLUTIONS ───────── */}
           <li
             className="dropdown-container"
-            onMouseEnter={() => {
-              setActiveMega('solutions');
-              setActiveSolGroup(defaultSolGroup);
-            }}
+            onMouseEnter={() => setActiveMega('solutions')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}>
-              Solutions <ChevronDownIcon width={18} height={18}/>
+            <button
+              className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}
+            >
+              Solutions <ChevronDownIcon width={18} height={18} />
             </button>
 
             {activeMega === 'solutions' && (
               <div className="mega-dropdown solutions-mega">
-                <div className="mega-content solutions-content">
-                  <div className="solutions-grid">
-                    {solData.groups.map((group) => (
-                      <div key={group} className="solution-group">
-                        <h4>{group}</h4>
-                        <div className="cards-container">
-                          {solData.itemsByGroup[group]?.map((item) => (
-                            <Link key={item.slug} href={item.href} className="solution-card">
-                              <div className="solution-title">{item.title}</div>
-                              <div className="solution-subtitle">{item.subtitle}</div>
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                <div className="solutions-grid">
+                  {solData.groups.map(group => (
+                    <div key={group} className="solution-group">
+                      <h4>{group}</h4>
+                      {solData.itemsByGroup[group]?.map(item => (
+                        <Link
+                          key={item.slug}
+                          href={item.href}
+                          className="solution-link"
+                        >
+                          {item.title}
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
           </li>
 
           <li>
-            <Button title='Contact Us'/>
+            <Button title="Contact Us" />
           </li>
         </ul>
       </nav>
