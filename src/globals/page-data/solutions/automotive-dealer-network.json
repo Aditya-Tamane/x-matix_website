@@ -1,10 +1,11 @@
 {
-  "title": "xMatix Sense",
-  "subtitle": "The low-code / no-code execution foundation",
-  "slug": "sense",          
-  "layout": "ProductPage1",           
-  "heroImage": "/images/platform-hero.jpg",
-
+  "slug": "automotive-dealer-network",
+  "category": "solutions",
+  "title": "Automotive & Dealer Network",
+  "subtitle": "Connected Dealer and OEM operations",
+  "layout": "ProductPage1",
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Industry",
   "data": {
     "xMatixPlatform": {
       "title": "xMatix Platform",

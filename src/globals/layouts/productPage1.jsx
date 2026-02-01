@@ -92,6 +92,7 @@ import {
   BoltIcon,
   Cog6ToothIcon
 } from '@heroicons/react/24/outline';
+import Accordian from "@/components/common/accordian/accordian-component";
 
 export default function ProductPage1(props) {
   const { data, title, subtitle } = props;
@@ -129,13 +130,13 @@ export default function ProductPage1(props) {
               "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains."}
           </p>
           <div className="cards-wrapper mt-24">
-            <CoreCapabilitiesCard icon={<CheckCircleIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<DocumentIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<DevicePhoneMobileIcon width={28} height={28} />} />
+            <CoreCapabilitiesCard icon={<CheckCircleIcon width={28} height={28} />} data={data.coreCapabilitiesCard1} />
+            <CoreCapabilitiesCard icon={<DocumentIcon width={28} height={28} />} data={data.coreCapabilitiesCard2}/>
+            <CoreCapabilitiesCard icon={<DevicePhoneMobileIcon width={28} height={28} />} data={data.coreCapabilitiesCard3}/>
           </div>
           <div className="cards-wrapper mt-12">
-            <CoreCapabilitiesCard icon={<AdjustmentsVerticalIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<ClockIcon width={28} height={28} />} />
+            <CoreCapabilitiesCard icon={<AdjustmentsVerticalIcon width={28} height={28} />} data={data.coreCapabilitiesCard4}/>
+            <CoreCapabilitiesCard icon={<ClockIcon width={28} height={28} />} data={data.coreCapabilitiesCard5}/>
           </div>
         </div>
       </section>
@@ -154,7 +155,7 @@ export default function ProductPage1(props) {
               "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers."}
           </p>
           <div className="mt-24">
-            {/* You can add dynamic content here later if needed */}
+            <Accordian data={data.executionModelAccordian} />
           </div>
         </div>
       </section>

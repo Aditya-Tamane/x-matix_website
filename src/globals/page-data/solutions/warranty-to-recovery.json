@@ -1,0 +1,49 @@
+{
+  "slug": "warranty-to-recovery",
+  "category": "solutions",
+  "title": "Warranty to Recovery",
+  "subtitle": "Warranty tracking to claim recovery",
+  "layout": "LayoutA",
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Use Case",
+  "sections": [
+    {
+      "type": "text",
+      "content": "<p>Connect lead capture, quoting, order management, invoicing, payments, and revenue recognition in one continuous flow.</p><p>Eliminate data silos and manual handoffs between sales, finance, and operations.</p>"
+    },
+    {
+      "type": "features",
+      "items": [
+        {
+          "title": "End-to-End Visibility",
+          "description": "Real-time status from lead to collected revenue"
+        },
+        {
+          "title": "Faster Cash Conversion",
+          "description": "Reduce DSO by 15–30% on average"
+        },
+        {
+          "title": "Automated Compliance",
+          "description": "Built-in revenue recognition rules (ASC 606 / IFRS 15)"
+        },
+        {
+          "title": "Seamless Integration",
+          "description": "Native connectors to CRM, ERP, payment gateways"
+        }
+      ]
+    },
+    {
+      "type": "benefits",
+      "items": [
+        {
+          "title": "For Sales Leaders",
+          "description": "Accurate forecasting and pipeline-to-cash visibility"
+        },
+        {
+          "title": "For Finance Leaders",
+          "description": "Automated controls and audit-ready revenue streams"
+        }
+      ]
+    }
+  ]
+}

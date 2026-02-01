@@ -1,10 +1,11 @@
 {
-  "title": "xMatix Sense",
-  "subtitle": "The low-code / no-code execution foundation",
-  "slug": "sense",          
-  "layout": "ProductPage1",           
-  "heroImage": "/images/platform-hero.jpg",
-
+  "slug": "sales-leader",
+  "category": "solutions",
+  "title": "Sales Leader",
+  "subtitle": "pipeline visibility and revenue growth",
+  "layout": "ProductPage1",
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Role",
   "data": {
     "xMatixPlatform": {
       "title": "xMatix Platform",

@@ -1,0 +1,128 @@
+/* outcomes.css */
+
+/* Page background */
+.feature-wrapper {
+  padding: 90px 40px;
+}
+
+/* Grid */
+.feature-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  position: relative;
+}
+
+/* GRID DIVIDERS */
+.grid-divider {
+  position: absolute;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #6b5cff,
+    transparent
+  );
+}
+
+/* .grid-divider.vertical {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+}
+
+.grid-divider.horizontal {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #6b5cff,
+    transparent
+  );
+} */
+
+/* Card shell */
+.feature-card {
+  position: relative;
+  padding: 56px;
+  border-radius: 18px;
+}
+
+/* Number */
+.feature-number {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* INNER L-SHAPED DIVIDER */
+.card-divider {
+  position: absolute;
+  top: 72px;
+  left: 28px;
+  right: 28px;
+  height: 1px;
+  background: #1a2a4a;
+}
+
+.card-divider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100px;
+  background: #1a2a4a;
+}
+
+/* Content */
+.feature-content {
+  margin-top: 40px;
+  padding-left: 0;
+}
+
+.feature-content h3 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.feature-content p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #c7d2e0;
+  max-width: 520px;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-divider {
+    display: none;
+  }
+
+  .feature-card {
+    padding: 40px 28px;
+  }
+
+  .card-divider {
+    left: 28px;
+    right: 28px;
+  }
+
+  .feature-content {
+    margin-top: 32px;
+  }
+}

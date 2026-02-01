@@ -1,12 +1,11 @@
 {
-  "slug": "warehouse",
-  "category": "products",
-  "group": "xMatix Platform",
+  "slug": "field-services",
+  "category": "solutions",
+  "title": "Field Services",
+  "subtitle": "Efficient on ground service management",
   "layout": "ProductPage1",
-  "title": "xMatix Warehouse(WMS)",
-  "subtitle": "Real-time AI-powered fraud detection",
-  "heroImage": "/images/anti-fraud-hero.jpg",
-
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Industry",
   "data": {
     "xMatixPlatform": {
       "title": "xMatix Platform",
@@ -36,6 +35,31 @@
 
     "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance."
+    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
+    "executionModelAccordian" : {
+  "sections": [
+    {
+      "id": "business",
+      "title": "Business Systems Teams",
+      "description":
+        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
+      "image": "/images/xMatixPlatform.png"
+    },
+    {
+      "id": "operations",
+      "title": "Operations & IT Leaders",
+      "description":
+        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
+      "image": "/images/xMatixPlatform.png"
+    },
+    {
+      "id": "digital",
+      "title": "Digital Transformation Programs",
+      "description":
+        "Accelerate transformation initiatives with scalable, governed automation across teams.",
+      "image": "/images/xMatixPlatform.png"
+    }
+  ]
+  }
   }
 }

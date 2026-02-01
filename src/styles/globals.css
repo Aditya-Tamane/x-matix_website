@@ -939,7 +939,7 @@ footer ul {
 
 .use-cases-grid .solution-group:not(:last-child),
 .use-cases-grid .domain-card:not(:last-child) {  
-  border-right: 0.5px solid rgb(255, 255, 255);   
+  /* border-right: 0.5px solid rgb(255, 255, 255);    */
   padding-right: 1.5rem;
 }
 
