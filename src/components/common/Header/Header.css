@@ -89,6 +89,45 @@ nav.nav-pill {
   margin-top: 4px;
 }
 
+.left-item {
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Arrow hidden by default */
+.left-arrow {
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  color: #60a5fa;
+}
+
+/* Hover state */
+.left-item:hover {
+  background-color: #ffffff;
+}
+
+.left-item:hover .left-title {
+  color: #60a5fa;
+}
+
+/* Arrow appears on hover */
+.left-item:hover .left-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
 /* ===== DIVIDER ===== */
 .mega-divider {
   width: 1px;
@@ -117,16 +156,21 @@ nav.nav-pill {
   font-size: 15px;
   font-weight: 500;
   text-decoration: none;
+  padding : 6px 10px;
 }
 
 .product-link:hover {
-  color: #60a5fa;
+  padding : 6px 10px;
+  width: fit-content;
+  color: #ffffff;
+  background-color: #60a5fa;
+  border-radius: 6px;
 }
 
 /* ===== SOLUTIONS ===== */
 .solutions-mega {
   padding: 32px;
-  min-height: 300px;
+  min-height: 230px;
 }
 
 .solutions-grid {

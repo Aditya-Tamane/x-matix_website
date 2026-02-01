@@ -36,6 +36,52 @@
 
     "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance."
+    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
+    "coreCapabilitiesCard1": {
+      "title": "Policy Enforcement",
+      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    },
+    "coreCapabilitiesCard2": {
+      "title": "Audit & Compliance",
+      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+    },
+    "coreCapabilitiesCard3": {
+      "title": "Omnichannel Execution",
+      "content": "Execute workflows seamlessly across web, mobile, and field operations."
+    },
+    "coreCapabilitiesCard4": {
+      "title": "Configurable Automation",
+      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+    },
+    "coreCapabilitiesCard5": {
+      "title": "Time-based Orchestration",
+      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+    },
+
+"executionModelAccordian" : {
+  "sections": [
+    {
+      "id": "business",
+      "title": "Business Systems Teams",
+      "description":
+        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
+      "image": "/images/xMatixPlatform.png"
+    },
+    {
+      "id": "operations",
+      "title": "Operations & IT Leaders",
+      "description":
+        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
+      "image": "/images/xMatixPlatform.png"
+    },
+    {
+      "id": "digital",
+      "title": "Digital Transformation Programs",
+      "description":
+        "Accelerate transformation initiatives with scalable, governed automation across teams.",
+      "image": "/images/xMatixPlatform.png"
+    }
+  ]
+  }
   }
 }

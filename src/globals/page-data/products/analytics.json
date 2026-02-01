@@ -1,8 +1,7 @@
 {
   "slug": "analytics",
   "category": "products",
-  "group": "xMatix Platform",
-  "layout": "ProductPage1",
+  "layout": "ProductPage3",
   "title": "xMatix Analytics",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",
@@ -36,6 +35,47 @@
 
     "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance."
+    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
+  
+    "coreCapabilitiesCard1": {
+      "title": "Policy Enforcement",
+      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    },
+    "coreCapabilitiesCard2": {
+      "title": "Audit & Compliance",
+      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+    },
+     "coreCapabilitiesCard3": {
+      "title": "Configurable Automation",
+      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+    },
+    "coreCapabilitiesCard4": {
+      "title": "Time-based Orchestration",
+      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+    },
+    "outcomesData": {
+      "outcomes": [
+  {
+    "number": "01",
+    "title": "Auto resolve stock shortages",
+    "description": "Detect inventory risks early and trigger replenishment or rerouting actions automatically."
+  },
+  {
+    "number": "02",
+    "title": "Predict SLA breaches",
+    "description": "Identify and recommend corrective actions before they occur to protect commitments."
+  },
+  {
+    "number": "03",
+    "title": "Optimize technician assignment",
+    "description": "Match skills, availability, and location to assign the right technician for each job."
+  },
+  {
+    "number": "04",
+    "title": "Detect payroll and incentive anomalies",
+    "description": "Flag payout errors, anomalies, or policy violations before payroll is finalized."
+  }
+]
+    }
   }
 }

@@ -1,10 +1,11 @@
 {
-  "title": "xMatix Sense",
-  "subtitle": "The low-code / no-code execution foundation",
-  "slug": "sense",          
-  "layout": "ProductPage1",           
-  "heroImage": "/images/platform-hero.jpg",
-
+  "slug": "finance-leaders",
+  "category": "solutions",
+  "title": "Finance Leaders",
+  "subtitle": "Finance control and revenue assuarance",
+  "layout": "ProductPage1",
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Role",
   "data": {
     "xMatixPlatform": {
       "title": "xMatix Platform",

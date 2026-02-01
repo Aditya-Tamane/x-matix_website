@@ -7,6 +7,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Logo from '../../../../public/images/Logo.png';
 import Button from '../Button/button';
+import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 import './Header.css';
 
 export default function Header({
@@ -63,8 +64,16 @@ export default function Header({
                       {prodData.leftItems.map(item => (
                         <li key={item.slug}>
                           <Link href={item.href}>
-                            <div className="left-title">{item.title}</div>
-                            <div className="left-subtitle">{item.subtitle}</div>
+                          <div className="left-item">
+                            <div className="left-text">
+                              <div className="left-title">{item.title}</div>
+                              <div className="left-subtitle">{item.subtitle}</div>
+                            </div>
+
+                            <span className="left-arrow">
+                              <ArrowUpRightIcon width={16} height={20} />
+                            </span>
+                          </div>
                           </Link>
                         </li>
                       ))}
@@ -118,6 +127,7 @@ export default function Header({
                           className="solution-link"
                         >
                           {item.title}
+                          {item.subtitle && <div className="solution-subtitle">{item.subtitle}</div>}
                         </Link>
                       ))}
                     </div>

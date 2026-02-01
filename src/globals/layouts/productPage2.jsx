@@ -93,7 +93,7 @@ import {
   Cog6ToothIcon
 } from '@heroicons/react/24/outline';
 
-export default function ProductPage1(props) {
+export default function ProductPage2(props) {
   const { data, title, subtitle } = props;
   const displayTitle = title || data?.title || "xMatix Platform";
   const displaySubtitle = subtitle || data?.subtitle || "";
@@ -115,6 +115,12 @@ export default function ProductPage1(props) {
         titleIcon={<PuzzlePieceIcon width={18.75} height={18.75} />}
       />
 
+        <SectionCard
+        data={data.whatIsIt}
+        titleIcon={<PuzzlePieceIcon width={18.75} height={18.75} />}
+        inverse={true}
+      />
+
       {/* Core Capabilities */}
       <section>
         <div className="section-inner-padding flex-column">
@@ -129,32 +135,12 @@ export default function ProductPage1(props) {
               "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains."}
           </p>
           <div className="cards-wrapper mt-24">
-            <CoreCapabilitiesCard icon={<CheckCircleIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<DocumentIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<DevicePhoneMobileIcon width={28} height={28} />} />
+             <CoreCapabilitiesCard icon={<CheckCircleIcon width={28} height={28} />} data={data.coreCapabilitiesCard1} />
+              <CoreCapabilitiesCard icon={<DocumentIcon width={28} height={28} />} data={data.coreCapabilitiesCard2}/>
           </div>
           <div className="cards-wrapper mt-12">
-            <CoreCapabilitiesCard icon={<AdjustmentsVerticalIcon width={28} height={28} />} />
-            <CoreCapabilitiesCard icon={<ClockIcon width={28} height={28} />} />
-          </div>
-        </div>
-      </section>
-
-      {/* Execution Model */}
-      <section>
-        <div className="section-inner-padding flex-column">
-          <h5 className="section-card-title">
-            <BoltIcon width={18.75} height={18.75} /> Execution Model
-          </h5>
-          <h2 className="section-card-heading text-center">
-            Built for teams running and modernizing operations
-          </h2>
-          <p className="section-card-description2 text-center">
-            {data.executionModelDescription ||
-              "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers."}
-          </p>
-          <div className="mt-24">
-            {/* You can add dynamic content here later if needed */}
+            <CoreCapabilitiesCard icon={<AdjustmentsVerticalIcon width={28} height={28} />} data={data.coreCapabilitiesCard3}/>
+            <CoreCapabilitiesCard icon={<ClockIcon width={28} height={28} />} data={data.coreCapabilitiesCard4}/>
           </div>
         </div>
       </section>
