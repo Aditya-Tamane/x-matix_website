@@ -1,22 +1,21 @@
-import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
-import { Card } from "./common/Card/card"
+import { AdjustmentsVerticalIcon, ArchiveBoxIcon, ArrowLeftEndOnRectangleIcon, BuildingStorefrontIcon, ChartBarIcon, CircleStackIcon, ComputerDesktopIcon, DocumentCurrencyRupeeIcon, MapIcon, ShieldCheckIcon, ShoppingCartIcon, UserGroupIcon, UsersIcon, WrenchIcon } from "@heroicons/react/24/outline";import { Card } from "./common/Card/card"
 
 const domains = [
-  { title: "Sales", desc: "End-to-end lead-to-cash execution", icon: "🛒" },
-  { title: "Field Sales", desc: "Distributed sales execution in the field", icon: "🗺️" },
-  { title: "Service", desc: "End-to-end service execution", icon: "🔧" },
-  { title: "Field Service", desc: "End-to-end service execution", icon: "🎛️" },
-  { title: "Warranty", desc: "Automated warranty and claims execution", icon: "🛡️" },
+  { title: "Sales", desc: "End-to-end lead-to-cash execution", icon: <ShoppingCartIcon width={20} height={20} /> },
+  { title: "Field Sales", desc: "Distributed sales execution in the field", icon: <MapIcon width={20} height={20} /> },
+  { title: "Service", desc: "End-to-end service execution", icon: <WrenchIcon width={20} height={20} /> },
+  { title: "Field Service", desc: "End-to-end service execution", icon: <AdjustmentsVerticalIcon width={20} height={20} /> },
+  { title: "Warranty", desc: "Automated warranty and claims execution", icon: <ShieldCheckIcon width={20} height={20} /> },
 
-  { title: "Warehouse", desc: "Real-time warehouse execution", icon: "🏪" },
-  { title: "Inventory", desc: "Continuous inventory accuracy", icon: "📦" },
-  { title: "Procurement", desc: "Connected procurement execution", icon: "🔁" },
-  { title: "Finance", desc: "Execution-linked operational finance", icon: "💰" },
-  { title: "Payroll", desc: "Accurate, compliant payroll execution", icon: "🧾" },
+  { title: "Warehouse", desc: "Real-time warehouse execution", icon: <BuildingStorefrontIcon width={20} height={20} /> },
+  { title: "Inventory", desc: "Continuous inventory accuracy", icon: <ArchiveBoxIcon width={20} height={20} /> },
+  { title: "Procurement", desc: "Connected procurement execution", icon: <ArrowLeftEndOnRectangleIcon width={20} height={20} /> },
+  { title: "Finance", desc: "Execution-linked operational finance", icon: <CircleStackIcon width={20} height={20} /> },
+  { title: "Payroll", desc: "Accurate, compliant payroll execution", icon: <DocumentCurrencyRupeeIcon width={20} height={20} /> },
 
-  { title: "People", desc: "Workforce execution and management", icon: "👥" },
-  { title: "Partners", desc: "Workforce execution and management", icon: "🤝" },
-  { title: "Analytics", desc: "Execution-driven operational insights", icon: "📊" },
+  { title: "People", desc: "Workforce execution and management", icon: <UserGroupIcon width={20} height={20} /> },
+  { title: "Partners", desc: "Workforce execution and management", icon: <UsersIcon width={20} height={20} /> },
+  { title: "Analytics", desc: "Execution-driven operational insights", icon: <ChartBarIcon width={20} height={20} /> },
 ];
 
 export default function Domains() {
