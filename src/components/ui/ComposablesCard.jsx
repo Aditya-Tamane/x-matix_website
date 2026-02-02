@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import CTA from '../common/Button/button';
+import Image from 'next/image';
 
 function ComposablesCard({
   layout = 'left-content', 
@@ -88,11 +89,13 @@ function ComposablesCard({
             ${isLeftContent ? 'desktop-order-2' : 'desktop-order-1'}
             ${imageClassName}`}
         >
-          <img
+          <Image
             src={imageSrc}
             alt={imageAlt}
             className="card-image"
             loading="lazy"
+            width={400}
+            height={300}
           />
         </div>
       </div>
