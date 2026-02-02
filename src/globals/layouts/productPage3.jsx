@@ -148,18 +148,12 @@ export default function ProductPage3(props) {
       <section>
         <div className="section-inner-padding flex-column">
           <h5 className="section-card-title">
-            <BoltIcon width={18.75} height={18.75} /> Execution Model
+            <BoltIcon width={18.75} height={18.75} /> Example Outcomes
           </h5>
           <h2 className="section-card-heading text-center">
-            Example Outcomes
+            Practical intelligence across operations
           </h2>
-          <p className="section-card-description2 text-center">
-            {data.executionModelDescription ||
-              "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers."}
-          </p>
-          <div className="mt-24">
-            <Outcomes data={data.outcomesData.outcomes}/>
-          </div>
+          <Outcomes data={data.outcomesData.outcomes}/>
         </div>
       </section>
 

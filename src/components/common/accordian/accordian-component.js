@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import "./accordian.css";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function Accordian({ data }) {
   const [activeId, setActiveId] = useState(data?.sections[0].id || "");
@@ -26,7 +28,7 @@ export default function Accordian({ data }) {
             >
               <span>{item.title}</span>
               <span className="dicto-arrow">
-                {activeId === item.id ? "▲" : "▼"}
+                {activeId === item.id ? <ChevronUpIcon width={18} height={18}/> : <ChevronDownIcon width={18} height={18}/>}
               </span>
             </button>
 
@@ -38,10 +40,12 @@ export default function Accordian({ data }) {
       </div>
 
       <div className="dicto-right">
-        <img
+        <Image
           src={activeSection.image}
           alt={activeSection.title}
           className="dicto-image"
+          width={400}
+          height={300}
         />
       </div>
     </div>

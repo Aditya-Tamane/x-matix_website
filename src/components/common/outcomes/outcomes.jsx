@@ -7,17 +7,14 @@ export default function FeatureCards({ data = [] }) {
       <div className="feature-grid">
         {data.map((item, index) => (
           <div className="feature-card" key={index}>
-            
-            <span className="feature-number">
-              {String(index + 1).padStart(2, "0")}
-            </span>
-          
-            
-
-            <div className="feature-content">
-              <span className="card-divider" />
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
+            <div className="feature-card-inner">
+              <span className="feature-number">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <div className="feature-content">
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
             </div>
           </div>
         ))}
