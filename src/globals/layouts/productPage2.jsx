@@ -172,7 +172,7 @@ export default function ProductPage2(props) {
         </div>
       </section>
 
-      <RequestDemo />
+      <RequestDemo data={data?.textContent || ""} />
     </>
   );
 }
