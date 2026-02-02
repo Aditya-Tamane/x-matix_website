@@ -58,35 +58,30 @@ export default function HowItWorks() {
 
   return (
     <section className="how-section">
-      <div className="container" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <h5 className="section-card-title">
-            <ClipboardDocumentIcon width={18.75} height={18.75} /> Execution Model
-          </h5>
+      <div className="heading-wrapper">
+        <h5 className="heading-title"><ClipboardDocumentIcon width={18.75} height={18.75} /> Execution Model</h5>
+        <p className="description">xMatix combines a no-code execution platform, a unified operational data fabric, 
+          and an embedded agentic <br/> intelligence layer to orchestrate business outcomes across domains.</p>
+      </div>
 
-        <p className="sub-text">
-          xMatix combines a no-code execution platform, a unified operational data fabric, 
-          and an embedded agentic <br/> intelligence layer to orchestrate business outcomes across domains.
-        </p>
+      <div className="steps-wrapper">
+        {steps.map((step, index) => (
+          <div className="step-item" key={step.title}>
+          <span className="icon">{step.icon}</span>
+            <h3 className="step-title">{step.title}</h3>
+            <p className="step-subtitle">{step.subtitle}</p>
 
-        <div className="steps-wrapper">
-          {steps.map((step, index) => (
-            <div className="step-item" key={step.title}>
-            <span className="icon">{step.icon}</span>
-              <h3 className="step-title">{step.title}</h3>
-              <p className="step-subtitle">{step.subtitle}</p>
-
-              {index < steps.length - 1 && (
-                <Image
-                  src="/images/rightArrow.png"
-                  alt="connecting arrow" 
-                  className="arrow-connector"
-                  width={300}
-                  height={300}
-                />
-              )}
-            </div>
-          ))}
-        </div>
+            {index < steps.length - 1 && (
+              <Image
+                src="/images/rightArrow.png"
+                alt="connecting arrow" 
+                className="arrow-connector"
+                width={300}
+                height={300}
+              />
+            )}
+          </div>
+        ))}
       </div>
     </section>
   );

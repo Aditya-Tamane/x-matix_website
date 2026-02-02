@@ -13,7 +13,6 @@ function RequestDemo({data={}}) {
   return (
     <section className="section">
       <ComposablesCard
-        layout="left-content"
         title="See how xMatix fits your operations"
         subtitle={
           <div className="cta-pill">
@@ -27,8 +26,7 @@ function RequestDemo({data={}}) {
         }
         imageSrc={img.src}
         imageAlt="Business handshake"
-        className="cta-card"
-        showBackground={false}
+        hasBackground={false}
       />
     </section>
   )
