@@ -2,7 +2,7 @@
   "title": "xMatix Data Fabrics",
   "subtitle": "The low-code / no-code execution foundation",
   "slug": "data-fabrics",          
-  "layout": "ProductPage1",           
+  "layout": "xMatixDataFabrics",           
   "heroImage": "/images/platform-hero.jpg",
 
   "data": {
@@ -59,6 +59,22 @@
       "image": "/images/xMatixPlatform.png"
     }
   ]
-  }
+  },
+   "coreCapabilitiesCard1": {
+      "title": "Policy Enforcement",
+      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    },
+    "coreCapabilitiesCard2": {
+      "title": "Audit & Compliance",
+      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+    },
+     "coreCapabilitiesCard3": {
+      "title": "Configurable Automation",
+      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+    },
+    "coreCapabilitiesCard4": {
+      "title": "Time-based Orchestration",
+      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+    }
   }
 }

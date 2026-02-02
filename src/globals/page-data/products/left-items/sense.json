@@ -2,7 +2,7 @@
   "title": "xMatix Sense",
   "subtitle": "The low-code / no-code execution foundation",
   "slug": "sense",          
-  "layout": "ProductPage1",           
+  "layout": "xMatixSense",           
   "heroImage": "/images/platform-hero.jpg",
 
   "data": {
@@ -59,6 +59,50 @@
       "image": "/images/xMatixPlatform.png"
     }
   ]
+  },
+  "outcomesData": {
+      "outcomes": [
+  {
+    "number": "01",
+    "title": "Auto resolve stock shortages",
+    "description": "Detect inventory risks early and trigger replenishment or rerouting actions automatically."
+  },
+  {
+    "number": "02",
+    "title": "Predict SLA breaches",
+    "description": "Identify and recommend corrective actions before they occur to protect commitments."
+  },
+  {
+    "number": "03",
+    "title": "Optimize technician assignment",
+    "description": "Match skills, availability, and location to assign the right technician for each job."
+  },
+  {
+    "number": "04",
+    "title": "Detect payroll and incentive anomalies",
+    "description": "Flag payout errors, anomalies, or policy violations before payroll is finalized."
   }
+]
+    },
+    "coreCapabilitiesCard1": {
+      "title": "Policy Enforcement",
+      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    },
+    "coreCapabilitiesCard2": {
+      "title": "Audit & Compliance",
+      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+    },
+    "coreCapabilitiesCard3": {
+      "title": "Omnichannel Execution",
+      "content": "Execute workflows seamlessly across web, mobile, and field operations."
+    },
+    "coreCapabilitiesCard4": {
+      "title": "Configurable Automation",
+      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+    },
+    "coreCapabilitiesCard5": {
+      "title": "Time-based Orchestration",
+      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+    }
   }
 }

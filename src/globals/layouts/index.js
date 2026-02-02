@@ -1,5 +1,5 @@
 export { default as LayoutA } from './LayoutA';
 export { default as LayoutB } from './LayoutB';
-export { default as ProductPage1 } from './productPage1';
-export { default as ProductPage2 } from './productPage2';
-export { default as ProductPage3 } from './productPage3';
+export { default as xMatixPlatform } from './xMatix-platform';
+export { default as xMatixDataFabrics } from './xMatix-dataFabrics';
+export { default as xMatixSense } from './xMatix-sense';
