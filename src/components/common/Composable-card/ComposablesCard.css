@@ -1,0 +1,48 @@
+.composables-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: linear-gradient(276.32deg, rgba(50, 31, 150, 0.3) -17.15%, rgba(5, 0, 75, 0.3) -5.14%, rgba(0, 178, 194, 0.3) 98.86%);
+    padding: 16px;
+    gap: 24px;
+}
+.composables-card.flex-reverse {
+    flex-direction: row-reverse;
+}
+.card-content {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.card-image-container {
+  flex: 1;
+}
+.card-image-container img {
+  width: 100%;
+  height: auto;
+}
+span.card-badge {
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCCCCC;
+    margin-bottom: 12px;
+}
+
+h3.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #F2F2F2;
+  }
+  .card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #DDDDDD;
+}

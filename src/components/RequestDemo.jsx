@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import ComposablesCard from './ui/ComposablesCard'
+import ComposablesCard from './common/Composable-card/ComposablesCard'
 import Button from './common/Button/button';
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
@@ -22,12 +22,6 @@ function RequestDemo({data={}}) {
               placeholder="Enter your email"
               className="cta-pill-input"
             />
-            {/* <button
-              className="cta-pill-button"
-              onClick={() => console.log('Request demo')}
-            >
-              Request a Demo <span>→</span>
-            </button> */}
             <Button title='Request a Demo' hasIcon={true} icon={<ArrowTopRightOnSquareIcon width={20} height={20}/>}/>
           </div>
         }

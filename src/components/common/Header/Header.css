@@ -2,7 +2,6 @@ header.header {
     position: sticky;
     top: 8px;
     z-index: 99;
-    background: #030b24b2;
 }
 nav.nav-pill {
     border: 1px solid #ffffff4a;
@@ -49,50 +48,39 @@ nav.nav-pill {
   display: flex;
   gap: 32px;
 }
-
-/* ===== LEFT COLUMN ===== */
 .mega-left {
   width: 280px;
 }
-
 .mega-left h3 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-
 .mega-left ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
-/* EACH LEFT ITEM */
 .mega-left li {
   list-style: none;
 }
-
-/* MAKE LINK BLOCK-LEVEL */
 .mega-left li a {
   display: block;
   text-decoration: none;
 }
-
 .left-title {
   display: block;
   color: #e5e7eb;
   font-size: 15px;
   font-weight: 500;
 }
-
 .left-subtitle {
   display: block;
   color: #94a3b8;
   font-size: 13px;
   margin-top: 4px;
 }
-
 .left-item {
   padding: 6px 10px;
   display: flex;
@@ -102,37 +90,26 @@ nav.nav-pill {
   border-radius: 6px;
   transition: background-color 0.2s ease;
 }
-
 .left-text {
   display: flex;
   flex-direction: column;
 }
-
-/* Arrow hidden by default */
 .left-arrow {
   opacity: 0;
   transform: translateX(-4px);
   transition: opacity 0.2s ease, transform 0.2s ease;
   color: #60a5fa;
 }
-
-/* Hover state */
 .left-item:hover {
   background-color: #ffffff;
 }
-
 .left-item:hover .left-title {
   color: #60a5fa;
 }
-
-/* Arrow appears on hover */
 .left-item:hover .left-arrow {
   opacity: 1;
   transform: translateX(0);
 }
-
-
-/* ===== DIVIDER ===== */
 .mega-divider {
   width: 1px;
   background: linear-gradient(
@@ -142,19 +119,15 @@ nav.nav-pill {
     transparent
   );
 }
-
-/* ===== RIGHT SIDE ===== */
 .mega-right {
   flex: 1;
 }
-
 .products-columns {
   display: grid;
   grid-template-columns: repeat(4, minmax(160px, 1fr));
   row-gap: 18px;
   column-gap: 32px;
 }
-
 .product-link {
   color: #e5e7eb;
   font-size: 15px;
@@ -162,7 +135,6 @@ nav.nav-pill {
   text-decoration: none;
   padding : 6px 10px;
 }
-
 .product-link:hover {
   padding : 6px 10px;
   width: fit-content;
@@ -170,31 +142,25 @@ nav.nav-pill {
   background-color: #60a5fa;
   border-radius: 6px;
 }
-
-/* ===== SOLUTIONS ===== */
 .solutions-mega {
   padding: 32px;
   min-height: 230px;
 }
-
 .solutions-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
-
 .solution-group h4 {
   color: #fff;
   margin-bottom: 12px;
 }
-
 .solution-link {
   display: block;
   color: #e5e7eb;
   text-decoration: none;
   margin-bottom: 8px;
 }
-
 .solution-link:hover {
   color: #60a5fa;
 }

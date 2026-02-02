@@ -41,7 +41,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         loading="lazy"
                         width={400}
                         height={300}
-                        style={{ width: "100%", height: "auto" }}
+                        style={{ width: "100%", height: "auto", aspectRatio: 4/3 }}
                     />
                 </div>
             </div>

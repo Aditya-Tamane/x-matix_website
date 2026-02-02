@@ -1,5 +1,5 @@
 import React from 'react';
-import CTA from './common/Button/button';
+import Button from './common/Button/button';
 import { CpuChipIcon } from '@heroicons/react/24/outline';
 
 export default function Hero() {
@@ -18,20 +18,14 @@ export default function Hero() {
 
       <div className="hero-content">
         <h5 className="section-card-title">
-            <CpuChipIcon width={18.75} height={18.75} /> The Next Generation of Dealer Management
-          </h5>
-
-        <h1
-          className="hero-title"
-          dangerouslySetInnerHTML={{ __html: "A composable, agentic business execution platform" }}
-        />
-
+          <CpuChipIcon width={18.75} height={18.75} /> The Next Generation of Dealer Management
+        </h5>
+        <h1 className="hero-title">A composable, agentic business execution platform</h1>
         <p className="hero-subtitle">
           Run sales, service, supply chain, finance, and people on a single no-code foundation
           — powered by unified data and autonomous intelligence.
         </p>
-
-        <CTA title='Request a Demo' type='primary' size='large'/>
+        <Button title='Request a Demo' type='primary' size='large'/>
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ export function Card({
 }) {
   return (
     <div className={`domain-card ${className}`}>
-      {icon && <div className={`icon ${iconClassName}`}>{icon}</div>}
+      {icon && icon}
       <h3 className={titleClassName}>{title}</h3>
       {description && <p>{description}</p>}
       {children}
