@@ -32,11 +32,11 @@
     align-items: center;
 }
 .hero-title {
-    letter-spacing: -1.5px;
     margin-bottom: 32px;
     font-size: 60px;
-    font-weight: 800;
-    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: normal;
 }
 .hero-subtitle {
     color: #d1d5db;

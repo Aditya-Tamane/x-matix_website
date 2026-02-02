@@ -13,7 +13,8 @@ body {
   font-optical-sizing: auto;
   min-height: 100vh;
   overflow-x: hidden;
-  background: radial-gradient(1200px 600px at top, #0b1c3f, #020617 70%);
+  /* background: radial-gradient(1200px 600px at top, #0b1c3f, #020617 70%); */
+  /* background-color: #050422; */
 }
 body::before {
   content: "";
@@ -395,10 +396,12 @@ footer ul {
   position: relative;
   overflow: hidden;
   border-radius: 16px;
-  border: 1px solid #2d3748;
+  /* border: 1px solid #2d3748; */
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.15);
+  /* background: rgba(255, 255, 255, 0.15); */
   backdrop-filter: blur(8px);
+  background: linear-gradient(276.32deg, rgba(50, 31, 150, 0.3) -17.15%, rgba(5, 0, 75, 0.3) -5.14%, rgba(0, 178, 194, 0.3) 98.86%);
+
 }
 
 .composables-card:hover {

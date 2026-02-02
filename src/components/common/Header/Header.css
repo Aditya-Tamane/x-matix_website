@@ -9,11 +9,12 @@ nav.nav-pill {
     border-radius: 35px;
     justify-content: space-between;
     align-items: center;
+    height: 52px;
     margin: 8px 7rem;
     padding: 0 12px;
     display: flex;
     position: relative;
-    height: 52px;
+    backdrop-filter: blur(8px);
 }
 .nav-button {
     color: #fff;

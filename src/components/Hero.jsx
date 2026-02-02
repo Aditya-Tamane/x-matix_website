@@ -23,7 +23,7 @@ export default function Hero() {
 
         <h1
           className="hero-title"
-          dangerouslySetInnerHTML={{ __html: "A composable, agentic<br/>business execution platform" }}
+          dangerouslySetInnerHTML={{ __html: "A composable, agentic business execution platform" }}
         />
 
         <p className="hero-subtitle">
