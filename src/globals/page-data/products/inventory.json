@@ -2,7 +2,7 @@
   "slug": "inventory",
   "category": "products",
   "group": "xMatix Platform",
-  "layout": "ProductPage1",
+  "layout": "",
   "title": "xMatix Inventory",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",

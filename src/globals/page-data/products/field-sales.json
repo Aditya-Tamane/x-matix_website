@@ -2,7 +2,7 @@
   "slug": "field-sales",
   "category": "products",
   "group": "xMatix Platform",
-  "layout": "ProductPage1",
+  "layout": "",
   "title": "xMatix Field Sales",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",
