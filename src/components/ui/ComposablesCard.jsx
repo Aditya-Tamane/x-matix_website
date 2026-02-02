@@ -6,7 +6,6 @@ function ComposablesCard({
   layout = 'left-content', 
   badge,
   title,
-  textContent,
   subtitle,
   highlight,
   features = [],
@@ -38,10 +37,6 @@ function ComposablesCard({
           )}
           {title && (
             <h3 className="card-title">{title}</h3>
-          )}
-
-          {textContent && (
-            <p className="card-subtitle">{textContent}</p>
           )}
 
           {subtitle && (

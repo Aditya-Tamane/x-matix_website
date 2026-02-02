@@ -15,7 +15,6 @@ function RequestDemo({data={}}) {
       <ComposablesCard
         layout="left-content"
         title="See how xMatix fits your operations"
-        textContent={data ?? ''}
         subtitle={
           <div className="cta-pill">
             <input
