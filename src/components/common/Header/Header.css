@@ -1,6 +1,9 @@
-/* header.header {
-    background: #000000;
-} */
+header.header {
+    position: sticky;
+    top: 8px;
+    z-index: 99;
+    background: #030b24b2;
+}
 nav.nav-pill {
     border: 1px solid #ffffff4a;
     border-radius: 35px;
