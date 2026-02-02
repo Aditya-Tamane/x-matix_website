@@ -267,7 +267,7 @@ footer ul {
     rgba(2, 6, 23, 0.9)
   ); */
 
-  /* border: 1px solid rgba(148, 163, 184, 0.15); */
+  border: 1px solid rgba(148, 163, 184, 0.15);
 
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.02),
@@ -276,14 +276,14 @@ footer ul {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.domain-card:hover {
+/* .domain-card:hover {
   background: linear-gradient(
     to top left,
     #111111 12%,
     #0088C7 72%,
     #0088C7 100%
   );
-}
+} */
 
 /* Icon */
 .domain-card .icon {
@@ -373,14 +373,14 @@ footer ul {
 }
 
 /* Optional: stronger hover for use-cases (or keep same as domains) */
-.domain-card:hover {
+/* .domain-card:hover {
   background: linear-gradient(
     to top left,
     #111111 12%,
     #0088C7 72%,
     #0088C7 100%
   );
-}
+} */
 
 .features-grid {
   display: grid;
