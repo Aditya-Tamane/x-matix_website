@@ -259,6 +259,7 @@ footer ul {
   padding: 24px 22px;
   border-radius: 18px;
   min-height: 160px;
+  background: linear-gradient(276.32deg, rgba(50, 31, 150, 0.2) -17.15%, rgba(5, 0, 75, 0.2) -5.14%, rgba(0, 178, 194, 0.2) 98.86%);
 
   /* background: linear-gradient(
     180deg,
