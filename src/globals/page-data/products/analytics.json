@@ -31,6 +31,8 @@
       "imageAlt": "xMatix Platform"
     },
 
+    "textContent" : "See how xMatix Platform powers execution across domains.",
+
     "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
 
     "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",

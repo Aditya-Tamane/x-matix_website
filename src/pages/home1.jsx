@@ -14,7 +14,7 @@ export default function Home1() {
             <Why />
             <How />
             <UseCases />
-            <RequestDemo />
+            <RequestDemo/>
         </>
     )
 }
