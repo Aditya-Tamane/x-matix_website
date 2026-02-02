@@ -154,9 +154,7 @@ export default function ProductPage1(props) {
             {data.executionModelDescription ||
               "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers."}
           </p>
-          <div className="mt-24">
-            <Accordian data={data.executionModelAccordian} />
-          </div>
+          <Accordian data={data.executionModelAccordian} />
         </div>
       </section>
 
