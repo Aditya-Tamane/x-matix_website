@@ -3,7 +3,7 @@
   "category": "solutions",
   "title": "CIO / CTO",
   "subtitle": "scalable secure enterprise technology",
-  "layout": "",
+  "layout": "solutionLayout",
   "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
   "group": "By Role",
   "data": {
@@ -60,6 +60,134 @@
       "image": "/images/xMatixPlatform.png"
     }
   ]
+  },
+  "faqData": {
+  "title": {
+    "text": "Frequently Asked ",
+    "highlight": "Questions"
+  },
+  "faqs": [
+    {
+      "question": "How is pricing calculated?",
+      "answer": "Pricing is calculated based on the plan you choose and the number of users in your organization. Each plan has different features and scale limits to match your execution maturity level."
+    },
+    {
+      "question": "Can we start small and scale later?",
+      "answer": "Yes! You can start with our Starter plan and upgrade to Growth or Enterprise as your needs grow. All your data and configurations will be preserved when you upgrade."
+    },
+    {
+      "question": "Do modules require separate platform fees?",
+      "answer": "No, modules can be added to any plan without additional platform fees. You only pay for the modules you need on top of your base plan subscription."
+    },
+    {
+      "question": "Is Sense required?",
+      "answer": "Sense is not required but highly recommended for enhanced workflow automation and intelligence. It can be added as a module to any plan based on your needs."
+    },
+    {
+      "question": "Do you offer enterprise pricing and SLAs?",
+      "answer": "Yes, our Enterprise plan includes custom pricing, dedicated support, enterprise-grade SLAs, and advanced security features. Contact our sales team for a customized quote."
+    }
+  ],
+  "cta": {
+    "text": "Still have a question in mind?",
+    "buttonText": "Contact Us"
   }
-  }
+},
+"stepsLayoutData" : {
+  "imageUrl": "images/mobileSolution.png",
+  "imageAlt": "Lead-to-Cash Workflow",
+  "imagePosition": "left",
+  "contentType": "steps",
+  "theme": "dark",
+  "accentColor": "#00d9ff",
+  "subtitle": "Lead-to-Cash Execution Flow",
+  "title": "How {{highlight}}Lead-to-Cash{{/highlight}} Works on xMatix",
+  "steps": [
+    {
+      "title": "Lead and Opportunity",
+      "description": "Capture and qualify leads, then progress opportunities through policy-driven approvals."
+    },
+    {
+      "title": "Quote and Order",
+      "description": "Apply pricing and discount rules automatically and convert approved quotes into executable orders."
+    },
+    {
+      "title": "Fulfillment",
+      "description": "Coordinate inventory and warehouse execution while resolving stock and delivery exceptions in real time."
+    },
+    {
+      "title": "Billing and Collections",
+      "description": "Generate invoices automatically and track revenue and payments as part of the same execution flow."
+    }
+  ],
+  "description": "Every stage runs on a single execution layer, ensuring continuity, control, and real-time visibility across the entire lead-to-cash lifecycle."
+},
+  
+"cardLayoutData" : {
+  "imageUrl": "/images/image2_card.png",
+  "imageAlt": "xMatix Sense Platform",
+  "imagePosition": "right",
+  "contentType": "cards",
+  "theme": "dark",
+  "accentColor": "#00d9ff",
+  "topSubtitle": "Powered by xMatix Sense platform",
+  "title": "{{highlight}}Agentic intelligence{{/highlight}} that executes, not just analyzes",
+  "subtitle": "Powered by xMatix Sense",
+  "description": "xMatix Sense embeds agentic intelligence directly into lead to cash workflows. It continuously monitors execution signals, anticipates risks, and guides teams with policy bound actions that improve speed, accuracy, and outcomes.",
+  "features": [
+    {
+      "icon": "🚨",
+      "title": "Deal Risk Prediction",
+      "description": "Detect stalled deals early using real time execution signals across sales, approvals, and fulfillment."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Pricing Governance",
+      "description": "Automatically flag pricing and discount anomalies to protect margins and ensure policy compliance."
+    },
+    {
+      "icon": "🚚",
+      "title": "Fulfillment Risk Detection",
+      "description": "Identify inventory and delivery risks before they impact customer commitments."
+    },
+    {
+      "icon": "📈",
+      "title": "Next Best Action Guidance",
+      "description": "Recommend context aware actions that help teams resolve issues and close faster."
+    }
+  ],
+  "ctaText": "Explore xMatix Sense",
+  "ctaLink": "#"
+},
+"pricingTitle" : "Modular pricing. Enterprise flexibility.",
+"pricingSubtitle" : "xMatix pricing is designed to adapt to how your organization executes operations. Start with the platform, add the modules you need, and scale usage and intelligence as execution grows.",
+"ecosystemSection": {
+    "title": "The Problem",
+    "headingColored1": "Execution breaks",
+    "headingPlane2": "across CRM, ERP, and operations",
+    "description": "Lead-to-cash execution is fragmented across systems. Each tool manages a step, but no system owns the full process."
+  },
+  "ecosystem": [
+    {
+      "number": "01",
+      "title": "CRM",
+      "description": "Manages leads and opportunities, but does not execute downstream actions."
+    },
+    {
+      "number": "02",
+      "title": "ERP",
+      "description": "Handles orders and billing without real-time sales or fulfillment context."
+    },
+    {
+      "number": "03",
+      "title": "Operations",
+      "description": "Executes fulfillment in isolation, creating delays and manual handoffs."
+    },
+    {
+      "number": "04",
+      "title": "AI Tools",
+      "description": "Provide insights without the ability to act within workflows."
+    }
+  ]
+}
 }
