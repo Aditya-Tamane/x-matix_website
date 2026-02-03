@@ -18,24 +18,25 @@
     padding-right: 2rem;
 }
 .section-card-title {
-    letter-spacing: 1px;
-    border-bottom: 2px solid rgb(0, 164, 239);
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    letter-spacing: 0.5px;
     width: max-content;
-    margin-bottom: 0.75rem;
     font-size: 16px;
-    display: flex;
     font-weight: 400;
+    color: #F2F2F2;
+    border-bottom: 2px solid rgb(0, 164, 239);
+    margin-bottom: 12px;
     padding-bottom: 4px;
 }
 .section-card-heading {
-    text-align: left;
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    line-height: normal;
+    font-size: 32px;
     font-weight: 600;
+    text-align: left;
+    margin-bottom: 12px;
+    line-height: normal;
 }
 .heading-plane {
     color: #fff;
@@ -44,18 +45,22 @@
     color: #00A4EF;
 }
 .section-card-description1 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
 }
 .section-card-description2 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 .section-buttons-container {
     display: flex;
     flex-direction: 'row';
-    gap: 1rem;
-    margin-top: 1rem;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
 }
 .section-right-card{
     width: 50%;

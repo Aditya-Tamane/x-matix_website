@@ -9,7 +9,7 @@ export default function CoreCapabilitiesCard({icon=null, data={}}) {
       <span>{icon}</span>
       <h6 className="heading"><b>{data.title}</b></h6>
       <p className="content">{data.content}</p>
-      <Button title="Learn More" hasIcon={true} type="secondary" size="small" icon={<ArrowUpRightIcon width={16} height={16}/>}/>
+      <Button title="Learn More" hasIcon={true} type="secondary" size="medium" icon={<ArrowUpRightIcon width={16} height={16}/>}/>
     </div>
   )
 }

@@ -6,75 +6,82 @@
   "heroImage": "/images/platform-hero.jpg",
 
   "data": {
-    "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
+    "xMatixDataFabrics": {
+      "title": "xMatix Data Fabric",
+      "headingPlane1": "One operational truth",
+      "headingColored1": "across your business",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "Connect, normalize, and govern data across systems in real time, without creating another data silo.",
+      "description2": "Bring together transactional data, master data, and events into a single operational view that powers real-time execution and intelligence across every xMatix module.",
       "imageSrc": "/images/xMatixPlatform.png",
       "imageAlt": "xMatix Platform"
     },
-
     "whatIsIt": {
       "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "headingPlane1": "A",
+      "headingColored1": "unified data layer",
+      "headingPlane2": "built for execution",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "description2": "xMatix Data Fabric is a unified operational data layer that connects transactional data, master data, and events across all xMatix modules. \n It provides a consistent, trusted data foundation that workflows, rules, and intelligence can act on in real time, without duplicating data or disrupting existing systems of record.",
+      "imageSrc": "/images/whatIsIt.png",
+      "imageAlt": "What It Is"
     },
-
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
+    "whyItMatters":{
+      "title": "Why It Matters",
+      "headingPlane1": "",
+      "headingColored1": "Preserve context",
+      "headingPlane2": "across every process",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "Traditional enterprise systems fragment data by function, creating gaps in context as work moves across teams and systems. \n xMatix Data Fabric preserves operational context across processes by maintaining shared domain data models and real-time data synchronization. This enables faster execution, better decisioning, and intelligence that operates on complete, current information.",
+      "imageSrc": "/images/whyItMatters.png",
+      "imageAlt": "Why It Matters"
     },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
+    "coreCapabilities" : {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Data capabilities that",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " power every module",
+          "color": "#00A4EF"
+        }
+      ],
+      "description": "These shared data capabilities ensure consistent execution, trusted insights, and governed automation across domains.",
+      "coreCapabilitiesCard1": {
+        "title": "Policy Enforcement",
+        "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+      },
+      "coreCapabilitiesCard2": {
+        "title": "Audit & Compliance",
+        "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+      },
+      "coreCapabilitiesCard3": {
+        "title": "Configurable Automation",
+        "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+      },
+      "coreCapabilitiesCard4": {
+        "title": "Time-based Orchestration",
+        "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+      }
     },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
-    }
-  ]
-  },
-   "coreCapabilitiesCard1": {
-      "title": "Policy Enforcement",
-      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
-    },
-    "coreCapabilitiesCard2": {
-      "title": "Audit & Compliance",
-      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
-    },
-     "coreCapabilitiesCard3": {
-      "title": "Configurable Automation",
-      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
-    },
-    "coreCapabilitiesCard4": {
-      "title": "Time-based Orchestration",
-      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
-    }
+    "worksWith" : {
+      "title": "Works With",
+      "mainHeading": [
+        {
+          "heading": "One platform.",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Every execution domain.",
+          "color": "#ffffff"
+        }
+      ],
+      "description": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance"
+    }  
   }
 }

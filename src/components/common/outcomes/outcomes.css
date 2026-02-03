@@ -6,7 +6,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 24px;
   position: relative;
 }
 .feature-card {
@@ -39,6 +39,7 @@
   padding: 1.25rem;
   background: linear-gradient(276.32deg, rgba(50, 31, 150, 0.3) -17.15%, rgba(5, 0, 75, 0.3) -5.14%, rgba(0, 178, 194, 0.3) 62.25%);
   border-radius: 0 12px 12px 12px;
+  width: 100%;
   height: 100%;
   position: relative;
 }
