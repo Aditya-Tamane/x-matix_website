@@ -1,49 +1,115 @@
 {
-  "slug": "inventory-accuracy",
-  "category": "solutions",
   "title": "Inventory Accuracy",
-  "subtitle": "Real time inventory visibility accuracy",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
-  "group": "By Use Case",
+  "subtitle": "real time inventory visibility accuracy",
+  "slug": "inventory-accuracy",  
+  "category": "solutions",  
+  "group": "By Industry",      
+  "layout": "solutionLayout",           
+  "heroImage": "/images/platform-hero.jpg",
+
+  "data": {
+    "xMatixPlatform": {
+      "title": "Lead-to-cash Execution",
+      "headingPlane1": "Execute revenue from first",
+      "headingColored1": "lead to final settlement",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Lead-to-cash execution often breaks across CRM, order management, warehouse, and finance systems. Each handoff introduces delays, manual work, and loss of operational context.",
+      "description2": "xMatix enables end-to-end lead-to-cash execution on a single operational foundation by connecting sales, fulfillment, invoicing, and collections with shared data, rules, and intelligence.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "whatIsIt": {
+      "title": "How xMatix helps",
+      "headingPlane1": "",
+      "headingColored1": "End-to-End Lead-to-Cash",
+      "headingPlane2": "Execution Platform",
+      "headingColored2": "",
+      "description1": "xMatix serves as a unified system of execution for the entire lead-to-cash lifecycle. Built on the xMatix Platform, Data Fabric, and Sense, it enables organizations to design and run lead-to-cash as a single continuous workflow.",
+      "description2": "Teams share real-time operational context, policies are enforced automatically, and intelligence is embedded directly into execution to accelerate revenue and reduce friction across sales, operations, and finance.",
+      "imageSrc": "/images/whatIsIt.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+
+    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
+
+    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
+    "executionModelAccordian" : {
   "sections": [
     {
-      "type": "text",
-      "content": "<p>Connect lead capture, quoting, order management, invoicing, payments, and revenue recognition in one continuous flow.</p><p>Eliminate data silos and manual handoffs between sales, finance, and operations.</p>"
+      "id": "business",
+      "title": "Business Systems Teams",
+      "description":
+        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
+      "image": "/images/xMatixPlatform.png"
     },
     {
-      "type": "features",
-      "items": [
-        {
-          "title": "End-to-End Visibility",
-          "description": "Real-time status from lead to collected revenue"
-        },
-        {
-          "title": "Faster Cash Conversion",
-          "description": "Reduce DSO by 15–30% on average"
-        },
-        {
-          "title": "Automated Compliance",
-          "description": "Built-in revenue recognition rules (ASC 606 / IFRS 15)"
-        },
-        {
-          "title": "Seamless Integration",
-          "description": "Native connectors to CRM, ERP, payment gateways"
-        }
-      ]
+      "id": "operations",
+      "title": "Operations & IT Leaders",
+      "description":
+        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
+      "image": "/images/xMatixPlatform.png"
     },
     {
-      "type": "benefits",
-      "items": [
-        {
-          "title": "For Sales Leaders",
-          "description": "Accurate forecasting and pipeline-to-cash visibility"
-        },
-        {
-          "title": "For Finance Leaders",
-          "description": "Automated controls and audit-ready revenue streams"
-        }
-      ]
+      "id": "digital",
+      "title": "Digital Transformation Programs",
+      "description":
+        "Accelerate transformation initiatives with scalable, governed automation across teams.",
+      "image": "/images/xMatixPlatform.png"
     }
   ]
+  },
+   "coreCapabilitiesCard1": {
+      "title": "Policy Enforcement",
+      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    },
+    "coreCapabilitiesCard2": {
+      "title": "Audit & Compliance",
+      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+    },
+    "coreCapabilitiesCard3": {
+      "title": "Omnichannel Execution",
+      "content": "Execute workflows seamlessly across web, mobile, and field operations."
+    },
+    "coreCapabilitiesCard4": {
+      "title": "Configurable Automation",
+      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+    },
+    "coreCapabilitiesCard5": {
+      "title": "Time-based Orchestration",
+      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+    },
+
+  "ecosystemSection": {
+    "title": "The Problem",
+    "headingColored1": "Execution breaks",
+    "headingPlane2": "across CRM, ERP, and operations",
+    "description": "Lead-to-cash execution is fragmented across systems. Each tool manages a step, but no system owns the full process."
+  },
+  "ecosystem": [
+    {
+      "number": "01",
+      "title": "CRM",
+      "description": "Manages leads and opportunities, but does not execute downstream actions."
+    },
+    {
+      "number": "02",
+      "title": "ERP",
+      "description": "Handles orders and billing without real-time sales or fulfillment context."
+    },
+    {
+      "number": "03",
+      "title": "Operations",
+      "description": "Executes fulfillment in isolation, creating delays and manual handoffs."
+    },
+    {
+      "number": "04",
+      "title": "AI Tools",
+      "description": "Provide insights without the ability to act within workflows."
+    }
+  ]
+}
 }

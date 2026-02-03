@@ -1,0 +1,118 @@
+.ecosystem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #0a2e4d 0%, #134a6b 100%);
+  border-radius: 16px;
+  padding: 40px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(135deg, #0a1e3d 0%, #0d2847 100%);
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(135deg, #0a3d4d 0%, #0d5a6b 100%);
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(135deg, #0a2e4d 0%, #134a6b 100%);
+}
+
+.card:nth-child(4) {
+  background: linear-gradient(135deg, #0a3d4d 0%, #0d5a6b 100%);
+}
+
+.outer-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ecosystem-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4da6c7;
+  line-height: 1;
+}
+
+.ecosystem-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  line-height: 1;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+@media (max-width: 1024px) {
+  .container {
+    gap: 16px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .ecosystem-number,
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .number,
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+
+  .number,
+  .title {
+    font-size: 20px;
+  }
+
+  .header {
+    gap: 8px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
