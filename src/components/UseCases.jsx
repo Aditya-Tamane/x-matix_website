@@ -36,11 +36,13 @@ const useCases = [
 
 export default function UseCases() {
   return ( 
-    <section className="use-cases-section" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <h5 className="section-card-title">
-            <Squares2X2Icon width={18.75} height={18.75} /> Use Cases
-        </h5>
-      <h2><span className="highlight">Execute outcomes</span> across your operations</h2>
+    <section>
+      <div className="heading-wrapper">
+        <h5 className="heading-title"><Squares2X2Icon width={18.75} height={18.75} /> Use Cases</h5>
+        <h2 className="main-heading">
+          <span className="highlight">Execute outcomes</span> across your operations
+        </h2>
+      </div>
 
       <div className="use-cases-grid">
         {useCases.map((useCase) => (

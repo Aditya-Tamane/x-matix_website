@@ -1,81 +1,111 @@
 {
   "slug": "analytics",
   "category": "products",
-  "layout": "",
+  "layout": "modules",
   "title": "xMatix Analytics",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",
-
   "data": {
-    "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
-      "headingPlane2": "",
-      "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "hero": {
+      "title": "xMatix Sales",
+      "mainHeading": [
+        {
+          "heading": "Execute Sales with",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Speed and Control",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Move deals forward. Enforce policies. Close predictably.",
+      "description2": "xMatix Sales helps organizations execute sales processes with consistent workflows, real time governance, and full visibility from lead to order."
     },
-
-    "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
-      "headingColored2": "",
-      "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " sales",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Sales teams often rely on fragmented tools, manual approvals, and inconsistent processes that slow deal cycles and increase risk.",
+          "list": [
+            "Leads and opportunities are tracked but not governed",
+            "Pricing and discounts vary by rep",
+            "Approvals delay deals",
+            "Execution visibility is limited"
+          ],
+          "imageSrc": ""
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Sales standardizes how sales activities are executed so every deal follows a governed and repeatable process.",
+          "list": [
+            "Structured sales workflows",
+            "Policy driven approvals",
+            "Real time deal visibility",
+            "Integrated order execution"
+          ],
+          "imageSrc": ""
+        }
+      ]
     },
-
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-  
-    "coreCapabilitiesCard1": {
-      "title": "Policy Enforcement",
-      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "description2": "xMatix Sales modernizes sales execution without replacing existing CRM systems while improving speed, control, and predictability.",
+      "cardsData": [
+        {
+          "title": "Lead and Opportunity Execution",
+          "description": "Guide lead qualification, opportunity progression, and stage movement through governed workflows."
+        },
+        {
+          "title": "Pricing and Discount Governance",
+          "description": "Enforce pricing rules, discount limits, and approval thresholds during execution."
+        },
+        {
+          "title": "Approval and Deal Control",
+          "description": "Route approvals automatically based on deal value, risk, and policy."
+        },
+        {
+          "title": "Order Readiness and Handoff",
+          "description": "Ensure deals move cleanly into order fulfillment and billing execution."
+        },
+        {
+          "title": "Cross Team Coordination",
+          "description": "Align sales actions with finance, service, and supply chain execution."
+        }
+      ]
     },
-    "coreCapabilitiesCard2": {
-      "title": "Audit & Compliance",
-      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
-    },
-     "coreCapabilitiesCard3": {
-      "title": "Configurable Automation",
-      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
-    },
-    "coreCapabilitiesCard4": {
-      "title": "Time-based Orchestration",
-      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
-    },
-    "outcomesData": {
-      "outcomes": [
-  {
-    "number": "01",
-    "title": "Auto resolve stock shortages",
-    "description": "Detect inventory risks early and trigger replenishment or rerouting actions automatically."
-  },
-  {
-    "number": "02",
-    "title": "Predict SLA breaches",
-    "description": "Identify and recommend corrective actions before they occur to protect commitments."
-  },
-  {
-    "number": "03",
-    "title": "Optimize technician assignment",
-    "description": "Match skills, availability, and location to assign the right technician for each job."
-  },
-  {
-    "number": "04",
-    "title": "Detect payroll and incentive anomalies",
-    "description": "Flag payout errors, anomalies, or policy violations before payroll is finalized."
-  }
-]
+    "requestADemo": {
+      "heading": "See xMatix Sales in Action",
+      "subHeading": "Close deals with confidence",
+      "description": "Reduce sales cycle time, prevent revenue leakage, and gain real time visibility into deal execution without disrupting existing systems."
     }
   }
 }

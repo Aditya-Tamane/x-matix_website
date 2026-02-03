@@ -1,0 +1,70 @@
+section.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+.eyebrow-text {
+    letter-spacing: .5px;
+    color: #f2f2f2;
+    border-bottom: 2px solid #00a4ef;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+}
+.hero-main-heading {
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-card-description1 {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-card-description2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heading-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+.heading-wrapper .heading-title {
+    letter-spacing: 1px;
+    border-bottom: 2px solid #00a4ef;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+}
+.heading-wrapper .description {
+    text-align: center;
+    color: #f2f2f2;
+    width: 80%;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -12,11 +12,12 @@ function ComposablesCard({
   features = [],
   imageSrc,
   imageAlt,
-  buttons = {},
+  buttons = null,
   inverse = false,
+  hasBackground = true,
 }) {
   return (
-    <div className={`composables-card ${inverse ? 'flex-reverse' : null} `}>
+    <div className={`composables-card ${inverse ? 'flex-reverse' : ''} ${hasBackground ? 'card-background' : ''} `}>
         <div className={`card-content`}>
           {index && (<span className="card-badge">{index}</span>)}
           {title && (<h3 className="card-title">{title}</h3>)}
@@ -32,7 +33,9 @@ function ComposablesCard({
               ))}
             </ul>
           )}
-          <Button title={buttons.label} hasIcon={true} type='secondary'/>
+          {buttons &&
+            <Button title={buttons.label} hasIcon={true} type='secondary'/>
+          }
         </div>
 
         <div className={`card-image-container`}>

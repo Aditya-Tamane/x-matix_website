@@ -17,9 +17,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         <span className='heading-colored'> {data?.headingColored2}</span>
                     </h2>
                     {data?.description1 && <p className="section-card-description1">
-                        <b>
-                            {data.description1}
-                        </b>
+                        {data.description1}
                     </p>}
                     {data?.description2 && <p className="section-card-description2">
                         {data.description2.split('\n').map((line, index) => (
@@ -41,7 +39,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         loading="lazy"
                         width={400}
                         height={300}
-                        style={{ width: "100%", height: "auto", aspectRatio: 4/3 }}
+                        style={{ width: "100%", height: "auto", aspectRatio: 3/2 }}
                     />
                 </div>
             </div>
