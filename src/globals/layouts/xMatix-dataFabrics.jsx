@@ -5,7 +5,6 @@ import RequestDemo from "../../components/RequestDemo";
 import Image from "next/image";
 import ModulesImage from '../../../public/images/Modules.png';
 import '../../styles/products.css';
-
 import {
   CommandLineIcon,
   LightBulbIcon,
@@ -13,16 +12,12 @@ import {
   CheckCircleIcon,
   DocumentIcon,
   AdjustmentsVerticalIcon,
-  DevicePhoneMobileIcon,
   ClockIcon,
-  BoltIcon,
   Cog6ToothIcon
 } from '@heroicons/react/24/outline';
 
 export default function ProductPage2(props) {
-  const { data, title, subtitle } = props;
-  const displayTitle = title || data?.title || "xMatix Platform";
-  const displaySubtitle = subtitle || data?.subtitle || "";
+  const { data } = props;
   return (
     <>
       <SectionCard

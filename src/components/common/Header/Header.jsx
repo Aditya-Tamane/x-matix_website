@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ChevronDownIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Logo from '../../../../public/images/Logo.png';
 import Button from '../Button/button';
@@ -54,49 +54,47 @@ export default function Header({
             </button>
 
             {activeMega === 'products' && (
-              <div className="mega-dropdown products-mega">
-                <div className="mega-inner">
+              <div className="overlap-container">
+                <div className="mega-dropdown-container">
+                  <div className="mega-dropdown products-mega">
+                    <div className="mega-inner">
+                      <div className="mega-left">
+                        <h3>Our Products</h3>
+                        <ul>
+                          {prodData.leftItems.map(item => (
+                            <li key={item.slug}>
+                              <Link href={item.href}>
+                              <div className="left-item">
+                                <div className="left-text">
+                                  <span className="left-title-box">
+                                    <h5 className="left-title">{item.title}</h5>
+                                    <ArrowUpRightIcon width={16} height={16} />
+                                  </span>
+                                  <p className="left-subtitle">{item.subtitle}</p>
+                                </div>
+                              </div>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className="mega-divider" />
+                      <div className="mega-right">
+                        <div className="products-columns">
+                          {prodData.products.map(product => (
+                            <Link
+                              key={product.href}
+                              href={product.href}
+                              className="product-link"
+                            >
+                              {product.title}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
 
-                  {/* LEFT COLUMN */}
-                  <div className="mega-left">
-                    <h3>Our Products</h3>
-                    <ul>
-                      {prodData.leftItems.map(item => (
-                        <li key={item.slug}>
-                          <Link href={item.href}>
-                          <div className="left-item">
-                            <div className="left-text">
-                              <div className="left-title">{item.title}</div>
-                              <div className="left-subtitle">{item.subtitle}</div>
-                            </div>
-
-                            <span className="left-arrow">
-                              <ArrowUpRightIcon width={16} height={20} />
-                            </span>
-                          </div>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="mega-divider" />
-
-                  {/* RIGHT SIDE */}
-                  <div className="mega-right">
-                    <div className="products-columns">
-                      {prodData.products.map(product => (
-                        <Link
-                          key={product.href}
-                          href={product.href}
-                          className="product-link"
-                        >
-                          {product.title}
-                        </Link>
-                      ))}
                     </div>
                   </div>
-
                 </div>
               </div>
             )}
@@ -108,30 +106,42 @@ export default function Header({
             onMouseEnter={() => setActiveMega('solutions')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button
-              className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}
-            >
+            <button className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}>
               Solutions <ChevronDownIcon width={18} height={18} />
             </button>
 
             {activeMega === 'solutions' && (
-              <div className="mega-dropdown solutions-mega">
-                <div className="solutions-grid">
-                  {solData.groups.map(group => (
-                    <div key={group} className="solution-group">
-                      <h4>{group}</h4>
-                      {solData.itemsByGroup[group]?.map(item => (
-                        <Link
-                          key={item.slug}
-                          href={item.href}
-                          className="solution-link"
-                        >
-                          {item.title}
-                          {item.subtitle && <div className="solution-subtitle">{item.subtitle}</div>}
-                        </Link>
+              <div className="overlap-container">
+                <div className="mega-dropdown-container">
+                  <div className="mega-dropdown solutions-mega">
+                    <div className="solutions-grid">
+                      {solData.groups.map((group, idx) => (
+                        <>
+                          <div key={group} className="mega-left flex-1">
+                            <h3>{group}</h3>
+                            <ul>
+                              {solData.itemsByGroup[group]?.map(item => (
+                                <li key={item.slug}>
+                                  <Link href={item.href}>
+                                    <div className="left-item">
+                                      <div className="left-text">
+                                        <span className="left-title-box">
+                                          <h5 className="left-title">{item.title}</h5>
+                                          <ArrowUpRightIcon width={16} height={16} />
+                                        </span>
+                                        <p className="left-subtitle">{item.subtitle}</p>
+                                      </div>
+                                    </div>
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                          {idx != (solData.groups?.length - 1) && <div className="mega-divider" />}
+                        </>
                       ))}
                     </div>
-                  ))}
+                  </div>
                 </div>
               </div>
             )}

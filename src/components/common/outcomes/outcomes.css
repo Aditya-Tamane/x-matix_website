@@ -2,16 +2,19 @@
   padding: 2rem 0;
 }
 .feature-grid {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  position: relative;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .feature-card {
   position: relative;
   padding: 0 0 0 1px;
+  width: calc(50% - 12px);
 }
 .feature-card-inner {
   display: flex;

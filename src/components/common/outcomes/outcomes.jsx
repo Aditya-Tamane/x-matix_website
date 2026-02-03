@@ -1,7 +1,7 @@
 "use client";
 import "./outcomes.css";
 
-export default function FeatureCards({ data = [] }) {
+export default function Outcomes({ data = [] }) {
   return (
     <section className="feature-wrapper">
       <div className="feature-grid">

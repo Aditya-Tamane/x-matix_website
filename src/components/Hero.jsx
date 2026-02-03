@@ -20,7 +20,7 @@ export default function Hero() {
         <h5 className="section-card-title">
           <CpuChipIcon width={18.75} height={18.75} /> The Next Generation of Dealer Management
         </h5>
-        <h1 className="hero-title">A composable, agentic business execution platform</h1>
+        <h1 className="hero-title">A composable, agentic <p className='highlight'>business execution platform</p></h1>
         <p className="hero-subtitle">
           Run sales, service, supply chain, finance, and people on a single no-code foundation
           — powered by unified data and autonomous intelligence.
