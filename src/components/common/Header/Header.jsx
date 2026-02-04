@@ -148,7 +148,7 @@ export default function Header({
           </li>
 
           <li>
-            <Button title="Contact Us" />
+            <Button title="Contact Us" size='medium' type='primary' />
           </li>
         </ul>
       </nav>

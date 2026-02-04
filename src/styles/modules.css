@@ -3,7 +3,7 @@ section.hero-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 75vh;
 }
 .eyebrow-text {
     letter-spacing: .5px;
@@ -67,4 +67,38 @@ section.hero-section {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+
+.howWeHelp-cards-wrapper {
+    display: flex;
+    gap: 24px;
+    opacity: 1;
+}
+.howWeHelp-card {
+    background: linear-gradient(276.32deg, rgba(50, 31, 150, 0.3) -17.15%, rgba(5, 0, 75, 0.3) -5.14%, rgba(0, 178, 194, 0.3) 62.25%);
+    flex: 1;
+    gap: 12px;
+    opacity: 1;
+    border-radius: 12px;
+    padding: 16px;
+}
+.howWeHelp-card h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+.howWeHelp-card .description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f2f2f2;
+}
+.howWeHelp-card ul {
+    padding-left: 16px;
+    margin-bottom: 12px;
 }

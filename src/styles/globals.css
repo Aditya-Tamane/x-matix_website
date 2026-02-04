@@ -762,37 +762,4 @@ footer ul {
   color: #c7d2fe;
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 0.75rem;
-  justify-content: center;
-  margin-top: 2rem;
-}
 
-.hero-section {
-  position: relative;
-  width: 100%;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  max-width: 1200px;
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.section-card-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}

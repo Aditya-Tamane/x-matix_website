@@ -47,7 +47,8 @@
             "Approvals delay deals",
             "Execution visibility is limited"
           ],
-          "imageSrc": ""
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
         },
         {
           "title": "The xMatix Approach",
@@ -58,7 +59,8 @@
             "Real time deal visibility",
             "Integrated order execution"
           ],
-          "imageSrc": ""
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
         }
       ]
     },

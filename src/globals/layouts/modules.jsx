@@ -1,9 +1,10 @@
 import Button from '@/components/common/Button/button'
-import { Cog6ToothIcon, CpuChipIcon } from '@heroicons/react/24/outline'
+import { ClipboardDocumentIcon, Cog6ToothIcon, CpuChipIcon, DocumentIcon } from '@heroicons/react/24/outline'
 import React from 'react';
 import '../../styles/modules.css';
 import Outcomes from "@/components/common/outcomes/outcomes";
 import RequestDemo from '@/components/RequestDemo';
+import Image from 'next/image';
 
 export default function modules(props) {
     const { data } = props;
@@ -27,8 +28,41 @@ export default function modules(props) {
                         </span>
                     ))}
                 </p>}
-
                 <Button title='Request a Demo' type='primary' size='medium'/>
+            </section>
+
+            <section>
+                <div className="heading-wrapper">
+                    <h5 className="heading-title"><ClipboardDocumentIcon width={18.75} height={18.75} /> {data.howWeHelp.title}</h5>
+                    <h2 className="main-heading">
+                        {data?.howWeHelp?.mainHeading?.map((e, i) => {
+                            return <span key={i} style={{color: e?.color}}>{e?.heading}</span>
+                        })}
+                    </h2>
+                </div>
+                <div className="howWeHelp-cards-wrapper">
+                    {data?.howWeHelp?.cardsData?.map((e, idx)=>{
+                        return (
+                            <div key={idx} className='howWeHelp-card'>
+                                <h5 className="heading-title"><DocumentIcon width={24} height={24} /> {e.title}</h5>
+                                <p className="description">{e.content}</p>
+                                <ul>
+                                    {e?.list?.map((list, i) => {
+                                        return <li key={i} className='description'>{list}</li>
+                                    })}
+                                </ul>
+                                <Button title='View more' hasIcon={true} size='medium' type='secondary'/>
+                                <Image
+                                    src={e.imageSrc}
+                                    alt={e.imageAlt}
+                                    width={300}
+                                    height={200}
+                                    style={{width: '100%', height: 'auto', marginTop: 12}}
+                                />
+                            </div>
+                        )
+                    })}
+                </div>
             </section>
 
             <section>

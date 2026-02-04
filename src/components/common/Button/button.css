@@ -6,26 +6,28 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    line-height: normal;
 }
 
 .button-small {
-    padding: .25rem 1rem;
-    font-size: 0.8rem;
+    padding: 8px 12px;
+    font-size: 12px;
 }
 
 .button-medium {
-    padding: .50rem 1.25rem;
-    font-size: 1rem;
+    padding: 10px 16px;
+    font-size: 14px;
 }
 
 .button-large {
-    padding: .75rem 1.5rem;
-    font-size: 1.2rem;
+    padding: 12px 20px;
+    font-size: 16px;
 }
 
 .primary-button {
-    color: #fff;
-    background: #00a4ef;
+    color: #F2F2F2;
+    background: #0088C7;
+    border: 1px solid #0088C7;
 }
 
 .secondary-button {
