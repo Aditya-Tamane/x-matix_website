@@ -108,6 +108,11 @@
     gap: 12px;
 }
 
+.domains-grid a {
+    color: unset;
+    text-decoration: none;
+}
+
 .domain-card {
     position: relative;
     display: flex;
