@@ -4,7 +4,7 @@ const whatYouCanRun = {
   title: "What you can run",
   mainHeading : [
     {
-      heading: "One Platform ",
+      heading: "One Platform. ",
       color: "#00A4EF"
     },
     {
@@ -13,21 +13,21 @@ const whatYouCanRun = {
     },
   ],
   cardsData : [
-    { title: "Sales", desc: "End-to-end lead-to-cash execution", icon: <ShoppingCartIcon width={20} height={20} /> },
-    { title: "Field Sales", desc: "Distributed sales execution in the field", icon: <MapIcon width={20} height={20} /> },
-    { title: "Service", desc: "End-to-end service execution", icon: <WrenchIcon width={20} height={20} /> },
-    { title: "Field Service", desc: "End-to-end service execution", icon: <AdjustmentsVerticalIcon width={20} height={20} /> },
-    { title: "Warranty", desc: "Automated warranty and claims execution", icon: <ShieldCheckIcon width={20} height={20} /> },
+    { title: "Sales", desc: "End-to-end lead-to-cash execution", icon: <ShoppingCartIcon width={24} height={24} /> },
+    { title: "Field Sales", desc: "Distributed sales execution in the field", icon: <MapIcon width={24} height={24} /> },
+    { title: "Service", desc: "End-to-end service execution", icon: <WrenchIcon width={24} height={24} /> },
+    { title: "Field Service", desc: "End-to-end service execution", icon: <AdjustmentsVerticalIcon width={24} height={24} /> },
+    { title: "Warranty", desc: "Automated warranty and claims execution", icon: <ShieldCheckIcon width={24} height={24} /> },
 
-    { title: "Warehouse", desc: "Real-time warehouse execution", icon: <BuildingStorefrontIcon width={20} height={20} /> },
-    { title: "Inventory", desc: "Continuous inventory accuracy", icon: <ArchiveBoxIcon width={20} height={20} /> },
-    { title: "Procurement", desc: "Connected procurement execution", icon: <ArrowLeftEndOnRectangleIcon width={20} height={20} /> },
-    { title: "Finance", desc: "Execution-linked operational finance", icon: <CircleStackIcon width={20} height={20} /> },
-    { title: "Payroll", desc: "Accurate, compliant payroll execution", icon: <DocumentCurrencyRupeeIcon width={20} height={20} /> },
+    { title: "Warehouse", desc: "Real-time warehouse execution", icon: <BuildingStorefrontIcon width={24} height={24} /> },
+    { title: "Inventory", desc: "Continuous inventory accuracy", icon: <ArchiveBoxIcon width={24} height={24} /> },
+    { title: "Procurement", desc: "Connected procurement execution", icon: <ArrowLeftEndOnRectangleIcon width={24} height={24} /> },
+    { title: "Finance", desc: "Execution-linked operational finance", icon: <CircleStackIcon width={24} height={24} /> },
+    { title: "Payroll", desc: "Accurate, compliant payroll execution", icon: <DocumentCurrencyRupeeIcon width={24} height={24} /> },
 
-    { title: "People", desc: "Workforce execution and management", icon: <UserGroupIcon width={20} height={20} /> },
-    { title: "Partners", desc: "Workforce execution and management", icon: <UsersIcon width={20} height={20} /> },
-    { title: "Analytics", desc: "Execution-driven operational insights", icon: <ChartBarIcon width={20} height={20} /> },
+    { title: "People", desc: "Workforce execution and management", icon: <UserGroupIcon width={24} height={24} /> },
+    { title: "Partners", desc: "Workforce execution and management", icon: <UsersIcon width={24} height={24} /> },
+    { title: "Analytics", desc: "Execution-driven operational insights", icon: <ChartBarIcon width={24} height={24} /> },
   ]
 };
 

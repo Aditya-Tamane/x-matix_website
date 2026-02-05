@@ -133,7 +133,7 @@
 
 .domain-card svg {
     margin-bottom: 12px;
-    opacity: 0.9;
+    stroke-width: 2px;
 }
 
 .domain-card h3 {
@@ -145,8 +145,9 @@
 .domain-card p {
     font-size: 14px;
     font-weight: 400;
-    color: #cbd5f5;
+    color: #f2f2f2;
     line-height: normal;
+    letter-spacing: 0.5px;
 }
 
 .domains-last-row {
