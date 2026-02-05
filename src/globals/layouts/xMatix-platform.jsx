@@ -1,7 +1,7 @@
 import Button from "../../components/common/Button/button";
 import SectionCard from "../../components/common/Section-card/section-card";
 import CoreCapabilitiesCard from "../../components/common/Core-capabilities-card/CoreCapabilities";
-import RequestDemo from "../../components/RequestDemo";
+import RequestDemo from "../../components/common/requestDemo/RequestDemo";
 import Image from "next/image";
 import ModulesImage from '../../../public/images/Modules.png';
 import '../../styles/products.css';

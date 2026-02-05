@@ -1,5 +1,5 @@
 import SectionCard from "../../components/common/Section-card/section-card";
-import RequestDemo from "../../components/RequestDemo";
+import RequestDemo from "../../components/common/requestDemo/RequestDemo";
 import '../../styles/products.css';
 
 import { PuzzlePieceIcon } from '@heroicons/react/24/outline';

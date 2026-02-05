@@ -6,63 +6,109 @@
   "title": "xMatix Service",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",
-
   "data": {
-    "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
-      "headingPlane2": "",
-      "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "hero": {
+      "title": "xMatix Service",
+      "mainHeading": [
+        {
+          "heading": "Execute",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Reliable Service Resolution,",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Every Time",
+          "color": "#ffffff"
+        }
+      ],
+      "description1": "Dispatch smarter. Resolve faster. Govern outcomes.",
+      "description2": "xMatix Service helps organizations plan, execute, and govern service operations across field and support teams. \n Every service request follows a standardized, auditable workflow from intake to resolution"
     },
-
-    "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
-      "headingColored2": "",
-      "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Service",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Most service organizations struggle with fragmented systems, manual coordination, SLA breaches, and limited visibility into service execution.",
+          "list": [
+            "Requests scattered across systems",
+            "Technician dispatch depends on tribal knowledge",
+            "SLAs tracked after failures occur",
+            "Root causes remain unclear"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Service standardizes how service requests are routed, executed, and resolved so every case follows a governed and measurable process.",
+          "list": [
+            "Structured service workflows",
+            "Intelligent routing and prioritization",
+            "Real time SLA monitoring",
+            "Consistent resolution outcomes"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
+        }
+      ]
     },
-
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Service modernizes service execution without replacing existing ticketing, CRM, or ERP systems while improving speed, visibility, and control.",
+      "cardsData": [
+        {
+          "title": "End to End Service Workflow Execution",
+          "description": "Design and run service workflows from request intake to resolution and closure across teams and channels."
+        },
+        {
+          "title": "Intelligent Dispatch and Assignment",
+          "description": "Assign work based on skills, availability, location, and priority to improve first time resolution."
+        },
+        {
+          "title": "SLA and Policy Enforcement",
+          "description": "Enforce response times, escalation rules, and approval thresholds automatically during execution."
+        },
+        {
+          "title": "Real Time Service Visibility",
+          "description": "Track status, delays, handoffs, and outcomes in real time across field and support operations."
+        },
+        {
+          "title": "Human and System Action Orchestration",
+          "description": "Coordinate technician actions, approvals, inventory updates, and system integrations across service ecosystems."
+        }
+      ]
     },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See xMatix Service in Action",
+      "subHeading": "Resolve service requests with confidence",
+      "description": "Deliver consistent service outcomes, reduce SLA breaches, and gain operational clarity without disrupting existing systems."
     }
-  ]
-  }
-  
-  
   }
 }

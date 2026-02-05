@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Logo from '../../../../public/images/Logo.png';
 import Button from '../Button/button';
@@ -21,6 +21,8 @@ export default function Header({
 }) {
   const pathname = usePathname();
   const [activeMega, setActiveMega] = useState(null);
+
+  console.log(pathname.endsWith("/analytics"), "pathname")
 
   const prodData = {
     leftItems: [],
@@ -85,7 +87,7 @@ export default function Header({
                             <Link
                               key={product.href}
                               href={product.href}
-                              className="product-link"
+                              className={`product-link ${pathname.includes(product.href) ? 'active' : ''}`}
                             >
                               {product.title}
                             </Link>

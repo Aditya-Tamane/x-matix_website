@@ -55,8 +55,8 @@ export default function Why() {
       <div className="heading-wrapper">
         <h5 className="heading-title"><SparklesIcon width={18.75} height={18.75} /> {whyXmatix.title}</h5>
         <h2 className="main-heading">
-          {whyXmatix?.mainHeading?.map(e => (
-            <span key={e?.index} style={{color: e.color}}>{e.heading}</span>
+          {whyXmatix?.mainHeading?.map((e, idx) => (
+            <span key={idx} style={{color: e.color}}>{e.heading}</span>
           ))}
         </h2>
         <p className="description">{whyXmatix?.description}</p>

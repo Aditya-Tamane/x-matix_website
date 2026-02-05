@@ -1,9 +1,9 @@
 import Button from '@/components/common/Button/button'
-import { ClipboardDocumentIcon, Cog6ToothIcon, CpuChipIcon, DocumentIcon } from '@heroicons/react/24/outline'
+import { AdjustmentsVerticalIcon, ArrowDownTrayIcon, ClipboardDocumentIcon, Cog6ToothIcon, CpuChipIcon, DocumentIcon, VideoCameraIcon } from '@heroicons/react/24/outline'
 import React from 'react';
 import '../../styles/modules.css';
 import Outcomes from "@/components/common/outcomes/outcomes";
-import RequestDemo from '@/components/RequestDemo';
+import RequestDemo from '@/components/common/requestDemo/RequestDemo';
 import Image from 'next/image';
 
 export default function modules(props) {
@@ -23,12 +23,15 @@ export default function modules(props) {
                 {data?.hero.description2 && <p className="hero-card-description2">
                     {data.hero.description2.split('\n').map((line, index) => (
                         <span key={index}>
-                        {line}
-                        <br /><br />
+                            {line}
+                            <br />
                         </span>
                     ))}
                 </p>}
-                <Button title='Request a Demo' type='primary' size='medium'/>
+                <div className="hero-buttons-container">
+                    <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18} className="icon-rotate"/>} />
+                    <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18}/>}/>
+                </div>
             </section>
 
             <section>
@@ -44,7 +47,7 @@ export default function modules(props) {
                     {data?.howWeHelp?.cardsData?.map((e, idx)=>{
                         return (
                             <div key={idx} className='howWeHelp-card'>
-                                <h5 className="heading-title"><DocumentIcon width={24} height={24} /> {e.title}</h5>
+                                <h5 className="heading-title">{idx == 0 ? <DocumentIcon width={24} height={24} /> : <AdjustmentsVerticalIcon width={24} height={24} />} {e.title}</h5>
                                 <p className="description">{e.content}</p>
                                 <ul>
                                     {e?.list?.map((list, i) => {
@@ -57,7 +60,7 @@ export default function modules(props) {
                                     alt={e.imageAlt}
                                     width={300}
                                     height={200}
-                                    style={{width: '100%', height: 'auto', marginTop: 12}}
+                                    style={{width: '100%', height: 'auto'}}
                                 />
                             </div>
                         )
@@ -78,7 +81,7 @@ export default function modules(props) {
                 <Outcomes data={data.keyCapabilities.cardsData}/>
             </section>
 
-            <RequestDemo/>
+            <RequestDemo data={data.requestADemo}/>
         </>
     )
 }

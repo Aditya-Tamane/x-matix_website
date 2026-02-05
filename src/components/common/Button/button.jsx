@@ -1,7 +1,7 @@
 import './button.css'
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline'
 
-export default function Button({title = 'Title', type = 'primary', size = 'medium', hasIcon = false, icon=<ArrowUpRightIcon width={18} height={18} />, onClick=()=>{}} ) {
+export default function Button({title = 'Title', type = 'primary', size = 'medium', hasIcon = false, icon=<ArrowUpRightIcon width={18} height={18}/>, onClick=()=>{}} ) {
   const getButtonStyles = (type) => {
     if(type == 'primary') {
       return 'primary-button'

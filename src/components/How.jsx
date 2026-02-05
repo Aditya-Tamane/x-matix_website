@@ -66,7 +66,7 @@ export default function HowItWorks() {
 
       <div className="steps-wrapper">
         {steps.map((step, index) => (
-          <div className="step-item" key={step.title}>
+          <div className="step-item" key={index}>
           <span className="icon">{step.icon}</span>
             <h3 className="step-title">{step.title}</h3>
             <p className="step-subtitle">{step.subtitle}</p>
