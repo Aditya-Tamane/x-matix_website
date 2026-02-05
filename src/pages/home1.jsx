@@ -1,3 +1,4 @@
+"use client";
 import Domains from "../components/Domains";
 import Hero from "../components/Hero";
 import RequestDemo from "../components/common/requestDemo/RequestDemo";

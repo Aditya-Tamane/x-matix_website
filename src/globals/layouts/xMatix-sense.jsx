@@ -1,3 +1,4 @@
+"use client";
 import Button from "../../components/common/Button/button";
 import SectionCard from "../../components/common/Section-card/section-card";
 import CoreCapabilitiesCard from "../../components/common/Core-capabilities-card/CoreCapabilities";
@@ -98,7 +99,7 @@ export default function ProductPage3(props) {
         </div>
       </section>
 
-      <RequestDemo />
+      <RequestDemo data={data.requestADemo}/>
     </>
   );
 }

@@ -1,3 +1,4 @@
+"use client";
 import Button from "../../components/common/Button/button";
 import SectionCard from "../../components/common/Section-card/section-card";
 import CoreCapabilitiesCard from "../../components/common/Core-capabilities-card/CoreCapabilities";
@@ -22,8 +23,6 @@ import Accordian from "@/components/common/accordian/accordian-component";
 
 export default function ProductPage1(props) {
   const { data, title, subtitle } = props;
-  const displayTitle = title || data?.title || "xMatix Platform";
-  const displaySubtitle = subtitle || data?.subtitle || "";
   return (
     <>
       <SectionCard
@@ -97,7 +96,7 @@ export default function ProductPage1(props) {
         </div>
       </section>
 
-      <RequestDemo />
+      <RequestDemo data={data.requestADemo}/>
     </>
   );
 }

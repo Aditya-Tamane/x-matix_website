@@ -73,7 +73,6 @@ nav ul li {
   transition: all 0.3s ease;
 }
 
-.nav-button.active svg,
 .nav-button:hover svg {
   transform: rotate(180deg);
 }

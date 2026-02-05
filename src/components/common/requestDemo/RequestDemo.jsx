@@ -15,7 +15,7 @@ function RequestDemo({data={}}) {
     <section>
       <div className="request-demo-wrapper">
         <div className="request-demo-left">
-          <h3 className="request-demo-title">{data?.title || "See how xMatix fits your operations"}</h3>
+          <h3 className="request-demo-title">{data?.heading || "See how xMatix fits your operations"}</h3>
           {data.subHeading && <p className="request-demo-description"><b>{data?.subHeading}</b></p>}
           {data.description && <p className="request-demo-description">{data?.description}</p>}
           <div className="cta-pill">

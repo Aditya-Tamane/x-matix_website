@@ -22,8 +22,6 @@ export default function Header({
   const pathname = usePathname();
   const [activeMega, setActiveMega] = useState(null);
 
-  console.log(pathname.endsWith("/analytics"), "pathname")
-
   const prodData = {
     leftItems: [],
     products: [],
@@ -118,29 +116,29 @@ export default function Header({
                   <div className="mega-dropdown solutions-mega">
                     <div className="solutions-grid">
                       {solData.groups.map((group, idx) => (
-                        <>
-                          <div key={group} className="mega-left flex-1">
-                            <h3>{group}</h3>
-                            <ul>
-                              {solData.itemsByGroup[group]?.map(item => (
-                                <li key={item.slug}>
-                                  <Link href={item.href}>
-                                    <div className="left-item">
-                                      <div className="left-text">
-                                        <span className="left-title-box">
-                                          <h5 className="left-title">{item.title}</h5>
-                                          <ArrowUpRightIcon width={16} height={16} />
-                                        </span>
-                                        <p className="left-subtitle">{item.subtitle}</p>
-                                      </div>
+                        <div key={group} className="mega-left flex-1">
+                          <h3>{group}</h3>
+                          <ul>
+                            {solData.itemsByGroup[group]?.map(item => (
+                              <li key={item.slug}>
+                                <Link href={item.href}>
+                                  <div className="left-item">
+                                    <div className="left-text">
+                                      <span className="left-title-box">
+                                        <h5 className="left-title">{item.title}</h5>
+                                        <ArrowUpRightIcon width={16} height={16} />
+                                      </span>
+                                      <p className="left-subtitle">{item.subtitle}</p>
                                     </div>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                          {idx != (solData.groups?.length - 1) && <div className="mega-divider" />}
-                        </>
+                                  </div>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                      {solData.groups.map((group, idx) => (
+                        idx != (solData.groups?.length - 1) && <div key={`divider-${idx}`} className="mega-divider" />
                       ))}
                     </div>
                   </div>

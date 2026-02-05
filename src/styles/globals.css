@@ -13,8 +13,6 @@ body {
   font-optical-sizing: auto;
   min-height: 100vh;
   overflow-x: hidden;
-  /* background: radial-gradient(1200px 600px at top, #0b1c3f, #020617 70%); */
-  /* background-color: #050422; */
 }
 body::before {
   content: "";
@@ -22,6 +20,10 @@ body::before {
   inset: 0;
   background: url('../../public/images/BgShapes.png') center / cover no-repeat;
   z-index: -1;
+}
+
+header.header + section {
+  margin-top: 68px;
 }
 
 .page-padding {

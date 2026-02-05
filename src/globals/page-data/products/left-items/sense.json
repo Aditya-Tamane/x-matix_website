@@ -27,7 +27,6 @@
       "imageSrc": "/images/whatIsIt.png",
       "imageAlt": "What Is It"
     },
-
     "coreCapabilities": {
       "title": "Core Capabilities",
       "mainHeading": [
@@ -62,7 +61,6 @@
         "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
       }
     },
-
     "outcomes": {
       "title": "Example Outcomes",
       "mainHeading": [
@@ -98,8 +96,7 @@
         }
       ]
     },
-
-    "worksWith" : {
+    "worksWith": {
       "title": "Works With",
       "mainHeading": [
         {
@@ -112,6 +109,11 @@
         }
       ],
       "description": "All xMatix modules run on the same execution platform.  Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance."
-    } 
+    },
+    "requestADemo": {
+      "heading": "Power execution with trusted data",
+      "subHeading": "",
+      "description": "See how xMatix Data Fabric enables real-time, governed execution across every operational domain."
+    }
   }
 }

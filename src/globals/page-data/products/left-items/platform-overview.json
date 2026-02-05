@@ -4,7 +4,6 @@
   "slug": "platform-overview",
   "layout": "xMatixPlatform",
   "heroImage": "/images/platform-hero.jpg",
-
   "data": {
     "xMatixPlatform": {
       "title": "xMatix Platform",
@@ -98,7 +97,7 @@
         }
       ]
     },
-    "worksWith" : {
+    "worksWith": {
       "title": "Works With",
       "mainHeading": [
         {
@@ -111,6 +110,11 @@
         }
       ],
       "description": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance"
-    }  
+    },
+    "requestADemo": {
+      "heading": "Build and adapt operations faster",
+      "subHeading": "",
+      "description": "See how xMatix Platform powers execution across domains."
+    }
   }
 }

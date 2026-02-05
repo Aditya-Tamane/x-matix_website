@@ -1,3 +1,4 @@
+"use client";
 import Button from "../../components/common/Button/button";
 import SectionCard from "../../components/common/Section-card/section-card";
 import CoreCapabilitiesCard from "../../components/common/Core-capabilities-card/CoreCapabilities";
@@ -25,7 +26,7 @@ export default function ProductPage2(props) {
         titleIcon={<CommandLineIcon width={18.75} height={18.75} />}
         buttons={
           <>
-            <Button title="Request a Demo" hasIcon={true} />
+            <Button title="Request a Demo" hasIcon={true} onClick={()=>{}}/>
             <Button title="See How it Works" type="secondary" />
           </>
         }
@@ -82,7 +83,7 @@ export default function ProductPage2(props) {
         </div>
       </section>
 
-      <RequestDemo />
+      <RequestDemo data={data.requestADemo}/>
     </>
   );
 }

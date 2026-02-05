@@ -2,7 +2,7 @@
   "slug": "field-service",
   "category": "products",
   "group": "xMatix Platform",
-  "layout": "",
+  "layout": "modules",
   "title": "xMatix Service",
   "subtitle": "Real-time AI-powered fraud detection",
   "heroImage": "/images/anti-fraud-hero.jpg",

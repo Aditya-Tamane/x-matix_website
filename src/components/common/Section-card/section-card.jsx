@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import './section-card.css'
 
@@ -23,7 +24,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         {data.description2.split('\n').map((line, index) => (
                             <span key={index}>
                             {line}
-                            <br /><br />
+                            <br />
                             </span>
                         ))}
                     </p>}

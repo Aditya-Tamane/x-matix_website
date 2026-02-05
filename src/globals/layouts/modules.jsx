@@ -1,3 +1,4 @@
+"use client";
 import Button from '@/components/common/Button/button'
 import { AdjustmentsVerticalIcon, ArrowDownTrayIcon, ClipboardDocumentIcon, Cog6ToothIcon, CpuChipIcon, DocumentIcon, VideoCameraIcon } from '@heroicons/react/24/outline'
 import React from 'react';
@@ -13,8 +14,8 @@ export default function modules(props) {
             <section className='hero-section'>
                 <h5 className="eyebrow-text"><CpuChipIcon width={18.75} height={18.75} /> {data.hero.title}</h5>
                 <h1 className="hero-main-heading">
-                    {data?.hero?.mainHeading?.map(e => (
-                        <span key={e?.index} style={{color: e.color}}>{e.heading}</span>
+                    {data?.hero?.mainHeading?.map((e, index) => (
+                        <span key={index} style={{color: e.color}}>{e.heading}</span>
                     ))}
                 </h1>
                 {data?.hero.description1 && <p className="hero-card-description1">
@@ -38,8 +39,8 @@ export default function modules(props) {
                 <div className="heading-wrapper">
                     <h5 className="heading-title"><ClipboardDocumentIcon width={18.75} height={18.75} /> {data.howWeHelp.title}</h5>
                     <h2 className="main-heading">
-                        {data?.howWeHelp?.mainHeading?.map((e, i) => {
-                            return <span key={i} style={{color: e?.color}}>{e?.heading}</span>
+                        {data?.howWeHelp?.mainHeading?.map((e, index) => {
+                            return <span key={index} style={{color: e?.color}}>{e?.heading}</span>
                         })}
                     </h2>
                 </div>

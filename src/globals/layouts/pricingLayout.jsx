@@ -1,3 +1,4 @@
+"use client";
 import SectionCard from "../../components/common/Section-card/section-card";
 import RequestDemo from "../../components/common/requestDemo/RequestDemo";
 import '../../styles/products.css';

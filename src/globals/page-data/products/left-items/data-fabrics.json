@@ -1,10 +1,9 @@
 {
   "title": "xMatix Data Fabrics",
   "subtitle": "The low-code / no-code execution foundation",
-  "slug": "data-fabrics",          
-  "layout": "xMatixDataFabrics",           
+  "slug": "data-fabrics",
+  "layout": "xMatixDataFabrics",
   "heroImage": "/images/platform-hero.jpg",
-
   "data": {
     "xMatixDataFabrics": {
       "title": "xMatix Data Fabric",
@@ -28,7 +27,7 @@
       "imageSrc": "/images/whatIsIt.png",
       "imageAlt": "What It Is"
     },
-    "whyItMatters":{
+    "whyItMatters": {
       "title": "Why It Matters",
       "headingPlane1": "",
       "headingColored1": "Preserve context",
@@ -39,7 +38,7 @@
       "imageSrc": "/images/whyItMatters.png",
       "imageAlt": "Why It Matters"
     },
-    "coreCapabilities" : {
+    "coreCapabilities": {
       "title": "Core Capabilities",
       "mainHeading": [
         {
@@ -69,7 +68,7 @@
         "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
       }
     },
-    "worksWith" : {
+    "worksWith": {
       "title": "Works With",
       "mainHeading": [
         {
@@ -82,6 +81,11 @@
         }
       ],
       "description": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance"
-    }  
+    },
+    "requestADemo": {
+      "heading": "Unify data without rebuilding systems",
+      "subHeading": "",
+      "description": "Create a shared operational data foundation while keeping existing CRM, ERP, and operational systems intact."
+    }
   }
 }
