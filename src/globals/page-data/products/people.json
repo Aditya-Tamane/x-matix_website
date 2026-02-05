@@ -1,66 +1,113 @@
 {
   "slug": "people",
   "category": "products",
-  "group": "xMatix Platform",
-  "layout": "",
+  "layout": "modules",
   "title": "xMatix People",
-  "subtitle": "Real-time AI-powered fraud detection",
-  "heroImage": "/images/anti-fraud-hero.jpg",
+  "subtitle": "Execute workforce operations with consistency",
+  "heroImage": "/images/people-hero.jpg",
 
   "data": {
-    "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
-      "headingPlane2": "",
-      "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "hero": {
+      "title": "xMatix People",
+      "mainHeading": [
+        {
+          "heading": "Execute Workforce Operations",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Consistency",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Onboard faster. Manage clearly. Adapt continuously.",
+      "description2": "xMatix People helps organizations execute workforce operations across the employee lifecycle with governed workflows, real time coordination, and compliance readiness."
     },
 
-    "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
-      "headingColored2": "",
-      "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " People",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "People operations often rely on manual handoffs, inconsistent processes, and disconnected systems.",
+          "list": [
+            "Onboarding steps vary by team",
+            "Role changes take too long",
+            "Compliance steps are missed",
+            "Cross team coordination is manual"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "People Operations Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix People standardizes how workforce actions are executed so every employee lifecycle event follows a consistent and auditable process.",
+          "list": [
+            "Structured employee workflows",
+            "Policy driven approvals",
+            "Cross function coordination",
+            "Compliance ready execution"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix People Approach"
+        }
+      ]
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix People modernizes people execution without replacing existing HR or payroll systems while improving speed, clarity, and control.",
+      "cardsData": [
+        {
+          "title": "Employee Lifecycle Execution",
+          "description": "Orchestrate onboarding, role changes, transfers, and exits through standardized workflows."
+        },
+        {
+          "title": "Policy Based Approvals",
+          "description": "Apply HR policies and approval rules automatically during execution."
+        },
+        {
+          "title": "Cross Function Coordination",
+          "description": "Align people actions with IT access, payroll, finance, and facilities."
+        },
+        {
+          "title": "Compliance and Documentation",
+          "description": "Ensure required steps, acknowledgements, and records are completed."
+        },
+        {
+          "title": "Adaptable Workforce Processes",
+          "description": "Update execution flows quickly without system rewrites."
+        }
+      ]
     },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+
+    "requestADemo": {
+      "heading": "See xMatix People in Action",
+      "subHeading": "Run workforce operations with confidence",
+      "description": "Improve employee experience, reduce delays, and maintain compliance without disrupting existing systems."
     }
-  ]
-  }
   }
 }

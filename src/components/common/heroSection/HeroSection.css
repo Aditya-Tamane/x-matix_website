@@ -46,3 +46,13 @@
 .hero-content button svg {
     transform: rotate(-90deg);
 }
+
+.hero-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.hero-buttons-container .icon-rotate {
+    transform: rotate(0deg);
+}
