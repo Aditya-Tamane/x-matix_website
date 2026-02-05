@@ -54,12 +54,17 @@ nav ul li {
   cursor: pointer;
 }
 
-.nav-button.active,
-.nav-button:hover {
-  color: #60a5fa;
+.nav-button.active {
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  background-color: transparent;
 }
 
-.nav-button.active,
+.overlap-container + .nav-button.active {
+  border-bottom: 0;
+}
+
+.overlap-container + .nav-button,
 .nav-button:hover {
   background-color: #60a5fa;
   color: #fff;
@@ -73,7 +78,7 @@ nav ul li {
   transition: all 0.3s ease;
 }
 
-.nav-button.active svg,
+.overlap-container + .nav-button svg,
 .nav-button:hover svg {
   transform: rotate(180deg);
 }
@@ -133,7 +138,7 @@ nav ul li {
 
 .mega-left li {
   list-style: none;
-  width: max-content;
+  /* width: max-content; */
 }
 
 .mega-left li a {
@@ -177,12 +182,13 @@ nav ul li {
   border-radius: 8px;
   transition: background-color 0.2s ease;
   border: 1px solid transparent;
-  min-width: 250px;
+  width: 100%;
 }
 
 .left-text {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .left-arrow {
@@ -231,11 +237,12 @@ nav ul li {
   font-weight: 400;
   text-decoration: none;
   padding: 6px 10px;
+  width: 100%;
 }
 
 .product-link:hover, .product-link.active {
   padding: 6px 10px;
-  width: fit-content;
+  /* width: fit-content; */
   color: #F2F2F2;
   background-color: #0088C7;
   border-radius: 6px;

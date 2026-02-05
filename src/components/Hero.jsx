@@ -17,14 +17,14 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <h5 className="section-card-title">
+        <h5 className="section-card-title mb-0">
           <CpuChipIcon width={24} height={24} /> The Next Generation of Dealer Management
         </h5>
-        <h1 className="hero-title">
+        <h1 className="hero-title mb-0">
               A composable, agentic 
               <p className="highlight">business execution platform</p>
         </h1>
-        <p className="hero-subtitle">
+        <p className="hero-subtitle mb-4">
           Run sales, service, supply chain, finance, and people on a single no-code foundation — powered by unified data and autonomous intelligence.
         </p>
         <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18}/>}/>

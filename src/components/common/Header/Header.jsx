@@ -47,12 +47,6 @@ export default function Header({
             onMouseEnter={() => setActiveMega('products')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button
-              className={`nav-button ${pathname.startsWith('/products') || activeMega === 'products' ? 'active' : ''}`}
-            >
-              Products <ChevronDownIcon width={18} height={18} />
-            </button>
-
             {activeMega === 'products' && (
               <div className="overlap-container">
                 <div className="mega-dropdown-container">
@@ -98,6 +92,10 @@ export default function Header({
                 </div>
               </div>
             )}
+            <button className={`nav-button ${pathname.startsWith('/products') ? 'active' : ''}`}>
+              Products <ChevronDownIcon width={18} height={18} />
+            </button>
+
           </li>
 
           {/* ───────── SOLUTIONS ───────── */}
@@ -106,10 +104,6 @@ export default function Header({
             onMouseEnter={() => setActiveMega('solutions')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button className={`nav-button ${pathname.startsWith('/solutions') || activeMega === 'solutions' ? 'active' : ''}`}>
-              Solutions <ChevronDownIcon width={18} height={18} />
-            </button>
-
             {activeMega === 'solutions' && (
               <div className="overlap-container">
                 <div className="mega-dropdown-container">
@@ -145,6 +139,10 @@ export default function Header({
                 </div>
               </div>
             )}
+            <button className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}>
+              Solutions <ChevronDownIcon width={18} height={18} />
+            </button>
+
           </li>
 
           <li>
