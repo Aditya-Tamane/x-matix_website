@@ -145,6 +145,7 @@ nav ul li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .left-title-box svg {
@@ -174,6 +175,8 @@ nav ul li {
   gap: 4px;
   border-radius: 8px;
   transition: background-color 0.2s ease;
+  border: 1px solid transparent;
+  min-width: 300px;
 }
 
 .left-text {
