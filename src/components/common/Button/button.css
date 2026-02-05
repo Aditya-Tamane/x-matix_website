@@ -7,6 +7,11 @@
     align-items: center;
     gap: 10px;
     line-height: normal;
+    transform: scaleX(1);
+    transition: all 0.5s ease;
+}
+.default-button:hover {
+    transform: scaleX(1.05);
 }
 
 .button-small {
