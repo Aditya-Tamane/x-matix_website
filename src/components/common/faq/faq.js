@@ -48,7 +48,7 @@ export default function FAQ(data = {}) {
 
       <div className="faq-cta">
         <p className="faq-cta-text">{faqData.cta.text}</p>
-        <button className="faq-cta-button">
+        <button className="faq-cta-button" onClick={() => window.location.href = 'mailto:xmatix@xmatix.com'}>
           {faqData.cta.buttonText}
         </button>
       </div>

@@ -1,62 +1,14 @@
 'use client';
 import { useState } from 'react';
-import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
+import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import './paymentPlans.css';
 
-export default function PaymentPlans() {
-    const data = {
-  "title": {
-    "text": "Choose a plan that matches your",
-    "highlight": "execution maturity"
-  },
-  "subtitle": "Plans define the breadth of platform capabilities, governance controls, and scale limits. Modules can be added to any plan.",
-  "plans": [
-    {
-      "name": "Starter",
-      "price": "10",
-      "description": "For teams beginning their execution modernization journey.",
-      "featured": false,
-      "features": [
-        "Core execution platform",
-        "Limited workflows and automation",
-        "Standard governance and access controls",
-        "Suitable for single use case or pilot"
-      ]
-    },
-    {
-      "name": "Growth",
-      "price": "39",
-      "description": "For organizations scaling execution across teams and domains.",
-      "featured": true,
-      "features": [
-        "Expanded workflow and automation limits",
-        "Advanced governance and lifecycle management",
-        "Supports multiple modules and domains",
-        "Designed for production-grade execution"
-      ]
-    },
-    {
-      "name": "Enterprise",
-      "price": "52",
-      "description": "For complex, large-scale operational environments.",
-      "featured": false,
-      "features": [
-        "Unlimited execution scale",
-        "Advanced security and compliance",
-        "Multi-entity and partner support",
-        "Enterprise SLAs and deployments"
-      ]
-    }
-  ]
-}
-
-  // State to track active card index
+export default function PaymentPlans(pricingData) {
+  const data = pricingData?.pricingData;
   const [activeIndex, setActiveIndex] = useState(() => {
-    // Set initial active index to the featured plan
     return data.plans.findIndex(plan => plan.featured);
   });
 
-  // Handle card click
   const handleCardClick = (index) => {
     setActiveIndex(index);
   };
@@ -66,7 +18,7 @@ export default function PaymentPlans() {
       <div className="payment-header">
         <div className="contentWrapper">
         <h5 className="heading-title">
-          <ComputerDesktopIcon width={18.75} height={18.75} /> hii
+          <ComputerDesktopIcon width={18.75} height={18.75} /> {data.title.topSubtitle}
         </h5>
         </div>
         <h1 className="title">
@@ -110,10 +62,7 @@ export default function PaymentPlans() {
 
             <button className="ctaButton">
               <span>Get Started</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
+             <ArrowTopRightOnSquareIcon width={18.75} height={18.75} />
             </button>
           </div>
         ))}

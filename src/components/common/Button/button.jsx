@@ -15,7 +15,7 @@ export default function Button({title = 'Title', type = 'primary', size = 'mediu
     else if(size == 'large') return 'button-large'
   }
   return (
-      <button className={`button default-button ${getButtonStyles(type)} ${getButtonSize(size)}`}>
+      <button className={`button default-button ${getButtonStyles(type)} ${getButtonSize(size)}`} onClick={onClick}>
         {title} 
         {hasIcon && icon}
       </button>
