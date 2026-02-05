@@ -3,24 +3,26 @@
   "category": "products",
   "layout": "modules",
   "title": "xMatix Analytics",
-  "subtitle": "Real-time AI-powered fraud detection",
-  "heroImage": "/images/anti-fraud-hero.jpg",
+  "subtitle": "Analytics built for execution",
+  "heroImage": "/images/analytics-hero.jpg",
+
   "data": {
     "hero": {
-      "title": "xMatix Sales",
+      "title": "xMatix Analytics",
       "mainHeading": [
         {
-          "heading": "Execute Sales with",
+          "heading": "Analytics Built",
           "color": "#ffffff"
         },
         {
-          "heading": " Speed and Control",
+          "heading": " for Execution",
           "color": "#00A4EF"
         }
       ],
-      "description1": "Move deals forward. Enforce policies. Close predictably.",
-      "description2": "xMatix Sales helps organizations execute sales processes with consistent workflows, real time governance, and full visibility from lead to order."
+      "description1": "See what happens. Understand why. Act immediately.",
+      "description2": "xMatix Analytics delivers operational analytics directly connected to execution workflows so insights lead to action, not just reports."
     },
+
     "howWeHelp": {
       "title": "How We Help",
       "mainHeading": [
@@ -29,41 +31,42 @@
           "color": "#ffffff"
         },
         {
-          "heading": " sales",
+          "heading": " Analytics",
           "color": "#00A4EF"
         },
         {
-          "heading": " Execution Breaks",
+          "heading": " Fall Short",
           "color": "#ffffff"
         }
       ],
       "cardsData": [
         {
           "title": "The problem",
-          "content": "Sales teams often rely on fragmented tools, manual approvals, and inconsistent processes that slow deal cycles and increase risk.",
+          "content": "Traditional analytics systems analyze data after execution has already occurred, limiting their ability to drive real time decisions.",
           "list": [
-            "Leads and opportunities are tracked but not governed",
-            "Pricing and discounts vary by rep",
-            "Approvals delay deals",
-            "Execution visibility is limited"
+            "Reports lag operational reality",
+            "Insights are disconnected from workflows",
+            "Root causes are hard to identify",
+            "Actions require manual follow up"
           ],
           "imageSrc": "/images/modulesCard1.png",
-          "imageAlt": "Modules Image"
+          "imageAlt": "Analytics Problem"
         },
         {
           "title": "The xMatix Approach",
-          "content": "xMatix Sales standardizes how sales activities are executed so every deal follows a governed and repeatable process.",
+          "content": "xMatix Analytics ties analytics directly to execution so insights are contextual, timely, and actionable.",
           "list": [
-            "Structured sales workflows",
-            "Policy driven approvals",
-            "Real time deal visibility",
-            "Integrated order execution"
+            "Execution aware data models",
+            "Real time operational insights",
+            "Context rich analysis",
+            "Action ready outputs"
           ],
           "imageSrc": "/images/modulesCard2.png",
-          "imageAlt": "Modules Image"
+          "imageAlt": "xMatix Analytics Approach"
         }
       ]
     },
+
     "keyCapabilities": {
       "title": "Core Capabilities",
       "mainHeading": [
@@ -74,40 +77,37 @@
         {
           "heading": " Capabilities",
           "color": "#00A4EF"
-        },
-        {
-          "heading": " Execution Breaks",
-          "color": "#ffffff"
         }
       ],
-      "description2": "xMatix Sales modernizes sales execution without replacing existing CRM systems while improving speed, control, and predictability.",
+      "description2": "xMatix Analytics modernizes analytics without replacing existing BI or reporting tools while improving decision speed and clarity.",
       "cardsData": [
         {
-          "title": "Lead and Opportunity Execution",
-          "description": "Guide lead qualification, opportunity progression, and stage movement through governed workflows."
+          "title": "Execution Aware Analytics",
+          "description": "Analyze data generated during operational workflows for accurate insights."
         },
         {
-          "title": "Pricing and Discount Governance",
-          "description": "Enforce pricing rules, discount limits, and approval thresholds during execution."
+          "title": "Real Time Operational Dashboards",
+          "description": "Monitor performance as work is executed across teams and systems."
         },
         {
-          "title": "Approval and Deal Control",
-          "description": "Route approvals automatically based on deal value, risk, and policy."
+          "title": "Root Cause Visibility",
+          "description": "Understand why outcomes occurred using full execution context."
         },
         {
-          "title": "Order Readiness and Handoff",
-          "description": "Ensure deals move cleanly into order fulfillment and billing execution."
+          "title": "Embedded Insights",
+          "description": "Surface analytics directly within workflows and user interfaces."
         },
         {
-          "title": "Cross Team Coordination",
-          "description": "Align sales actions with finance, service, and supply chain execution."
+          "title": "Decision Ready Intelligence",
+          "description": "Feed insights into Sense agents and workflow actions."
         }
       ]
     },
+
     "requestADemo": {
-      "heading": "See xMatix Sales in Action",
-      "subHeading": "Close deals with confidence",
-      "description": "Reduce sales cycle time, prevent revenue leakage, and gain real time visibility into deal execution without disrupting existing systems."
+      "heading": "See xMatix Analytics in Action",
+      "subHeading": "Turn insights into outcomes",
+      "description": "Improve operational visibility, accelerate decisions, and close the loop between insight and execution."
     }
   }
 }

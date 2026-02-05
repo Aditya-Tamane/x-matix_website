@@ -1,66 +1,113 @@
 {
   "slug": "finance",
   "category": "products",
-  "group": "xMatix Platform",
-  "layout": "",
+  "layout": "modules",
   "title": "xMatix Finance",
-  "subtitle": "Real-time AI-powered fraud detection",
-  "heroImage": "/images/anti-fraud-hero.jpg",
+  "subtitle": "Govern financial execution in real time",
+  "heroImage": "/images/finance-hero.jpg",
 
   "data": {
-    "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
-      "headingPlane2": "",
-      "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "hero": {
+      "title": "xMatix Finance",
+      "mainHeading": [
+        {
+          "heading": "Govern Financial Execution",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " in Real Time",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Control flows. Reduce risk. Improve visibility.",
+      "description2": "xMatix Finance helps organizations execute financial operations with discipline by embedding controls, approvals, and visibility directly into operational workflows."
     },
 
-    "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
-      "headingColored2": "",
-      "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
-      "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Finance",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Finance teams often operate after the fact, reconciling transactions once operational decisions are already made.",
+          "list": [
+            "Financial controls lag execution",
+            "Approvals happen outside workflows",
+            "Exceptions surface too late",
+            "Audit preparation is manual"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Finance Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Finance embeds financial governance directly into execution so every operational action follows financial policies in real time.",
+          "list": [
+            "Policy driven financial workflows",
+            "Real time approvals and validations",
+            "Continuous exception detection",
+            "Built in audit readiness"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Finance Approach"
+        }
+      ]
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Finance modernizes financial execution without replacing existing ERP or accounting systems while improving control, compliance, and speed.",
+      "cardsData": [
+        {
+          "title": "Financial Workflow Execution",
+          "description": "Orchestrate approvals, postings, settlements, and adjustments through standardized workflows."
+        },
+        {
+          "title": "Policy and Compliance Enforcement",
+          "description": "Apply financial rules, thresholds, and controls automatically during execution."
+        },
+        {
+          "title": "Cross Functional Financial Alignment",
+          "description": "Align finance actions with sales, procurement, payroll, and operations execution."
+        },
+        {
+          "title": "Exception Detection and Resolution",
+          "description": "Identify overruns, mismatches, and anomalies early and resolve them within governed processes."
+        },
+        {
+          "title": "Audit and Reporting Readiness",
+          "description": "Maintain complete financial execution trails for audits, compliance, and reporting."
+        }
+      ]
     },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+
+    "requestADemo": {
+      "heading": "See xMatix Finance in Action",
+      "subHeading": "Execute finance with confidence",
+      "description": "Reduce financial risk, speed up approvals, and gain real time visibility into financial execution without disrupting existing systems."
     }
-  ]
-  }
   }
 }
