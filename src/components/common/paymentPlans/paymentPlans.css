@@ -39,8 +39,8 @@
 }
 
 .subtitle {
-  font-size: 18px;
-  color: #999999;
+  font-size: 16px;
+  color: #F2F2F2;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
@@ -65,8 +65,14 @@
 }
 
 .planCard.active {
-  background: linear-gradient(135deg, #0a3a4a 0%, #0a1a2a 100%);
-  border: 1px solid #00d4ff;
+ background: linear-gradient(
+  105deg,
+  #00B2C2 0%,
+  /* #0a8fb4 35%, */
+  #05004B 15%,
+  #321F96 100%
+);
+  /* border: 1px solid #00d4ff; */
   position: relative;
   overflow: hidden;
 }
@@ -85,7 +91,7 @@
 .heading-title{
     letter-spacing: 1px;
     border-bottom: 2px solid #00a4ef;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
@@ -196,9 +202,9 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  font-size: 15px;
+  font-size: 16px;
   color: #e5e5e5;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .checkIcon {
@@ -211,7 +217,7 @@
 
 .ctaButton {
   width: 100%;
-  padding: 16px 24px;
+  padding: 12px 24px;
   background: transparent;
   border: 1px solid #333333;
   border-radius: 50px;
@@ -230,19 +236,17 @@
   background: #ffffff;
   color: #000000;
   border-color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 
 .planCard.active .ctaButton {
-  background: #00d4ff;
-  border: 1px solid #00d4ff;
-  color: #000000;
+  background: #0088C7;
+  border: 1px solid #0088C7;
+  color: #ffffff;
 }
 
 .planCard.active .ctaButton:hover {
-  background: #00f0ff;
-  border-color: #00f0ff;
+  background: #ffffff;
+  color: #000000;
   box-shadow: 0 8px 30px rgba(0, 212, 255, 0.4);
 }
 

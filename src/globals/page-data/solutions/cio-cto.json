@@ -7,6 +7,11 @@
   "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
   "group": "By Role",
   "data": {
+    "HeroData": {
+      "topSubtitle": "pricing",
+      "title": "Modular pricing. {{highlight}}Enterprise flexibility{{/highlight}}.",
+      "subtitle": "xMatix pricing is designed to adapt to how your organization executes operations. Start with the platform, add the modules you need, and scale usage and intelligence as execution grows."
+    },
     "xMatixPlatform": {
       "title": "xMatix Platform",
       "headingPlane1": "The execution foundation for",
@@ -188,6 +193,52 @@
       "title": "AI Tools",
       "description": "Provide insights without the ability to act within workflows."
     }
+  ],
+  "pricingData" : {
+  "title": {
+    "topSubtitle": "Plans",
+    "text": "Choose a plan that matches your",
+    "highlight": "execution maturity"
+  },
+  "subtitle": "Plans define the breadth of platform capabilities, governance controls, and scale limits. Modules can be added to any plan.",
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "10",
+      "description": "For teams beginning their execution modernization journey.",
+      "featured": false,
+      "features": [
+        "Core execution platform",
+        "Limited workflows and automation",
+        "Standard governance and access controls",
+        "Suitable for single use case or pilot"
+      ]
+    },
+    {
+      "name": "Growth",
+      "price": "39",
+      "description": "For organizations scaling execution across teams and domains.",
+      "featured": true,
+      "features": [
+        "Expanded workflow and automation limits",
+        "Advanced governance and lifecycle management",
+        "Supports multiple modules and domains",
+        "Designed for production-grade execution"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price": "52",
+      "description": "For complex, large-scale operational environments.",
+      "featured": false,
+      "features": [
+        "Unlimited execution scale",
+        "Advanced security and compliance",
+        "Multi-entity and partner support",
+        "Enterprise SLAs and deployments"
+      ]
+    }
   ]
+  }
 }
 }
