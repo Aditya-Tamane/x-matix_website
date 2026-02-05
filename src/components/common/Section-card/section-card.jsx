@@ -23,6 +23,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                     {data?.description2 && <p className="section-card-description2">
                         {data.description2.split('\n').map((line, index) => (
                             <span key={index}>
+                            <br />
                             {line}
                             <br />
                             </span>

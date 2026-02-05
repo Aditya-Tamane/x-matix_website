@@ -2,6 +2,10 @@ import Link from 'next/link';
 import './Footer.css';
 import Image from 'next/image';
 import Logo from '../../../../public/images/Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faSquareFacebook, faSquareInstagram, faSquareXTwitter} from '@fortawesome/free-brands-svg-icons';
+import { ArrowUpIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+import { faChevronCircleDown, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
@@ -23,10 +27,10 @@ export default function Footer() {
           </p>
 
           <div className="social-icons">
-            <a href="#" aria-label="X">X</a>
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Instagram">▢</a>
-            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="X"><FontAwesomeIcon icon={faSquareXTwitter} width={20} /></a>
+            <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faSquareFacebook} /></a>
+            <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faSquareInstagram} /></a>
+            <a href="#" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
 
@@ -69,7 +73,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <p>© xMatix. All Rights Reserved.</p>
         <a href="#" className="back-to-top">
-          Back to top ↑
+          Back to top <ArrowUpIcon width={16} height={16} style={{strokeWidth: 4}} />
         </a>
       </div>
     </footer>
