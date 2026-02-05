@@ -48,7 +48,7 @@ export default function Header({
             onMouseLeave={() => setActiveMega(null)}
           >
             <button
-              className={`nav-button ${pathname.startsWith('/products') ? 'active' : ''}`}
+              className={`nav-button ${pathname.startsWith('/products') || activeMega === 'products' ? 'active' : ''}`}
             >
               Products <ChevronDownIcon width={18} height={18} />
             </button>
@@ -106,7 +106,7 @@ export default function Header({
             onMouseEnter={() => setActiveMega('solutions')}
             onMouseLeave={() => setActiveMega(null)}
           >
-            <button className={`nav-button ${pathname.startsWith('/solutions') ? 'active' : ''}`}>
+            <button className={`nav-button ${pathname.startsWith('/solutions') || activeMega === 'solutions' ? 'active' : ''}`}>
               Solutions <ChevronDownIcon width={18} height={18} />
             </button>
 

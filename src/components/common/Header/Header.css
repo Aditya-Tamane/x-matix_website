@@ -73,6 +73,7 @@ nav ul li {
   transition: all 0.3s ease;
 }
 
+.nav-button.active svg,
 .nav-button:hover svg {
   transform: rotate(180deg);
 }
@@ -176,7 +177,7 @@ nav ul li {
   border-radius: 8px;
   transition: background-color 0.2s ease;
   border: 1px solid transparent;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 .left-text {
