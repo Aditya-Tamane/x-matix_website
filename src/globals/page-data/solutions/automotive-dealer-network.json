@@ -1,65 +1,108 @@
 {
-  "slug": "automotive-dealer-network",
+  "slug": "automotive-dealer-networks",
   "category": "solutions",
-  "title": "Automotive & Dealer Network",
-  "subtitle": "Connected Dealer and OEM operations",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "title": "Automotive & Dealer Networks",
+  "subtitle": "end-to-end execution across OEMs, dealers, and partners",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/automotive-dealer-networks-hero.jpg",
   "group": "By Industry",
   "data": {
+
     "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
+      "title": "Automotive & Dealer Networks",
+      "headingPlane1": "Execute automotive operations seamlessly",
+      "headingColored1": "across OEMs, dealers, and partners",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "Automotive operations span complex dealer networks, service centres, distributors, and partners. Execution breaks when sales, service, warranty, inventory, and incentives are managed across disconnected systems and organisations.",
+      "description2": "xMatix enables end-to-end execution for automotive and dealer networks on a single operational foundation, connecting OEMs and dealers with shared data, governed workflows, and real-time visibility.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "Automotive Dealer Network Execution Platform"
     },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Dealer network execution breaks across",
+      "headingColored1": "systems and stakeholders",
+      "headingPlane2": "",
+      "description": "Most automotive ecosystems rely on a patchwork of OEM systems, dealer tools, and manual processes. While each participant manages their part of the operation, no platform orchestrates execution across the full network, leading to delays, inconsistencies, and limited control."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "OEM Core Systems",
+        "description": "Manage master data, pricing, and reporting but lack visibility into real-time dealer sales, service, and inventory execution."
+      },
+      {
+        "number": "02",
+        "title": "Dealer Sales & Service Systems",
+        "description": "Operate independently at each dealership, resulting in inconsistent processes, delayed updates, and fragmented customer experience."
+      },
+      {
+        "number": "03",
+        "title": "Warranty & Incentives Platforms",
+        "description": "Handle claims and incentives separately from execution, causing delays, disputes, and revenue leakage."
+      },
+      {
+        "number": "04",
+        "title": "Reporting & Analytics Tools",
+        "description": "Provide lagging views of network performance without the ability to influence live dealer execution."
+      }
+    ],
 
     "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end automotive and dealer",
+      "headingColored1": "network execution on one platform",
+      "headingPlane2": "",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "description2": "xMatix acts as the execution layer across automotive dealer networks, unifying sales, service, warranty, inventory, and incentives into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it connects OEMs, dealers, and partners through governed execution while preserving local flexibility and enterprise control.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "xMatix Automotive Platform"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+    "showStepLayout": false,
+    "showCardLayout": true,
 
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Automotive Dealer Network Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Automotive & Dealer Network Execution Flow",
+      "title": "How {{highlight}}automotive execution{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Automotive operations run on a shared execution layer, enabling consistent processes, real-time visibility, and coordinated execution across the dealer network.",
+      "features": [
+        {
+          "title": "Vehicle Sales & Order Management",
+          "description": "Execute vehicle sales across dealers with real-time pricing, availability, financing rules, and order visibility for OEMs."
+        },
+        {
+          "title": "Service & Field Operations",
+          "description": "Coordinate service requests, technician scheduling, parts availability, and SLA execution across dealer service centres."
+        },
+        {
+          "title": "Warranty & Claims Execution",
+          "description": "Process warranty claims with consistent rules, faster approvals, and complete traceability from dealer to OEM."
+        },
+        {
+          "title": "Inventory, Incentives & Settlement",
+          "description": "Manage vehicle and parts inventory, dealer incentives, and financial settlement with shared data and auditable execution."
+        }
+      ],
+      "ctaText": "Explore Automotive Execution",
+      "ctaLink": "#"
+    },
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See automotive and dealer networks executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix connects OEMs, dealers, and partners on a single execution platform built for automotive scale and complexity."
     }
-  ]
-  }
   }
 }

@@ -2,64 +2,107 @@
   "slug": "field-services",
   "category": "solutions",
   "title": "Field Services",
-  "subtitle": "Efficient on ground service management",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "subtitle": "end-to-end execution from request to resolution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/field-services-hero.jpg",
   "group": "By Industry",
   "data": {
+
     "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
+      "title": "Field Services",
+      "headingPlane1": "Execute field service operations",
+      "headingColored1": "from request to resolution",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "Field service execution depends on tight coordination between service requests, technicians, parts, and customers. Execution breaks when scheduling, inventory, and service data are spread across disconnected systems.",
+      "description2": "xMatix enables end-to-end field service execution on a single operational foundation, ensuring faster response times, accurate fulfilment, and consistent service outcomes.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "Field Services Execution Platform"
     },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Field service execution breaks across",
+      "headingColored1": "teams, tools, and locations",
+      "headingPlane2": "",
+      "description": "Most field service organisations rely on separate tools for service intake, dispatch, inventory, and billing. While each system handles a part of the workflow, no platform owns execution end to end, leading to missed SLAs, manual coordination, and limited visibility."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Service & Ticketing Systems",
+        "description": "Capture service requests and cases but lack real-time visibility into technician availability, skills, and parts readiness."
+      },
+      {
+        "number": "02",
+        "title": "Scheduling & Dispatch Tools",
+        "description": "Assign work orders without shared context across inventory, customer priority, and SLA commitments."
+      },
+      {
+        "number": "03",
+        "title": "Inventory & Parts Management",
+        "description": "Manage parts separately from service execution, causing delays when required materials are unavailable or misplaced."
+      },
+      {
+        "number": "04",
+        "title": "Billing & Reporting Systems",
+        "description": "Record service outcomes after the fact, limiting the ability to control execution quality during active jobs."
+      }
+    ],
 
     "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end field service",
+      "headingColored1": "execution on one platform",
+      "headingPlane2": "",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "description2": "xMatix acts as the execution layer for field service operations, unifying service requests, dispatch, on-site execution, inventory, and closure into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures service execution is coordinated in real time, policy-driven, and fully visible across teams.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "xMatix Field Service Platform"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+    "showStepLayout": false,
+    "showCardLayout": true,
 
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Field Services Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Field Services Execution Flow",
+      "title": "How {{highlight}}field services{{/highlight}} work on xMatix",
+      "subtitle": "",
+      "description": "Field service operations run on a shared execution layer, ensuring consistency, accountability, and real-time visibility from request to resolution.",
+      "features": [
+        {
+          "title": "Service Request & Prioritisation",
+          "description": "Capture service requests and automatically prioritise them based on SLAs, customer impact, and operational rules."
+        },
+        {
+          "title": "Scheduling & Dispatch",
+          "description": "Assign the right technician based on skills, location, availability, and workload while coordinating required parts."
+        },
+        {
+          "title": "On-Site Service Execution",
+          "description": "Enable technicians to execute work with real-time access to job details, asset history, and inventory."
+        },
+        {
+          "title": "Completion & Closure",
+          "description": "Confirm work completion, update systems automatically, capture costs, and close jobs with full auditability."
+        }
+      ],
+      "ctaText": "Explore Field Services",
+      "ctaLink": "#"
+    },
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See field services executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix connects service requests, field teams, and operations on a single execution platform."
     }
-  ]
-  }
   }
 }

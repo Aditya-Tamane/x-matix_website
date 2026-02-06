@@ -1,115 +1,108 @@
 {
+  "slug": "inventory-accuracy",
+  "category": "solutions",
   "title": "Inventory Accuracy",
-  "subtitle": "real time inventory visibility accuracy",
-  "slug": "inventory-accuracy",  
-  "category": "solutions",  
-  "group": "By Industry",      
-  "layout": "solutionLayout",           
-  "heroImage": "/images/platform-hero.jpg",
-
+  "subtitle": "real-time inventory accuracy",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/inventory-accuracy-hero.jpg",
+  "group": "By Use Case",
   "data": {
+
     "xMatixPlatform": {
-      "title": "Lead-to-cash Execution",
-      "headingPlane1": "Execute revenue from first",
-      "headingColored1": "lead to final settlement",
+      "title": "Inventory Accuracy",
+      "headingPlane1": "Maintain accurate inventory",
+      "headingColored1": "across every location and system",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Lead-to-cash execution often breaks across CRM, order management, warehouse, and finance systems. Each handoff introduces delays, manual work, and loss of operational context.",
-      "description2": "xMatix enables end-to-end lead-to-cash execution on a single operational foundation by connecting sales, fulfillment, invoicing, and collections with shared data, rules, and intelligence.",
+      "description1": "Inventory accuracy breaks when stock data is spread across ERP, warehouse, and operational systems. Manual adjustments, delayed updates, and disconnected processes lead to stockouts, overstocking, and audit issues. xMatix enables continuous inventory accuracy on a single operational foundation, ensuring inventory reflects reality across warehouses, field locations, and partners.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Inventory Accuracy Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Inventory accuracy breaks across",
+      "headingColored1": "warehouses, systems, and processes",
+      "headingPlane2": "",
+      "description": "Most organisations rely on periodic counts and manual reconciliations to correct inventory errors after they occur. With inventory managed across multiple systems, inaccuracies propagate quickly, impacting fulfilment, service, and financial reporting."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "ERP Inventory Records",
+        "description": "Maintain book inventory but lack real-time visibility into physical stock movements and execution-level changes."
+      },
+      {
+        "number": "02",
+        "title": "Warehouse & Field Operations",
+        "description": "Execute picks, issues, returns, and adjustments independently, often updating systems after the fact."
+      },
+      {
+        "number": "03",
+        "title": "Manual Audits & Cycle Counts",
+        "description": "Rely on periodic checks to identify discrepancies, leading to reactive corrections and operational disruption."
+      },
+      {
+        "number": "04",
+        "title": "Analytics & Reporting Tools",
+        "description": "Highlight inventory variances but cannot intervene during live operations to prevent inaccuracies."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end inventory accuracy",
+      "headingColored1": "on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for inventory operations, unifying warehouse activity, field consumption, adjustments, and audits into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures inventory is updated in real time, discrepancies are detected early, and accuracy is maintained across locations.",
       "imageSrc": "/images/xMatixPlatform.png",
       "imageAlt": "xMatix Platform"
     },
 
-    "whatIsIt": {
-      "title": "How xMatix helps",
-      "headingPlane1": "",
-      "headingColored1": "End-to-End Lead-to-Cash",
-      "headingPlane2": "Execution Platform",
-      "headingColored2": "",
-      "description1": "xMatix serves as a unified system of execution for the entire lead-to-cash lifecycle. Built on the xMatix Platform, Data Fabric, and Sense, it enables organizations to design and run lead-to-cash as a single continuous workflow.",
-      "description2": "Teams share real-time operational context, policies are enforced automatically, and intelligence is embedded directly into execution to accelerate revenue and reduce friction across sales, operations, and finance.",
-      "imageSrc": "/images/whatIsIt.png",
-      "imageAlt": "xMatix Platform"
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Inventory Accuracy Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Inventory Accuracy Execution Flow",
+      "title": "How {{highlight}}inventory accuracy{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Inventory accuracy is maintained through continuous execution and validation, ensuring stock levels reflect real-world movement at every step.",
+      "features": [
+        {
+          "title": "Real-Time Stock Updates",
+          "description": "Capture inventory movements as they occur across warehouses, field operations, and partner locations using shared execution workflows."
+        },
+        {
+          "title": "Cycle Counts & Verification",
+          "description": "Perform targeted cycle counts driven by variance thresholds, operational risk, and historical accuracy patterns."
+        },
+        {
+          "title": "Discrepancy Resolution",
+          "description": "Identify and resolve inventory mismatches immediately through controlled adjustments, approvals, and audit trails."
+        },
+        {
+          "title": "Continuous Audit Readiness",
+          "description": "Maintain a complete, traceable inventory history across all locations, supporting compliance, reporting, and financial accuracy."
+        }
+      ],
+      "ctaText": "Explore Inventory Accuracy",
+      "ctaLink": "#"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
-
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See inventory accuracy executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix maintains accurate, real-time inventory across warehouses, field teams, and partners on a single execution platform."
     }
-  ]
-  },
-   "coreCapabilitiesCard1": {
-      "title": "Policy Enforcement",
-      "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
-    },
-    "coreCapabilitiesCard2": {
-      "title": "Audit & Compliance",
-      "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
-    },
-    "coreCapabilitiesCard3": {
-      "title": "Omnichannel Execution",
-      "content": "Execute workflows seamlessly across web, mobile, and field operations."
-    },
-    "coreCapabilitiesCard4": {
-      "title": "Configurable Automation",
-      "content": "Adapt workflows and logic quickly without redeploying rigid systems."
-    },
-    "coreCapabilitiesCard5": {
-      "title": "Time-based Orchestration",
-      "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
-    },
-
-  "ecosystemSection": {
-    "title": "The Problem",
-    "headingColored1": "Execution breaks",
-    "headingPlane2": "across CRM, ERP, and operations",
-    "description": "Lead-to-cash execution is fragmented across systems. Each tool manages a step, but no system owns the full process."
-  },
-  "ecosystem": [
-    {
-      "number": "01",
-      "title": "CRM",
-      "description": "Manages leads and opportunities, but does not execute downstream actions."
-    },
-    {
-      "number": "02",
-      "title": "ERP",
-      "description": "Handles orders and billing without real-time sales or fulfillment context."
-    },
-    {
-      "number": "03",
-      "title": "Operations",
-      "description": "Executes fulfillment in isolation, creating delays and manual handoffs."
-    },
-    {
-      "number": "04",
-      "title": "AI Tools",
-      "description": "Provide insights without the ability to act within workflows."
-    }
-  ]
-}
+  }
 }
