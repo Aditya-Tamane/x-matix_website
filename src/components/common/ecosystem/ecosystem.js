@@ -25,7 +25,7 @@ const Ecosystem = ({ data, sectionData }) => {
   return (
       <section>
         <div className="section-inner-padding flex-column">
-          <h5 className="section-card-title">
+          <h5 className="ecosystem-section-card-title">
             <LightBulbIcon width={18.75} height={18.75} /> 
             {sectionData?.title || 'The Problem'}
           </h5>

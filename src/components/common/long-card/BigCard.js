@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import './BigCard.css';
-import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
+import { ArrowTopRightOnSquareIcon, ArrowTrendingUpIcon, BoltIcon, ChartBarIcon, CloudIcon, ComputerDesktopIcon, CpuChipIcon, ShieldCheckIcon, TruckIcon } from '@heroicons/react/24/outline';
 
 const BigCard = ({ 
   imageUrl, 
@@ -21,6 +21,13 @@ const BigCard = ({
   accentColor = '#00d9ff'
 }) => {
 
+const featureIcons = [
+  ChartBarIcon,
+  ShieldCheckIcon,
+  TruckIcon,
+  ArrowTrendingUpIcon,
+];
+
   const renderTitle = () =>
     title
       ? title.split('{{highlight}}').map((part, i) => {
@@ -39,7 +46,7 @@ const BigCard = ({
     if (contentType === 'cards') {
       return (
         <div className="contentWrapper">
-            {topSubtitle && <h5 className="heading-title">
+            {topSubtitle && <h5 className="BigCard-heading-title">
           <ComputerDesktopIcon width={18.75} height={18.75} /> {topSubtitle}
         </h5>}
           {title && <h2 className="card-title">{renderTitle()}</h2>}
@@ -59,25 +66,31 @@ const BigCard = ({
 
           {features.length > 0 && (
             <div className="featuresGrid">
-              {features.map((feature, index) => (
-                <div key={index} className="featureCard">
-                  {feature.icon && (
-                    <div className="featureIcon">{feature.icon}</div>
-                  )}
-                  <div className="featureContent">
-                    <h3 className="featureTitle">{feature.title}</h3>
-                    <p className="featureDescription">
-                      {feature.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+                {features.map((feature, index) => {
+                const Icon = featureIcons[index % featureIcons.length];
+
+                return (
+                    <div key={index} className="featureCard">
+                    <div className="featureIcon">
+                        <Icon />
+                    </div>
+
+                    <div className="featureContent">
+                        <h3 className="featureTitle">{feature.title}</h3>
+                        <p className="featureDescription">
+                        {feature.description}
+                        </p>
+                    </div>
+                    </div>
+                );
+                })}
             </div>
-          )}
+            )}
+
 
           {ctaText && (
             <button
-              className="ctaButton"
+              className="big-card-ctaButton"
               onClick={() => {
                 if (ctaLink) window.location.href = ctaLink;
               }}
@@ -93,7 +106,7 @@ const BigCard = ({
     if (contentType === 'steps') {
       return (
         <div className="contentWrapper">
-          {subtitle && <h5 className="heading-title">
+          {subtitle && <h5 className="BigCard-heading-title">
           <ComputerDesktopIcon width={18.75} height={18.75} /> {subtitle}
         </h5>}
           {title && <h2 className="title">{renderTitle()}</h2>}

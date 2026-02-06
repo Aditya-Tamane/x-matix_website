@@ -104,7 +104,7 @@ export async function getMenuItems() {
     });
 
     menu.solutions = {
-      groups: Array.from(solGroups).sort(),
+      groups: Array.from(solGroups).sort((a, b) => a.length - b.length),
       itemsByGroup: solByGroup,
     };
   } catch (err) {

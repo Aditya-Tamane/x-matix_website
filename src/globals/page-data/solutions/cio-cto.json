@@ -3,103 +3,40 @@
   "category": "solutions",
   "title": "CIO / CTO",
   "subtitle": "scalable secure enterprise technology",
-  "layout": "pricingLayout",
+  "layout": "solutionLayout",
   "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
   "group": "By Role",
   "data": {
-    "HeroData": {
-      "topSubtitle": "pricing",
-      "title": "Modular pricing. {{highlight}}Enterprise flexibility{{/highlight}}.",
-      "subtitle": "xMatix pricing is designed to adapt to how your organization executes operations. Start with the platform, add the modules you need, and scale usage and intelligence as execution grows."
-    },
+    
     "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
-      "headingPlane2": "",
+      "title": "For CIOs & CTOs",
+      "headingPlane1": "",
+      "headingColored1": "Modernise enterprise execution",
+      "headingPlane2": "without ripping and replacing systems",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "CIOs and CTOs are under pressure to modernise operations, enable AI, and support faster change — all while maintaining stability, security, and governance. Legacy CRM and ERP systems are slow to adapt, while point solutions add complexity. xMatix provides a single execution layer that enables incremental modernisation, unified data, and governed automation without replacing core systems.",
+      "description2": "",
       "imageSrc": "/images/xMatixPlatform.png",
       "imageAlt": "xMatix Platform"
     },
 
     "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "title": "How xMatix Helps",
+      "headingPlane1": " A governed execution layer for",
+      "headingColored1": "modern enterprise architecture",
+      "headingPlane2": "",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "description2": "xMatix acts as a system of execution that sits above existing systems of record. Built on the xMatix Platform, Data Fabric, and Sense, it enables CIOs and CTOs to modernise execution incrementally, unify operational data, and introduce autonomous workflows while maintaining enterprise-grade governance and control.",
       "imageSrc": "/images/xMatixPlatform.png",
       "imageAlt": "xMatix Platform"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+    "showStepLayout": false,
+    "showCardLayout": true,
 
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
-
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
-    }
-  ]
-  },
-  "faqData": {
-  "title": {
-    "text": "Frequently Asked ",
-    "highlight": "Questions"
-  },
-  "faqs": [
-    {
-      "question": "How is pricing calculated?",
-      "answer": "Pricing is calculated based on the plan you choose and the number of users in your organization. Each plan has different features and scale limits to match your execution maturity level."
-    },
-    {
-      "question": "Can we start small and scale later?",
-      "answer": "Yes! You can start with our Starter plan and upgrade to Growth or Enterprise as your needs grow. All your data and configurations will be preserved when you upgrade."
-    },
-    {
-      "question": "Do modules require separate platform fees?",
-      "answer": "No, modules can be added to any plan without additional platform fees. You only pay for the modules you need on top of your base plan subscription."
-    },
-    {
-      "question": "Is Sense required?",
-      "answer": "Sense is not required but highly recommended for enhanced workflow automation and intelligence. It can be added as a module to any plan based on your needs."
-    },
-    {
-      "question": "Do you offer enterprise pricing and SLAs?",
-      "answer": "Yes, our Enterprise plan includes custom pricing, dedicated support, enterprise-grade SLAs, and advanced security features. Contact our sales team for a customized quote."
-    }
-  ],
-  "cta": {
-    "text": "Still have a question in mind?",
-    "buttonText": "Contact Us"
-  }
-},
 "stepsLayoutData" : {
-  "imageUrl": "images/mobileSolution.png",
+  "imageUrl": "/images/mobileSolution.png",
   "imageAlt": "Lead-to-Cash Workflow",
   "imagePosition": "left",
   "contentType": "steps",
@@ -135,110 +72,65 @@
   "contentType": "cards",
   "theme": "dark",
   "accentColor": "#00d9ff",
-  "topSubtitle": "Powered by xMatix Sense platform",
-  "title": "{{highlight}}Agentic intelligence{{/highlight}} that executes, not just analyzes",
-  "subtitle": "Powered by xMatix Sense",
-  "description": "xMatix Sense embeds agentic intelligence directly into lead to cash workflows. It continuously monitors execution signals, anticipates risks, and guides teams with policy bound actions that improve speed, accuracy, and outcomes.",
+  "topSubtitle": "CIO / CTO Execution Flow",
+  "title": "How {{highlight}} CIOs and CTOs modernise execution {{/highlight}} with xMatix",
+  "subtitle": "",
+  "description": "xMatix enables a phased, low-risk approach to modernisation by separating execution from record-keeping and enabling continuous improvement.",
   "features": [
     {
-      "icon": "🚨",
-      "title": "Deal Risk Prediction",
-      "description": "Detect stalled deals early using real time execution signals across sales, approvals, and fulfillment."
+      "title": "Decouple Execution from Systems of Record",
+      "description": "Introduce xMatix as an execution layer while keeping existing CRM, ERP, and core systems intact."
     },
     {
-      "icon": "🛡️",
-      "title": "Pricing Governance",
-      "description": "Automatically flag pricing and discount anomalies to protect margins and ensure policy compliance."
+      "title": "Compose and Automate Workflows",
+      "description": "Use no-code and low-code tools to model workflows, rules, and policies without heavy development cycles."
     },
     {
-      "icon": "🚚",
-      "title": "Fulfillment Risk Detection",
-      "description": "Identify inventory and delivery risks before they impact customer commitments."
+      "title": "Unify Operational Data",
+      "description": "Connect transactional, master, and event data into a shared operational context without large-scale data replication."
     },
     {
-      "icon": "📈",
-      "title": "Next Best Action Guidance",
-      "description": "Recommend context aware actions that help teams resolve issues and close faster."
+      "title": "Introduce Governed Autonomy",
+      "description": "Deploy policy-bound, auditable automation and agentic execution that can be monitored and overridden when needed."
     }
   ],
   "ctaText": "Explore xMatix Sense",
   "ctaLink": "#"
 },
-"pricingTitle" : "Modular pricing. Enterprise flexibility.",
-"pricingSubtitle" : "xMatix pricing is designed to adapt to how your organization executes operations. Start with the platform, add the modules you need, and scale usage and intelligence as execution grows.",
 "ecosystemSection": {
     "title": "The Problem",
-    "headingColored1": "Execution breaks",
-    "headingPlane2": "across CRM, ERP, and operations",
-    "description": "Lead-to-cash execution is fragmented across systems. Each tool manages a step, but no system owns the full process."
+    "headingPlane1": "Technology stacks",
+    "headingColored1": "slow down operational change",
+    "headingPlane2": "",
+    "description": "Most enterprise technology landscapes have grown into complex, tightly coupled stacks. Each change requires long implementation cycles, custom integrations, and heavy IT involvement, limiting agility and innovation."
   },
   "ecosystem": [
     {
       "number": "01",
-      "title": "CRM",
-      "description": "Manages leads and opportunities, but does not execute downstream actions."
+      "title": "Monolithic CRM & ERP Systems",
+      "description": "Difficult to customise and slow to change, making it hard to adapt processes as business needs evolve."
     },
     {
       "number": "02",
-      "title": "ERP",
-      "description": "Handles orders and billing without real-time sales or fulfillment context."
+      "title": "Point Solutions & Integrations",
+      "description": "Add functionality but increase integration complexity, operational risk, and long-term maintenance overhead."
     },
     {
       "number": "03",
-      "title": "Operations",
-      "description": "Executes fulfillment in isolation, creating delays and manual handoffs."
+      "title": "Disconnected Data & AI Initiatives",
+      "description": " Create insights without shared operational context or control over execution."
     },
     {
       "number": "04",
-      "title": "AI Tools",
-      "description": "Provide insights without the ability to act within workflows."
+      "title": "Governance & Security Constraints",
+      "description": "Limit automation and innovation due to concerns around auditability, compliance, and risk."
     }
   ],
-  "pricingData" : {
-  "title": {
-    "topSubtitle": "Plans",
-    "text": "Choose a plan that matches your",
-    "highlight": "execution maturity"
-  },
-  "subtitle": "Plans define the breadth of platform capabilities, governance controls, and scale limits. Modules can be added to any plan.",
-  "plans": [
-    {
-      "name": "Starter",
-      "price": "10",
-      "description": "For teams beginning their execution modernization journey.",
-      "featured": false,
-      "features": [
-        "Core execution platform",
-        "Limited workflows and automation",
-        "Standard governance and access controls",
-        "Suitable for single use case or pilot"
-      ]
-    },
-    {
-      "name": "Growth",
-      "price": "39",
-      "description": "For organizations scaling execution across teams and domains.",
-      "featured": true,
-      "features": [
-        "Expanded workflow and automation limits",
-        "Advanced governance and lifecycle management",
-        "Supports multiple modules and domains",
-        "Designed for production-grade execution"
-      ]
-    },
-    {
-      "name": "Enterprise",
-      "price": "52",
-      "description": "For complex, large-scale operational environments.",
-      "featured": false,
-      "features": [
-        "Unlimited execution scale",
-        "Advanced security and compliance",
-        "Multi-entity and partner support",
-        "Enterprise SLAs and deployments"
-      ]
+
+   "requestADemo": {
+      "heading": "See how CIOs and CTOs modernise execution with xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix enables faster change, unified data, and secure execution without disrupting your existing enterprise systems."
     }
-  ]
-  }
 }
 }

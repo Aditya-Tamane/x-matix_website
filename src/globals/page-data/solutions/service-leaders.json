@@ -2,64 +2,107 @@
   "slug": "service-leaders",
   "category": "solutions",
   "title": "Service Leaders",
-  "subtitle": "service performance and customer satisfaction",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "subtitle": "speed, quality, and accountability across service execution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/service-leaders-hero.jpg",
   "group": "By Role",
   "data": {
+
     "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
+      "title": "For Service Leaders",
+      "headingPlane1": "Execute service with",
+      "headingColored1": "speed, quality, and accountability",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "Service leaders are responsible for resolution times, SLA performance, and customer satisfaction. Yet service execution often breaks across ticketing, field service, inventory, and finance systems.",
+      "description2": "xMatix provides a single execution layer that connects the entire service lifecycle, enabling faster resolution, consistent service delivery, and real-time operational visibility.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "Service Execution Platform"
     },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Service execution breaks",
+      "headingColored1": "beyond the service desk",
+      "headingPlane2": "",
+      "description": "Most service organisations rely on service desks and field tools that manage individual tasks but do not orchestrate execution end to end. Disconnected systems and manual coordination lead to delays, escalations, and inconsistent service outcomes."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Service Desk & Ticketing Systems",
+        "description": "Capture service requests but lack control over dispatch, parts availability, and on-ground execution."
+      },
+      {
+        "number": "02",
+        "title": "Field Service Tools",
+        "description": "Schedule and manage technicians without shared context across inventory, customer priority, and SLAs."
+      },
+      {
+        "number": "03",
+        "title": "Inventory & Parts Systems",
+        "description": "Manage spare parts separately, causing delays when required materials are unavailable during service execution."
+      },
+      {
+        "number": "04",
+        "title": "Limited SLA Visibility",
+        "description": "Track SLA breaches after they occur, with little ability to intervene during live service execution."
+      }
+    ],
 
     "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end service execution",
+      "headingColored1": "on one platform",
+      "headingPlane2": "",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "description2": "xMatix acts as the execution layer for service operations, unifying service requests, dispatch, field execution, inventory, and closure into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures service execution is coordinated in real time, policy-driven, and fully visible across teams.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "xMatix Service Execution Platform"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+    "showStepLayout": false,
+    "showCardLayout": true,
 
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Service Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Service Leaders Execution Flow",
+      "title": "How {{highlight}}service leaders{{/highlight}} execute on xMatix",
+      "subtitle": "",
+      "description": "Service execution runs on a shared operational layer, enabling faster resolution, consistent SLAs, and improved customer experience.",
+      "features": [
+        {
+          "title": "Request Intake & Prioritisation",
+          "description": "Capture service requests and automatically prioritise them based on SLAs, customer impact, and operational rules."
+        },
+        {
+          "title": "Dispatch & Coordination",
+          "description": "Assign technicians and resources with real-time visibility into skills, availability, and parts readiness."
+        },
+        {
+          "title": "Service Fulfilment",
+          "description": "Execute service tasks with real-time access to work orders, asset history, and inventory information."
+        },
+        {
+          "title": "Resolution & Closure",
+          "description": "Confirm service completion, update records automatically, and close cases with full traceability and SLA compliance."
+        }
+      ],
+      "ctaText": "Explore Service Execution",
+      "ctaLink": "#"
+    },
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See how service leaders execute on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix helps service leaders resolve issues faster, meet SLAs, and deliver consistent service outcomes on a single execution platform."
     }
-  ]
-  }
   }
 }

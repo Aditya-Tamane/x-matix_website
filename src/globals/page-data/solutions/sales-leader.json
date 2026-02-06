@@ -1,65 +1,108 @@
 {
-  "slug": "sales-leader",
+  "slug": "sales-leaders",
   "category": "solutions",
-  "title": "Sales Leader",
-  "subtitle": "pipeline visibility and revenue growth",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "title": "Sales Leaders",
+  "subtitle": "speed, consistency, and control across revenue execution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/sales-leaders-hero.jpg",
   "group": "By Role",
   "data": {
+
     "xMatixPlatform": {
-      "title": "xMatix Platform",
-      "headingPlane1": "The execution foundation for",
-      "headingColored1": "modern operations",
+      "title": "For Sales Leaders",
+      "headingPlane1": "Execute revenue with",
+      "headingColored1": "speed, consistency, and control",
       "headingPlane2": "",
       "headingColored2": "",
-      "description1": "Design, automate, and govern business workflows without heavy code.",
-      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "description1": "Sales leaders are accountable for predictable revenue, deal velocity, and customer experience. Yet execution often breaks between CRM, pricing, fulfilment, and finance systems, slowing deals and increasing risk.",
+      "description2": "xMatix provides a single execution layer that connects the entire sales lifecycle, enabling sales teams to move faster while maintaining governance and visibility.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "Sales Execution Platform"
     },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Sales execution breaks",
+      "headingColored1": "beyond the CRM",
+      "headingPlane2": "",
+      "description": "Most sales organisations rely on CRM systems to manage opportunities, but execution slows once a deal moves beyond the pipeline. Disconnected systems and manual handoffs create delays, errors, and poor forecasting accuracy."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "CRM-Centric Processes",
+        "description": "Track leads and opportunities but lack control over pricing, approvals, fulfilment, and post-sale execution."
+      },
+      {
+        "number": "02",
+        "title": "Manual Approvals & Escalations",
+        "description": "Rely on emails and spreadsheets for deal approvals, discounting, and exception handling."
+      },
+      {
+        "number": "03",
+        "title": "Disconnected Fulfilment & Finance",
+        "description": "Create gaps between selling, delivery, invoicing, and collections, delaying revenue realisation."
+      },
+      {
+        "number": "04",
+        "title": "Limited Deal Visibility",
+        "description": "Provide pipeline views without real-time insight into deal risk, execution status, or downstream impact."
+      }
+    ],
 
     "whatIsIt": {
-      "title": "What it is",
-      "headingPlane1": "",
-      "headingColored1": "Designed for execution,",
-      "headingPlane2": "not static configuration",
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end sales execution",
+      "headingColored1": "on one platform",
+      "headingPlane2": "",
       "headingColored2": "",
       "description1": "",
-      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "description2": "xMatix acts as the execution layer for sales operations, unifying lead management, pricing, approvals, order execution, and revenue recognition into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures sales execution is fast, policy-driven, and fully visible from first contact to cash.",
       "imageSrc": "/images/xMatixPlatform.png",
-      "imageAlt": "xMatix Platform"
+      "imageAlt": "xMatix Sales Execution Platform"
     },
 
-    "coreCapabilitiesDescription": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+    "showStepLayout": false,
+    "showCardLayout": true,
 
-    "executionModelDescription": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers.",
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Sales Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Sales Execution Flow",
+      "title": "How {{highlight}}sales teams{{/highlight}} execute on xMatix",
+      "subtitle": "",
+      "description": "Sales execution runs on a shared operational layer, enabling faster deal cycles, consistent governance, and predictable outcomes.",
+      "features": [
+        {
+          "title": "Lead & Opportunity Management",
+          "description": "Manage leads and opportunities with shared customer, pricing, and policy context across teams."
+        },
+        {
+          "title": "Pricing, Quoting & Approvals",
+          "description": "Apply pricing rules, discount thresholds, and approvals automatically within governed workflows."
+        },
+        {
+          "title": "Order & Fulfilment Execution",
+          "description": "Convert deals into executable orders with real-time visibility into inventory, delivery, and service readiness."
+        },
+        {
+          "title": "Billing & Revenue Visibility",
+          "description": "Track invoicing, collections, and deal completion with end-to-end visibility and accountability."
+        }
+      ],
+      "ctaText": "Explore Sales Execution",
+      "ctaLink": "#"
+    },
 
-    "worksWithDescription": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance.",
-    "executionModelAccordian" : {
-  "sections": [
-    {
-      "id": "business",
-      "title": "Business Systems Teams",
-      "description":
-        "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "operations",
-      "title": "Operations & IT Leaders",
-      "description":
-        "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
-      "image": "/images/xMatixPlatform.png"
-    },
-    {
-      "id": "digital",
-      "title": "Digital Transformation Programs",
-      "description":
-        "Accelerate transformation initiatives with scalable, governed automation across teams.",
-      "image": "/images/xMatixPlatform.png"
+    "requestADemo": {
+      "heading": "See how sales teams execute on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix helps sales leaders close deals faster, reduce friction, and execute revenue on a single platform."
     }
-  ]
-  }
   }
 }

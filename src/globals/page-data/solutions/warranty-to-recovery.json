@@ -2,48 +2,107 @@
   "slug": "warranty-to-recovery",
   "category": "solutions",
   "title": "Warranty to Recovery",
-  "subtitle": "Warranty tracking to claim recovery",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "subtitle": "end-to-end warranty execution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/warranty-to-recovery-hero.jpg",
   "group": "By Use Case",
-  "sections": [
-    {
-      "type": "text",
-      "content": "<p>Connect lead capture, quoting, order management, invoicing, payments, and revenue recognition in one continuous flow.</p><p>Eliminate data silos and manual handoffs between sales, finance, and operations.</p>"
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "Warranty-to-Recovery Execution",
+      "headingPlane1": "Recover warranty value",
+      "headingColored1": "from first claim to final settlement",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Warranty execution often breaks across service, claims, inventory, and finance systems. Claims are reviewed manually, recoveries are delayed, and leakage goes unnoticed. xMatix enables end-to-end warranty-to-recovery execution on a single operational foundation, connecting claims intake, validation, fulfilment, and recovery with shared data, rules, and intelligence.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Warranty-to-Recovery Platform"
     },
-    {
-      "type": "features",
-      "items": [
-        {
-          "title": "End-to-End Visibility",
-          "description": "Real-time status from lead to collected revenue"
-        },
-        {
-          "title": "Faster Cash Conversion",
-          "description": "Reduce DSO by 15–30% on average"
-        },
-        {
-          "title": "Automated Compliance",
-          "description": "Built-in revenue recognition rules (ASC 606 / IFRS 15)"
-        },
-        {
-          "title": "Seamless Integration",
-          "description": "Native connectors to CRM, ERP, payment gateways"
-        }
-      ]
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Warranty execution breaks across",
+      "headingColored1": "claims, service, and finance",
+      "headingPlane2": "",
+      "description": "Most organisations manage warranties using disconnected systems and spreadsheets. While individual teams handle claims, repairs, and settlements, no system owns the full warranty lifecycle, resulting in revenue leakage, slow recoveries, and poor visibility."
     },
-    {
-      "type": "benefits",
-      "items": [
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Warranty & Claims Systems",
+        "description": "Capture claims and approvals but rely heavily on manual review, lacking real-time service, parts, and cost context."
+      },
+      {
+        "number": "02",
+        "title": "Service & Operations",
+        "description": "Execute repairs and replacements without tight integration to claim validation, entitlement rules, or recovery workflows."
+      },
+      {
+        "number": "03",
+        "title": "Inventory & Logistics",
+        "description": "Manage parts movement and returns separately, creating delays and mismatches between claims, fulfilment, and recovery actions."
+      },
+      {
+        "number": "04",
+        "title": "Finance & Analytics Tools",
+        "description": "Track warranty costs and recoveries after the fact, without the ability to intervene during active warranty execution."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end warranty-to-recovery",
+      "headingColored1": "execution on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for warranty operations, unifying claims intake, service fulfilment, inventory movement, and financial recovery into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures that warranty execution is policy-driven, auditable, and optimised for faster and more accurate recoveries.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Warranty-to-Recovery Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Warranty-to-Recovery Execution Flow",
+      "title": "How {{highlight}}warranty-to-recovery{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Every step of the warranty lifecycle runs on a shared execution layer, enabling tighter control, faster decisions, and complete visibility from claim submission to final recovery.",
+      "features": [
         {
-          "title": "For Sales Leaders",
-          "description": "Accurate forecasting and pipeline-to-cash visibility"
+          "title": "Claim Intake & Validation",
+          "description": "Capture warranty claims and automatically validate eligibility, entitlements, and coverage using shared asset, service, and policy data."
         },
         {
-          "title": "For Finance Leaders",
-          "description": "Automated controls and audit-ready revenue streams"
+          "title": "Approval & Authorisation",
+          "description": "Apply rule-based approvals and escalation paths to ensure only valid claims progress, reducing manual review and leakage."
+        },
+        {
+          "title": "Repair, Replace, or Credit",
+          "description": "Coordinate service actions, parts issuance, and logistics while tracking actual costs against warranty entitlements in real time."
+        },
+        {
+          "title": "Recovery & Settlement",
+          "description": "Automate recovery from suppliers, partners, or insurers, reconcile financials, and close claims with full auditability and traceability."
         }
-      ]
+      ],
+      "ctaText": "Explore Warranty Execution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See warranty-to-recovery executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix connects warranty claims, service execution, and financial recovery into a single, outcome-driven workflow."
     }
-  ]
+  }
 }

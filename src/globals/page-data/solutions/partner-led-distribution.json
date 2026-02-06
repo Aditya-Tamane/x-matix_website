@@ -1,49 +1,108 @@
 {
   "slug": "partner-led-distribution",
   "category": "solutions",
-  "title": "Partner-led Distribution",
-  "subtitle": "Partner-driven sales execution visibilty",
-  "layout": "",
-  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "title": "Partner-Led Distribution",
+  "subtitle": "governed execution across partner ecosystems",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/partner-led-distribution-hero.jpg",
   "group": "By Use Case",
-  "sections": [
-    {
-      "type": "text",
-      "content": "<p>Connect lead capture, quoting, order management, invoicing, payments, and revenue recognition in one continuous flow.</p><p>Eliminate data silos and manual handoffs between sales, finance, and operations.</p>"
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "Partner-Led Distribution",
+      "headingPlane1": "Execute distribution through partners",
+      "headingColored1": "with control and visibility",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Partner-led distribution breaks when sales, inventory, fulfilment, and incentives are managed across disconnected systems and organisations. Limited visibility and delayed data lead to lost sales, inventory imbalances, and inconsistent partner execution. xMatix enables end-to-end partner-led distribution on a single operational foundation, connecting partners directly into governed, real-time execution workflows.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Partner-Led Distribution Platform"
     },
-    {
-      "type": "features",
-      "items": [
-        {
-          "title": "End-to-End Visibility",
-          "description": "Real-time status from lead to collected revenue"
-        },
-        {
-          "title": "Faster Cash Conversion",
-          "description": "Reduce DSO by 15–30% on average"
-        },
-        {
-          "title": "Automated Compliance",
-          "description": "Built-in revenue recognition rules (ASC 606 / IFRS 15)"
-        },
-        {
-          "title": "Seamless Integration",
-          "description": "Native connectors to CRM, ERP, payment gateways"
-        }
-      ]
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Partner execution breaks across",
+      "headingColored1": "systems and organisations",
+      "headingPlane2": "",
+      "description": "Most partner ecosystems operate with fragmented tools and delayed reporting. While partners handle sales and fulfilment, enterprises lack real-time control over inventory, pricing, incentives, and execution quality, resulting in inefficiencies and revenue leakage."
     },
-    {
-      "type": "benefits",
-      "items": [
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Partner Portals & CRM",
+        "description": "Capture partner orders and leads but operate independently from inventory availability, fulfilment status, and financial controls."
+      },
+      {
+        "number": "02",
+        "title": "Inventory & Supply Chain Systems",
+        "description": "Manage stock centrally without real-time visibility into partner-held inventory or sell-through activity."
+      },
+      {
+        "number": "03",
+        "title": "Incentives & Rebates Tools",
+        "description": "Calculate partner incentives after transactions occur, creating disputes and delayed payouts."
+      },
+      {
+        "number": "04",
+        "title": "Reporting & Analytics",
+        "description": "Provide lagging indicators on partner performance but cannot intervene during live distribution execution."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end partner-led distribution",
+      "headingColored1": "execution on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for partner-led distribution, unifying partner orders, inventory visibility, fulfilment, and incentives into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it connects partners directly into governed execution while maintaining enterprise control, policy enforcement, and real-time visibility.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Partner-Led Distribution Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Partner-Led Distribution Execution Flow",
+      "title": "How {{highlight}}partner-led distribution{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Partner-led distribution runs on a shared execution layer, ensuring alignment between partners and the enterprise from order creation to settlement.",
+      "features": [
         {
-          "title": "For Sales Leaders",
-          "description": "Accurate forecasting and pipeline-to-cash visibility"
+          "title": "Partner Order Capture",
+          "description": "Enable partners to create and manage orders within governed workflows, with real-time pricing, availability, and policy validation."
         },
         {
-          "title": "For Finance Leaders",
-          "description": "Automated controls and audit-ready revenue streams"
+          "title": "Inventory Visibility & Allocation",
+          "description": "Provide real-time visibility into central and partner-held inventory, while enforcing allocation and replenishment rules."
+        },
+        {
+          "title": "Fulfilment & Sell-Through",
+          "description": "Track fulfilment and sell-through activity across partner locations, ensuring accurate execution and timely replenishment."
+        },
+        {
+          "title": "Incentives & Settlement",
+          "description": "Apply incentive rules during execution, automate accruals, and settle partner payouts with full transparency and traceability."
         }
-      ]
+      ],
+      "ctaText": "Explore Partner Distribution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See partner-led distribution executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix brings partners, inventory, fulfilment, and incentives together on a single execution platform."
     }
-  ]
+  }
 }
