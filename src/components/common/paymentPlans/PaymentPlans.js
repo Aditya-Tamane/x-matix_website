@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
+import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon, CreditCardIcon } from '@heroicons/react/24/outline';
 import './paymentPlans.css';
 
 export default function PaymentPlans(pricingData) {
@@ -18,7 +18,7 @@ export default function PaymentPlans(pricingData) {
       <div className="payment-header">
         <div className="payment-contentWrapper">
         <h5 className="heading-title">
-          <ComputerDesktopIcon width={18.75} height={18.75} /> {data.title.topSubtitle}
+          <CreditCardIcon width={18.75} height={18.75} /> {data.title.topSubtitle}
         </h5>
         </div>
         <h1 className="title">
