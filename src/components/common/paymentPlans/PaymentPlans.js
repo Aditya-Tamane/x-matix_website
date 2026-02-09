@@ -10,7 +10,7 @@ export default function PaymentPlans(pricingData) {
   });
 
   const handleCardClick = (index) => {
-    setActiveIndex(index);
+    setActiveIndex(1);
   };
 
   return (

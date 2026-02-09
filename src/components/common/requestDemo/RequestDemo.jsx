@@ -14,7 +14,7 @@ function RequestDemo({data={}}) {
 
   const renderBtn = () => {
     if (data?.btnDesignOther) {
-      return (<Button className="request-demo-btn-new" title='Get Started with xMatix Data Fabric'/>)
+      return (<Button className="request-demo-btn-new" title={data?.btnText || 'Get Started with xMatix Data Fabric'} hasIcon={data?.hasIcon} icon={<ArrowDownTrayIcon width={20} height={20} className="icon-rotate"/>}/>)
     }
     else {
       return (
