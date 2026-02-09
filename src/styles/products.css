@@ -44,3 +44,11 @@
 .text-center {
   text-align: center;
 }
+
+.icon-rotate {
+  transform: rotate(0deg)
+}
+
+.icon-rotate-another {
+  transform: rotate(-90deg)
+}

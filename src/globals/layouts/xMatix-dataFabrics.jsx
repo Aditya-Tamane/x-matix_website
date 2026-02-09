@@ -14,7 +14,9 @@ import {
   DocumentIcon,
   AdjustmentsVerticalIcon,
   ClockIcon,
-  Cog6ToothIcon
+  Cog6ToothIcon,
+  ArrowDownTrayIcon,
+  VideoCameraIcon
 } from '@heroicons/react/24/outline';
 
 export default function ProductPage2(props) {
@@ -26,8 +28,8 @@ export default function ProductPage2(props) {
         titleIcon={<CommandLineIcon width={18.75} height={18.75} />}
         buttons={
           <>
-            <Button title="Request a Demo" hasIcon={true} onClick={()=>{}}/>
-            <Button title="See How it Works" type="secondary" />
+           <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18}  className='icon-rotate-another'/>} />
+            <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18} className='icon-rotate'/>}/>
           </>
         }
       />
