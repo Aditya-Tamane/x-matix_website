@@ -11,6 +11,24 @@ const img = {
 }
 
 function RequestDemo({data={}}) {
+
+  const renderBtn = () => {
+    if (data?.btnDesignOther) {
+      return (<Button className="request-demo-btn-new" title='Get Started with xMatix Data Fabric'/>)
+    }
+    else {
+      return (
+        <div className="cta-pill">
+        <input
+              type="email"
+              placeholder="Enter your email"
+              className="cta-pill-input"
+            />
+            <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={20} height={20} className="icon-rotate"/>}/>
+      </div>
+      )
+    }
+  }
   return (
     <section>
       <div className="request-demo-wrapper">
@@ -18,14 +36,7 @@ function RequestDemo({data={}}) {
           <h3 className="request-demo-title">{data?.heading || "See how xMatix fits your operations"}</h3>
           {data.subHeading && <p className="request-demo-description"><b>{data?.subHeading}</b></p>}
           {data.description && <p className="request-demo-description">{data?.description}</p>}
-          <div className="cta-pill">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="cta-pill-input"
-            />
-            <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={20} height={20} className="icon-rotate"/>}/>
-          </div>
+            {renderBtn()}
         </div>
         <div className="request-demo-right">
           <Image

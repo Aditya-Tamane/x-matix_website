@@ -60,6 +60,7 @@ export default function HowItWorks() {
     <section className="how-section">
       <div className="heading-wrapper">
         <h5 className="heading-title"><ClipboardDocumentIcon width={18.75} height={18.75} /> Execution Model</h5>
+        <h2 className="main-heading">How it Works</h2>
         <p className="description">xMatix combines a no-code execution platform, a unified operational data fabric, 
           and an embedded agentic <br/> intelligence layer to orchestrate business outcomes across domains.</p>
       </div>

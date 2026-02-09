@@ -7,9 +7,9 @@
   "data": {
     "xMatixDataFabrics": {
       "title": "xMatix Data Fabric",
-      "headingPlane1": "One operational truth",
-      "headingColored1": "across your business",
-      "headingPlane2": "",
+      "headingPlane1": "",
+      "headingColored1": "One operational truth",
+      "headingPlane2": "across your business",
       "headingColored2": "",
       "description1": "Connect, normalize, and govern data across systems in real time, without creating another data silo.",
       "description2": "Bring together transactional data, master data, and events into a single operational view that powers real-time execution and intelligence across every xMatix module.",
@@ -85,7 +85,8 @@
     "requestADemo": {
       "heading": "Unify data without rebuilding systems",
       "subHeading": "",
-      "description": "Create a shared operational data foundation while keeping existing CRM, ERP, and operational systems intact."
+      "description": "Create a shared operational data foundation while keeping existing CRM, ERP, and operational systems intact.",
+      "btnDesignOther" : true
     }
   }
 }
