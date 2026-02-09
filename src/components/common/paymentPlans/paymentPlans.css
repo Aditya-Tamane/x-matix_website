@@ -88,7 +88,7 @@
   animation: shimmer 3s infinite;
 }
 
-.contentWrapper {
+.payment-contentWrapper {
   max-width: 600px;
   margin: 12px auto;         
   display: flex;

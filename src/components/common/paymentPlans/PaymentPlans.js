@@ -16,7 +16,7 @@ export default function PaymentPlans(pricingData) {
   return (
     <div className="payment-container">
       <div className="payment-header">
-        <div className="contentWrapper">
+        <div className="payment-contentWrapper">
         <h5 className="heading-title">
           <ComputerDesktopIcon width={18.75} height={18.75} /> {data.title.topSubtitle}
         </h5>
