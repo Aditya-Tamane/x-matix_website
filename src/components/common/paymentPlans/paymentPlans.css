@@ -88,6 +88,13 @@
   animation: shimmer 3s infinite;
 }
 
+.contentWrapper {
+  max-width: 600px;
+  margin: 12px auto;         
+  display: flex;
+  justify-content: center;
+}
+
 .heading-title{
     letter-spacing: 1px;
     border-bottom: 2px solid #00a4ef;
@@ -96,10 +103,11 @@
     align-items: center;
     gap: 10px;
     width: max-content;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
     font-size: 16px;
     font-weight: 400;
     display: flex;
+    margin: 0 auto;
 }
 
 .contentWrapper {

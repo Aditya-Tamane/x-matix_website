@@ -116,3 +116,8 @@ footer.footer-section {
   opacity: 0.9;
   text-decoration: underline;
 }
+
+.no-link {
+  text-decoration: none;
+  color: inherit;
+}
