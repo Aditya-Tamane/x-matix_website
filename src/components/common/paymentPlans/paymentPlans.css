@@ -143,8 +143,15 @@
 }
 
 .planHeader {
+    display: flex;
+  flex-direction: column;
+  position: relative;
   margin-bottom: 32px;
 }
+.featuredIcon {
+  align-self: flex-end;
+}
+
 
 .planName {
   font-size: 16px;
