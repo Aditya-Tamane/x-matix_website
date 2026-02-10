@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon, CreditCardIcon } from '@heroicons/react/24/outline';
+import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon, CreditCardIcon, SparklesIcon } from '@heroicons/react/24/outline';
 import './paymentPlans.css';
 
 export default function PaymentPlans(pricingData) {
@@ -37,6 +37,7 @@ export default function PaymentPlans(pricingData) {
           >
 
             <div className="planHeader">
+                {plan.featured && <SparklesIcon width={20} height={20} className='featuredIcon'/>}
               <h2 className="planName">{plan.name}</h2>
               <div className="priceContainer">
                 <span className="currency">$</span>
