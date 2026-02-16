@@ -13,8 +13,8 @@ export default function HowItWorks() {
     <Image
       src={platform}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -25,8 +25,8 @@ export default function HowItWorks() {
     <Image
       src={dataFabric}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
 },
@@ -37,8 +37,8 @@ export default function HowItWorks() {
     <Image
       src={sense}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -49,8 +49,8 @@ export default function HowItWorks() {
     <Image
       src={modules}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -74,7 +74,7 @@ export default function HowItWorks() {
               <p className="step-subtitle">{step.subtitle}</p>
             </div>
             {index < steps.length - 1 && (
-              <>
+              <div>
                 <svg width="0" height="0" aria-hidden>
                   <defs>
                     <linearGradient id="icon-gradient" gradientTransform="rotate(11.22)">
@@ -85,12 +85,12 @@ export default function HowItWorks() {
                   </defs>
                 </svg>
                 <ArrowRightIcon
-                  width={50}
-                  height={50}
+                  width={28}
+                  height={28}
                   stroke="url(#icon-gradient)"
                   strokeWidth={3.5}
                 />
-              </>
+              </div>
             )}
           </>
         ))}

@@ -11,7 +11,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         {titleIcon && titleIcon}
                         {data?.title}
                     </h5>
-                    <h2 className="section-card-heading">
+                    <h2 className={`${data?.isFirstSection && 'section-card-heading2'} section-card-heading`}>
                         <span className='heading-plane'>{data?.headingPlane1}</span>
                         <span className='heading-colored'> {data?.headingColored1}</span>
                         <span className='heading-plane'> {data?.headingPlane2}</span>
@@ -23,7 +23,6 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                     {data?.description2 && <p className="section-card-description2">
                         {data.description2.split('\n').map((line, index) => (
                             <span key={index}>
-                            <br />
                             {line}
                             <br />
                             </span>

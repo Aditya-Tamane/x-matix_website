@@ -22,8 +22,7 @@ export default function Footer() {
               />
             </Link>
           </div>
-          <p className="brand-tagline">Experience how xMatix can simplify operations &amp; amplify
-            <br /> intelligence across your organization.
+          <p className="brand-tagline">Experience how xMatix can simplify operations &amp; amplify intelligence across your organization.
           </p>
 
           <div className="social-icons">
@@ -73,7 +72,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <p>© xMatix. All Rights Reserved.</p>
-        <a href="#" className="back-to-top">
+        <a href="" className="back-to-top">
           Back to top <ArrowUpIcon width={16} height={16} style={{strokeWidth: 4}} />
         </a>
       </div>

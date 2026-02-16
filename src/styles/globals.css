@@ -412,6 +412,7 @@ footer ul {
   gap: 40px;
   position: relative;
   flex-wrap: wrap;
+  padding: 0 5rem;
 }
 
 .step-item {
@@ -421,13 +422,12 @@ footer ul {
   text-align: center;
   position: relative;
   flex: 1;
-  min-width: 220px;
-  max-width: 280px;
 }
 
 
 .icon {
-  font-size: 3.8rem;
+  width: 60px;
+  height: 60px;
 }
 
 .step-title {

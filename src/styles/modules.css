@@ -101,9 +101,10 @@ section.hero-section {
     flex-direction: row;
     align-items: flex-end;
     gap: 10px;
+    padding-bottom: 0;
     width: max-content;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
     margin: 0;
 }
@@ -111,6 +112,7 @@ section.hero-section {
     font-size: 16px;
     font-weight: 400;
     color: #f2f2f2;
+    flex: 1;
 }
 .howWeHelp-card ul {
     padding-left: 24px;

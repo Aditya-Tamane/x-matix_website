@@ -17,7 +17,7 @@
     flex: 1;
 }
 
-.icon-rotate {
+.cta-pill .icon-rotate {
     transform: rotate(-90deg)
 }
 
@@ -48,7 +48,7 @@ h3.request-demo-description {
     border: none;
     outline: none;
     flex: 1;
-    padding: 12px 16px;
+    padding: 7px 16px;
     font-size: 14px;
 }
 

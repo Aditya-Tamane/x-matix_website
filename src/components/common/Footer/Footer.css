@@ -10,7 +10,7 @@ footer.footer-section {
     gap: 80px;
     display: flex;
     position: relative;
-    padding: 40px;
+    padding: 40px 40px 0;
 }
 .footer-brand {
     flex-shrink: 0;
@@ -55,11 +55,11 @@ footer.footer-section {
   border-color: #030720;
 }
 .footer-columns {
-    gap: 120px;
+    gap: 30px;
     display: flex;
     width: 60%;
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 0px 40px 40px;
 }
 .column {
   max-width: 1400px;
@@ -82,9 +82,10 @@ footer.footer-section {
 }
 
 .column li {
-  font-size: 0.95rem;
-  opacity: 0.8;
-  cursor: pointer;
+    cursor: pointer;
+    font-size: 13px;
+    color: #f2f2f2;
+    font-weight: 400;
 }
 
 .column li:hover {
@@ -93,7 +94,6 @@ footer.footer-section {
 }
 
 .footer-bottom {
-    opacity: .7;
     border-top: 1px solid #ffffff30;
     justify-content: space-between;
     align-items: center;
