@@ -1,0 +1,120 @@
+{
+  "title": "xMatix Platform",
+  "subtitle": "The low-code / no-code execution foundation",
+  "slug": "platform-overview",
+  "layout": "xMatixPlatform",
+  "heroImage": "/images/platform-hero.jpg",
+  "data": {
+    "xMatixPlatform": {
+      "title": "xMatix Platform",
+      "headingPlane1": "The execution foundation for",
+      "headingColored1": "modern operations",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Design, automate, and govern business workflows without heavy code.",
+      "description2": "xMatix Platform provides the core execution layer that powers all xMatix modules, enabling organizations to model, adapt, & run operational processes across domains with speed & control.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+    "whatIsIt": {
+      "title": "What it is",
+      "headingPlane1": "",
+      "headingColored1": "Designed for execution,",
+      "headingPlane2": "not static configuration",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix Platform is a no-code / low-code execution foundation for building and running operational applications.\nIt allows teams to model workflows, rules, and user experiences that directly drive how work gets done.\nUnlike traditional systems of record, the Platform is designed for continuous execution and change.",
+      "imageSrc": "/images/whatIsIt.png",
+      "imageAlt": "xMatix Platform"
+    },
+    "coreCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Execution capabilities that",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " power every module",
+          "color": "#00A4EF"
+        }
+      ],
+      "description": "These shared capabilities enable xMatix to orchestrate workflows, enforce policies, and automate execution consistently across all operational domains.",
+      "coreCapabilitiesCard1": {
+        "title": "Workflow orchestration & approvals",
+        "content": "Model and execute end-to-end processes with human, system, and agent participation."
+      },
+      "coreCapabilitiesCard2": {
+        "title": "Business rules & policies",
+        "content": "Define decision logic, validations, and guardrails that govern execution across domains."
+      },
+      "coreCapabilitiesCard3": {
+        "title": "Forms & UI composition",
+        "content": "Build task-oriented user experiences for operational roles without custom front-end development."
+      },
+      "coreCapabilitiesCard4": {
+        "title": "Permissions & lifecycle management",
+        "content": "Control access, roles, and state transitions across every stage of execution."
+      },
+      "coreCapabilitiesCard5": {
+        "title": "Event-driven automation",
+        "content": "Trigger actions and workflows in real time based on operational events and context."
+      }
+    },
+    "executionModel": {
+      "title": "Execution Model",
+      "mainHeading": [
+        {
+          "heading": "Built for teams",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " running and modernizing operations",
+          "color": "#ffffff"
+        }
+      ],
+      "description": "xMatix supports teams modernizing operations with faster execution, governed adaptability, and incremental replacement of rigid CRM and ERP execution layers."
+    },
+    "executionModelAccordian": {
+      "sections": [
+        {
+          "id": "business",
+          "title": "Business Systems Teams",
+          "description": "Modernize operational execution without long development cycles. Build, adapt, and govern workflows quickly using no-code tools, without creating technical debt.",
+          "image": "/images/xMatixPlatform.png"
+        },
+        {
+          "id": "operations",
+          "title": "Operations & IT Leaders",
+          "description": "Gain visibility and control over mission-critical operations with real-time orchestration and monitoring.",
+          "image": "/images/xMatixPlatform.png"
+        },
+        {
+          "id": "digital",
+          "title": "Digital Transformation Programs",
+          "description": "Accelerate transformation initiatives with scalable, governed automation across teams.",
+          "image": "/images/xMatixPlatform.png"
+        }
+      ]
+    },
+    "worksWith": {
+      "title": "Works With",
+      "mainHeading": [
+        {
+          "heading": "One platform.",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Every execution domain.",
+          "color": "#ffffff"
+        }
+      ],
+      "description": "All xMatix modules run on the same execution platform. Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance"
+    },
+    "requestADemo": {
+      "heading": "Build and adapt operations faster",
+      "subHeading": "",
+      "description": "See how xMatix Platform powers execution across domains."
+    }
+  }
+}

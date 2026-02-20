@@ -1,0 +1,136 @@
+{
+  "slug": "cio-cto",
+  "category": "solutions",
+  "title": "CIO / CTO",
+  "subtitle": "scalable secure enterprise technology",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/lead-to-cash-hero.jpg",
+  "group": "By Role",
+  "data": {
+    
+    "xMatixPlatform": {
+      "title": "For CIOs & CTOs",
+      "headingPlane1": "",
+      "headingColored1": "Modernise enterprise execution",
+      "headingPlane2": "without ripping and replacing systems",
+      "headingColored2": "",
+      "description1": "CIOs and CTOs are under pressure to modernise operations, enable AI, and support faster change — all while maintaining stability, security, and governance. Legacy CRM and ERP systems are slow to adapt, while point solutions add complexity. xMatix provides a single execution layer that enables incremental modernisation, unified data, and governed automation without replacing core systems.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": " A governed execution layer for",
+      "headingColored1": "modern enterprise architecture",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as a system of execution that sits above existing systems of record. Built on the xMatix Platform, Data Fabric, and Sense, it enables CIOs and CTOs to modernise execution incrementally, unify operational data, and introduce autonomous workflows while maintaining enterprise-grade governance and control.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+"stepsLayoutData" : {
+  "imageUrl": "/images/mobileSolution.png",
+  "imageAlt": "Lead-to-Cash Workflow",
+  "imagePosition": "left",
+  "contentType": "steps",
+  "theme": "dark",
+  "accentColor": "#00d9ff",
+  "subtitle": "Lead-to-Cash Execution Flow",
+  "title": "How {{highlight}}Lead-to-Cash{{/highlight}} Works on xMatix",
+  "steps": [
+    {
+      "title": "Lead and Opportunity",
+      "description": "Capture and qualify leads, then progress opportunities through policy-driven approvals."
+    },
+    {
+      "title": "Quote and Order",
+      "description": "Apply pricing and discount rules automatically and convert approved quotes into executable orders."
+    },
+    {
+      "title": "Fulfillment",
+      "description": "Coordinate inventory and warehouse execution while resolving stock and delivery exceptions in real time."
+    },
+    {
+      "title": "Billing and Collections",
+      "description": "Generate invoices automatically and track revenue and payments as part of the same execution flow."
+    }
+  ],
+  "description": "Every stage runs on a single execution layer, ensuring continuity, control, and real-time visibility across the entire lead-to-cash lifecycle."
+},
+  
+"cardLayoutData" : {
+  "imageUrl": "/images/image2_card.png",
+  "imageAlt": "xMatix Sense Platform",
+  "imagePosition": "right",
+  "contentType": "cards",
+  "theme": "dark",
+  "accentColor": "#00d9ff",
+  "topSubtitle": "CIO / CTO Execution Flow",
+  "title": "How {{highlight}} CIOs and CTOs modernise execution {{/highlight}} with xMatix",
+  "subtitle": "",
+  "description": "xMatix enables a phased, low-risk approach to modernisation by separating execution from record-keeping and enabling continuous improvement.",
+  "features": [
+    {
+      "title": "Decouple Execution from Systems of Record",
+      "description": "Introduce xMatix as an execution layer while keeping existing CRM, ERP, and core systems intact."
+    },
+    {
+      "title": "Compose and Automate Workflows",
+      "description": "Use no-code and low-code tools to model workflows, rules, and policies without heavy development cycles."
+    },
+    {
+      "title": "Unify Operational Data",
+      "description": "Connect transactional, master, and event data into a shared operational context without large-scale data replication."
+    },
+    {
+      "title": "Introduce Governed Autonomy",
+      "description": "Deploy policy-bound, auditable automation and agentic execution that can be monitored and overridden when needed."
+    }
+  ],
+  "ctaText": "Explore xMatix Sense",
+  "ctaLink": "#"
+},
+"ecosystemSection": {
+    "title": "The Problem",
+    "headingPlane1": "Technology stacks",
+    "headingColored1": "slow down operational change",
+    "headingPlane2": "",
+    "description": "Most enterprise technology landscapes have grown into complex, tightly coupled stacks. Each change requires long implementation cycles, custom integrations, and heavy IT involvement, limiting agility and innovation."
+  },
+  "ecosystem": [
+    {
+      "number": "01",
+      "title": "Monolithic CRM & ERP Systems",
+      "description": "Difficult to customise and slow to change, making it hard to adapt processes as business needs evolve."
+    },
+    {
+      "number": "02",
+      "title": "Point Solutions & Integrations",
+      "description": "Add functionality but increase integration complexity, operational risk, and long-term maintenance overhead."
+    },
+    {
+      "number": "03",
+      "title": "Disconnected Data & AI Initiatives",
+      "description": " Create insights without shared operational context or control over execution."
+    },
+    {
+      "number": "04",
+      "title": "Governance & Security Constraints",
+      "description": "Limit automation and innovation due to concerns around auditability, compliance, and risk."
+    }
+  ],
+
+   "requestADemo": {
+      "heading": "See how CIOs and CTOs modernise execution with xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix enables faster change, unified data, and secure execution without disrupting your existing enterprise systems."
+    }
+}
+}

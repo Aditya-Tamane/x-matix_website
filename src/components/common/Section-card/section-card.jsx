@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import './section-card.css'
 
@@ -10,22 +11,20 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         {titleIcon && titleIcon}
                         {data?.title}
                     </h5>
-                    <h2 className="section-card-heading">
+                    <h2 className={`${data?.isFirstSection && 'section-card-heading2'} section-card-heading`}>
                         <span className='heading-plane'>{data?.headingPlane1}</span>
                         <span className='heading-colored'> {data?.headingColored1}</span>
                         <span className='heading-plane'> {data?.headingPlane2}</span>
                         <span className='heading-colored'> {data?.headingColored2}</span>
                     </h2>
                     {data?.description1 && <p className="section-card-description1">
-                        <b>
-                            {data.description1}
-                        </b>
+                        {data.description1}
                     </p>}
                     {data?.description2 && <p className="section-card-description2">
                         {data.description2.split('\n').map((line, index) => (
                             <span key={index}>
                             {line}
-                            <br /><br />
+                            <br />
                             </span>
                         ))}
                     </p>}
@@ -41,7 +40,7 @@ export default function SectionCard({data={}, buttons=<></>, inverse = false, ti
                         loading="lazy"
                         width={400}
                         height={300}
-                        style={{ width: "100%", height: "auto" }}
+                        style={{ width: "100%", height: "auto", aspectRatio: 3/2 }}
                     />
                 </div>
             </div>

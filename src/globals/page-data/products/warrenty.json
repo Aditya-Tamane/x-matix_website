@@ -1,0 +1,110 @@
+{
+  "slug": "warrenty",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Warranty",
+  "subtitle": "Real-time AI-powered fraud detection",
+  "heroImage": "/images/anti-fraud-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Warranty",
+      "mainHeading": [
+        {
+          "heading": "Execute Warranty",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Claims with Confidence",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Validate faster. Control costs. Resolve consistently.",
+      "description2": "xMatix Warranty helps organizations manage warranty execution from claim intake to settlement with governed workflows, real time validations, and complete traceability"
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Warranty",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Warranty processes are often manual, inconsistent, and fragmented across service, inventory, and finance systems.",
+          "list": [
+            "Eligibility checks vary by team",
+            "Approvals take too long",
+            "Fraud and duplicate claims go unnoticed",
+            "Warranty liabilities lack visibility"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Warranty standardizes how warranty claims are validated, approved, and settled so every claim follows the same governed execution process.",
+          "list": [
+            "Structured claim workflows",
+            "Automated policy validation",
+            "Cross team coordination",
+            "Audit ready execution"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
+        }
+      ]
+    },
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": ": xMatix Warranty modernizes warranty execution without replacing existing service or finance systems while improving speed, control, and transparenc",
+      "cardsData": [
+        {
+          "title": "End to End Claim Execution",
+          "description": "Orchestrate warranty workflows from claim registration to approval, settlement, and closure."
+        },
+        {
+          "title": "Policy and Eligibility Validation",
+          "description": "Automatically enforce warranty terms, coverage periods, entitlements, and exceptions."
+        },
+        {
+          "title": "Fraud and Anomaly Detection",
+          "description": "Identify duplicate claims, unusual replacement patterns, and policy violations early."
+        },
+        {
+          "title": "Cross Function Coordination",
+          "description": "Connect service teams, inventory, finance, and partners in a single execution flow."
+        },
+        {
+          "title": "Audit Ready Traceability",
+          "description": "Maintain complete claim history, approvals, actions, and compliance records."
+        }
+      ]
+    },
+    "requestADemo": {
+      "heading": "See xMatix Warranty in Action",
+      "subHeading": "Resolve warranty claims with confidence",
+      "description": "Reduce claim cycle times, control warranty costs, and gain clear visibility into liabilities without disrupting existing systems."
+    }
+  }
+}

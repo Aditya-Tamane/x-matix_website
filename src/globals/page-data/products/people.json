@@ -1,0 +1,113 @@
+{
+  "slug": "people",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix People",
+  "subtitle": "Execute workforce operations with consistency",
+  "heroImage": "/images/people-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix People",
+      "mainHeading": [
+        {
+          "heading": "Execute Workforce Operations",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Consistency",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Onboard faster. Manage clearly. Adapt continuously.",
+      "description2": "xMatix People helps organizations execute workforce operations across the employee lifecycle with governed workflows, real time coordination, and compliance readiness."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " People",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "People operations often rely on manual handoffs, inconsistent processes, and disconnected systems.",
+          "list": [
+            "Onboarding steps vary by team",
+            "Role changes take too long",
+            "Compliance steps are missed",
+            "Cross team coordination is manual"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "People Operations Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix People standardizes how workforce actions are executed so every employee lifecycle event follows a consistent and auditable process.",
+          "list": [
+            "Structured employee workflows",
+            "Policy driven approvals",
+            "Cross function coordination",
+            "Compliance ready execution"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix People Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix People modernizes people execution without replacing existing HR or payroll systems while improving speed, clarity, and control.",
+      "cardsData": [
+        {
+          "title": "Employee Lifecycle Execution",
+          "description": "Orchestrate onboarding, role changes, transfers, and exits through standardized workflows."
+        },
+        {
+          "title": "Policy Based Approvals",
+          "description": "Apply HR policies and approval rules automatically during execution."
+        },
+        {
+          "title": "Cross Function Coordination",
+          "description": "Align people actions with IT access, payroll, finance, and facilities."
+        },
+        {
+          "title": "Compliance and Documentation",
+          "description": "Ensure required steps, acknowledgements, and records are completed."
+        },
+        {
+          "title": "Adaptable Workforce Processes",
+          "description": "Update execution flows quickly without system rewrites."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix People in Action",
+      "subHeading": "Run workforce operations with confidence",
+      "description": "Improve employee experience, reduce delays, and maintain compliance without disrupting existing systems."
+    }
+  }
+}

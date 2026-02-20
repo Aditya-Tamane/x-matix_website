@@ -1,0 +1,113 @@
+{
+  "slug": "incentives",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Incentives",
+  "subtitle": "Execute incentives fairly and transparently",
+  "heroImage": "/images/incentives-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Incentives",
+      "mainHeading": [
+        {
+          "heading": "Execute Incentives Fairly",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " and Transparently",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Motivate performance. Reduce disputes. Build trust.",
+      "description2": "xMatix Incentives helps organizations govern incentive execution by applying clear rules, real time calculations, approvals, and visibility across incentive programs."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Incentives",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Incentive programs often suffer from manual calculations, delayed payouts, and limited transparency.",
+          "list": [
+            "Rules are complex and inconsistently applied",
+            "Payout disputes consume time and trust",
+            "Finance reconciliation is slow",
+            "Adjustments are handled manually"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Incentives Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Incentives standardizes how incentives are calculated, approved, and paid so every payout follows governed and explainable execution.",
+          "list": [
+            "Policy driven incentive logic",
+            "Real time performance tracking",
+            "Governed adjustment workflows",
+            "Clear audit trails"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Incentives Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Incentives modernizes incentive execution without replacing existing finance or payroll systems while improving accuracy, trust, and speed.",
+      "cardsData": [
+        {
+          "title": "Incentive Rule Execution",
+          "description": "Apply incentive plans and calculations consistently across roles and programs."
+        },
+        {
+          "title": "Performance Based Calculations",
+          "description": "Link incentives directly to executed outcomes and verified performance data."
+        },
+        {
+          "title": "Dispute and Adjustment Workflows",
+          "description": "Resolve payout disputes and corrections within structured and auditable processes."
+        },
+        {
+          "title": "Finance and Payroll Alignment",
+          "description": "Ensure approved incentives flow accurately into payroll and settlements."
+        },
+        {
+          "title": "Transparency and Auditability",
+          "description": "Provide clear visibility into incentive logic, approvals, and payouts."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Incentives in Action",
+      "subHeading": "Build incentive programs teams trust",
+      "description": "Improve payout accuracy, reduce disputes, and increase motivation without disrupting existing systems."
+    }
+  }
+}

@@ -3,6 +3,7 @@ import dataFabric from "../../public/svgs/dataFabric.svg";
 import modules from "../../public/svgs/modules.svg";
 import platform from "../../public/svgs/platform.svg";
 import sense from "../../public/svgs/sense.svg";
+import { ArrowRightIcon, ClipboardDocumentIcon } from "@heroicons/react/24/outline";
 export default function HowItWorks() {
   const steps = [
     {
@@ -12,8 +13,8 @@ export default function HowItWorks() {
     <Image
       src={platform}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -24,8 +25,8 @@ export default function HowItWorks() {
     <Image
       src={dataFabric}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
 },
@@ -36,8 +37,8 @@ export default function HowItWorks() {
     <Image
       src={sense}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -48,8 +49,8 @@ export default function HowItWorks() {
     <Image
       src={modules}
       alt="Data Fabric"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
     />
   ),
     },
@@ -57,34 +58,42 @@ export default function HowItWorks() {
 
   return (
     <section className="how-section">
-      <div className="container">
-        <div className="heading-wrapper">
-        <span className="badge">Execution Model</span>
-        </div>
-        <h2 className="highlight">How it works</h2>
+      <div className="heading-wrapper">
+        <h5 className="heading-title"><ClipboardDocumentIcon width={18.75} height={18.75} /> Execution Model</h5>
+        <h2 className="main-heading">How it Works</h2>
+        <p className="description">xMatix combines a no-code execution platform, a unified operational data fabric, 
+          and an embedded agentic <br/> intelligence layer to orchestrate business outcomes across domains.</p>
+      </div>
 
-        <p className="sub-text">
-          xMatix combines a no-code execution platform, a unified operational data fabric, 
-          and an embedded agentic <br/> intelligence layer to orchestrate business outcomes across domains.
-        </p>
-
-        <div className="steps-wrapper">
-          {steps.map((step, index) => (
-            <div className="step-item" key={step.title}>
-            <span className="icon">{step.icon}</span>
+      <div className="steps-wrapper">
+        {steps.map((step, index) => (
+          <>
+            <div className="step-item" key={index}>
+              <span className="icon">{step.icon}</span>
               <h3 className="step-title">{step.title}</h3>
               <p className="step-subtitle">{step.subtitle}</p>
-
-              {index < steps.length - 1 && (
-                <img 
-                  src="/images/rightArrow.png"
-                  alt="connecting arrow" 
-                  className="arrow-connector"
-                />
-              )}
             </div>
-          ))}
-        </div>
+            {index < steps.length - 1 && (
+              <div>
+                <svg width="0" height="0" aria-hidden>
+                  <defs>
+                    <linearGradient id="icon-gradient" gradientTransform="rotate(11.22)">
+                      <stop offset="-0.15%" stopColor="#00B2C2" />
+                      <stop offset="74.97%" stopColor="#093493" />
+                      <stop offset="138.88%" stopColor="#321F96" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <ArrowRightIcon
+                  width={28}
+                  height={28}
+                  stroke="url(#icon-gradient)"
+                  strokeWidth={3.5}
+                />
+              </div>
+            )}
+          </>
+        ))}
       </div>
     </section>
   );

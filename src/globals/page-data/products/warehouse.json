@@ -1,0 +1,110 @@
+{
+  "slug": "warehouse",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Warehouse",
+  "subtitle": "Real-time AI-powered fraud detection",
+  "heroImage": "/images/anti-fraud-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Warehouse",
+      "mainHeading": [
+        {
+          "heading": "Execute Warehouse",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Operations with Precision",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Pick accurately. Ship faster. Adapt continuously.",
+      "description2": "xMatix Warehouse helps organizations standardize and execute warehouse operations across inbound, storage, and outbound processes with real time visibility and governed workflows."
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Warehouse",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": ": Warehouse teams struggle with fragmented systems, manual task coordination, delayed updates, and limited visibility into daily operations.",
+          "list": [
+            "Inbound and outbound processes are disconnected",
+            "Task prioritization relies on supervisors",
+            "Inventory updates lag execution",
+            "Exceptions are handled manually"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Warehouse standardizes how warehouse tasks are planned, executed, and monitored so every operation follows a consistent and auditable process.",
+          "list": [
+            "Task driven execution workflows",
+            "Real time status tracking",
+            "Integrated inventory coordination",
+            "Governed exception handling"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
+        }
+      ]
+    },
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Warehouse modernizes warehouse execution without replacing existing WMS or ERP systems while improving throughput, accuracy, and control.",
+      "cardsData": [
+        {
+          "title": "Inbound and Outbound Workflow Execution",
+          "description": "Orchestrate receiving, putaway, picking, packing, and dispatch through standardized workflows."
+        },
+        {
+          "title": "Task Based Warehouse Operations",
+          "description": "Guide warehouse staff with prioritized tasks and real time instructions."
+        },
+        {
+          "title": "Inventory and Order Synchronization",
+          "description": "Keep warehouse actions aligned with sales orders and inventory availability."
+        },
+        {
+          "title": "Exception Handling and Escalation",
+          "description": "Resolve shortages, damages, and delays within governed workflows."
+        },
+        {
+          "title": "Adaptable Warehouse Processes",
+          "description": "Modify execution flows, rules, and validations without system rewrites."
+        }
+      ]
+    },
+    "requestADemo": {
+      "heading": "See xMatix Warehouse (WMS) in Action",
+      "subHeading": "Run warehouses with confidence",
+      "description": "Improve order accuracy, reduce delays, and gain real time visibility into warehouse execution without disrupting existing systems."
+    }
+  }
+}

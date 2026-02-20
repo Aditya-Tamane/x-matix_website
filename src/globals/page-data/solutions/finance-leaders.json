@@ -1,0 +1,108 @@
+{
+  "slug": "finance-leaders",
+  "category": "solutions",
+  "title": "Finance Leaders",
+  "subtitle": "accuracy, control, and transparency across financial execution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/finance-leaders-hero.jpg",
+  "group": "By Role",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "For Finance Leaders",
+      "headingPlane1": "Execute financial operations with",
+      "headingColored1": "accuracy, control, and transparency",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Finance leaders are responsible for financial accuracy, compliance, and cash flow, while supporting fast-moving operations. Execution breaks when finance systems are disconnected from sales, service, inventory, and payroll execution.",
+      "description2": "xMatix provides a single execution layer that connects financial operations directly to real work, enabling timely closes, reduced leakage, and real-time financial visibility.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Finance Execution Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Financial execution lags",
+      "headingColored1": "behind operational reality",
+      "headingPlane2": "",
+      "description": "Most finance teams rely on ERP systems and spreadsheets that reflect outcomes after execution has already occurred. Disconnected operational systems create delays, manual reconciliation, and limited control over costs, revenue, and compliance during active operations."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "ERP-Centric Finance Processes",
+        "description": "Record financial transactions accurately but lack real-time connection to operational execution and exceptions."
+      },
+      {
+        "number": "02",
+        "title": "Manual Reconciliation & Adjustments",
+        "description": "Rely on spreadsheets and manual reviews to reconcile sales, service, inventory, and payroll data."
+      },
+      {
+        "number": "03",
+        "title": "Delayed Financial Visibility",
+        "description": "Provide lagging indicators on revenue, costs, and margins, limiting proactive financial control."
+      },
+      {
+        "number": "04",
+        "title": "Compliance & Audit Pressure",
+        "description": "Increase risk and effort due to fragmented data, inconsistent processes, and limited traceability."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "Financial execution connected",
+      "headingColored1": "directly to operations",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer that connects financial processes directly to operational workflows. Built on the xMatix Platform, Data Fabric, and Sense, it ensures that revenue, costs, incentives, and payroll are captured as execution happens, improving accuracy, control, and auditability without replacing core finance systems.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Finance Execution Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Finance Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Finance Leaders Execution Flow",
+      "title": "How {{highlight}}finance teams{{/highlight}} execute on xMatix",
+      "subtitle": "",
+      "description": "Financial execution runs on a shared operational layer, enabling finance teams to stay in sync with operations while maintaining governance and compliance.",
+      "features": [
+        {
+          "title": "Operational Event Capture",
+          "description": "Capture financial-impacting events from sales, service, inventory, and payroll as they occur."
+        },
+        {
+          "title": "Policy-Driven Financial Controls",
+          "description": "Apply approval rules, thresholds, and controls directly within execution workflows."
+        },
+        {
+          "title": "Continuous Reconciliation",
+          "description": "Reconcile operational and financial data continuously, reducing month-end effort and errors."
+        },
+        {
+          "title": "Audit-Ready Closure",
+          "description": "Close periods faster with complete traceability, governed adjustments, and real-time reporting."
+        }
+      ],
+      "ctaText": "Explore Finance Execution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See how finance teams execute on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix helps finance leaders improve accuracy, reduce leakage, and execute financial operations in lockstep with the business."
+    }
+  }
+}

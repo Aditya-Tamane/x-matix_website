@@ -1,67 +1,3 @@
-// import fs from 'fs/promises';
-// import path from 'path';
-
-// const DATA_ROOT = path.join(process.cwd(), 'src', 'globals', 'page-data');
-
-// // ... existing imports
-
-// export async function getMenuItems() {
-//   const categories = ['products', 'solutions'];
-//   const menu = { products: { groups: [], itemsByGroup: {} }, solutions: [] }; // adjusted shape
-
-//   // For products only (add similar logic for solutions later)
-//   const productsDir = path.join(DATA_ROOT, 'products');
-//   let files = [];
-//   try {
-//     files = await fs.readdir(productsDir);
-//   } catch (err) {
-//     console.error('Products dir error:', err);
-//   }
-
-//   const items = [];
-//   for (const file of files) {
-//     if (!file.endsWith('.json')) continue;
-//     const slug = file.replace('.json', '');
-//     const filePath = path.join(productsDir, file);
-//     try {
-//       const content = await fs.readFile(filePath, 'utf8');
-//       const data = JSON.parse(content);
-//       items.push({
-//         slug,
-//         title: data.title,
-//         subtitle: data.subtitle || '',
-//         href: `/products/${slug}`,
-//         group: data.group || 'Ungrouped' // fallback
-//       });
-//     } catch (err) {
-//       console.error(`Parse error ${file}:`, err);
-//     }
-//   }
-
-//   // Group items
-//   const itemsByGroup = {};
-//   const uniqueGroups = new Set();
-
-//   items.forEach(item => {
-//     const g = item.group;
-//     uniqueGroups.add(g);
-//     if (!itemsByGroup[g]) itemsByGroup[g] = [];
-//     itemsByGroup[g].push(item);
-//   });
-
-//   menu.products = {
-//     groups: Array.from(uniqueGroups).sort(),
-//     itemsByGroup
-//   };
-
-//   // For solutions - keep simple or add grouping later
-//   // ...
-
-//   console.log('Menu data prepared:', menu);
-//   return menu;
-// }
-
-// e.g. lib/menu.js or wherever getMenuItems lives
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -77,95 +13,103 @@ function slugify(str) {
 
 export async function getMenuItems() {
   const menu = {
-    products: { groups: [], itemsByGroup: {} },
-    solutions: { groups: [], itemsByGroup: {} }
+    products: {
+      leftItems: [],     // teasers / links for left column
+      products: [],      // normal product cards for right side
+    },
+    solutions: {
+      groups: [],
+      itemsByGroup: {},
+    },
   };
 
-  // ── Products ───────────────────────────────────────
+  // ── 1. Left column items ─────────────────────────────────────────────
+  const leftDir = path.join(DATA_ROOT,'products', 'left-items');
+  try {
+    const files = await fs.readdir(leftDir);
+    for (const file of files) {
+      if (!file.endsWith('.json')) continue;
+
+      const fullPath = path.join(leftDir, file);
+      const data = JSON.parse(await fs.readFile(fullPath, 'utf-8'));
+
+      menu.products.leftItems.push({
+        title: data.title || 'Untitled',
+        subtitle: data.subtitle || '',
+        href: `/products/${data.slug || file.replace(/\.json$/, '')}`,
+        slug: data.slug || file.replace(/\.json$/, ''),
+      });
+    }
+
+    // Sort left items alphabetically by title
+    menu.products.leftItems.sort((a, b) => a.title.localeCompare(b.title));
+  } catch (err) {
+    console.warn('left-items folder missing or error:', err.message);
+  }
+
+  // ── 2. Right side – normal products ──────────────────────────────────
   const productsDir = path.join(DATA_ROOT, 'products');
-  let files = [];
   try {
-    files = await fs.readdir(productsDir);
-  } catch (err) {
-    console.error('Products dir error:', err);
-  }
+    const files = await fs.readdir(productsDir);
+    for (const file of files) {
+      if (!file.endsWith('.json')) continue;
 
-  const prodItems = [];
-  for (const file of files) {
-    if (!file.endsWith('.json')) continue;
-    const slug = file.replace('.json', '');
-    const filePath = path.join(productsDir, file);
-    try {
-      const data = JSON.parse(await fs.readFile(filePath, 'utf8'));
-      const group = data.group || 'Other';
-      prodItems.push({
-        slug,
-        title: data.title,
+      const fullPath = path.join(productsDir, file);
+      const data = JSON.parse(await fs.readFile(fullPath, 'utf-8'));
+
+      menu.products.products.push({
+        title: data.title || 'Untitled',
         subtitle: data.subtitle || '',
-        href: `/products/${slugify(group)}/${slug}`,   // nice hierarchical URL
-        group
+        href: `/products/${data.slug || file.replace(/\.json$/, '')}`,
       });
-    } catch (err) {
-      console.error(`Parse error products/${file}:`, err);
     }
+
+    // Sort products alphabetically by title
+    menu.products.products.sort((a, b) => a.title.localeCompare(b.title));
+  } catch (err) {
+    console.warn('products folder error:', err.message);
   }
 
-  const prodByGroup = {};
-  const prodGroups = new Set();
-  prodItems.forEach(item => {
-    const g = item.group;
-    prodGroups.add(g);
-    if (!prodByGroup[g]) prodByGroup[g] = [];
-    prodByGroup[g].push(item);
-  });
-
-  menu.products = {
-    groups: Array.from(prodGroups).sort(),
-    itemsByGroup: prodByGroup
-  };
-
-  // ── Solutions ───────────────────────────────────────
+  // ── 3. Solutions – grouped ───────────────────────────────────────────
   const solutionsDir = path.join(DATA_ROOT, 'solutions');
-  files = [];
   try {
-    files = await fs.readdir(solutionsDir);
-  } catch (err) {
-    console.error('Solutions dir error:', err);
-  }
+    const files = await fs.readdir(solutionsDir);
+    const solItems = [];
 
-  const solItems = [];
-  for (const file of files) {
-    if (!file.endsWith('.json')) continue;
-    const slug = file.replace('.json', '');
-    const filePath = path.join(solutionsDir, file);
-    try {
-      const data = JSON.parse(await fs.readFile(filePath, 'utf8'));
+    for (const file of files) {
+      if (!file.endsWith('.json')) continue;
+
+      const fullPath = path.join(solutionsDir, file);
+      const data = JSON.parse(await fs.readFile(fullPath, 'utf-8'));
+
       const group = data.group || 'Other';
+
       solItems.push({
-        slug,
-        title: data.title,
+        slug: file.replace(/\.json$/, ''),
+        title: data.title || 'Untitled',
         subtitle: data.subtitle || '',
-        href: `/solutions/${slugify(group)}/${slug}`,   // nice hierarchical URL
-        group
+        href: `/solutions/${slugify(group)}/${file.replace(/\.json$/, '')}`,
+        group,
       });
-    } catch (err) {
-      console.error(`Parse error solutions/${file}:`, err);
     }
+
+    const solByGroup = {};
+    const solGroups = new Set();
+
+    solItems.forEach((item) => {
+      const g = item.group;
+      solGroups.add(g);
+      if (!solByGroup[g]) solByGroup[g] = [];
+      solByGroup[g].push(item);
+    });
+
+    menu.solutions = {
+      groups: Array.from(solGroups).sort((a, b) => a.length - b.length),
+      itemsByGroup: solByGroup,
+    };
+  } catch (err) {
+    console.warn('solutions folder error:', err.message);
   }
-
-  const solByGroup = {};
-  const solGroups = new Set();
-  solItems.forEach(item => {
-    const g = item.group;
-    solGroups.add(g);
-    if (!solByGroup[g]) solByGroup[g] = [];
-    solByGroup[g].push(item);
-  });
-
-  menu.solutions = {
-    groups: Array.from(solGroups).sort(),
-    itemsByGroup: solByGroup
-  };
 
   return menu;
 }

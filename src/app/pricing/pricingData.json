@@ -1,0 +1,112 @@
+{
+  "HeroData": {
+    "topSubtitle": "Pricing",
+    "title": "Modular pricing. {{highlight}}Enterprise flexibility. {{/highlight}}",
+    "subtitle": "xMatix pricing is designed to adapt to how your organization executes operations. Start with the platform, add the modules you need, and scale usage and intelligence as execution grows.",
+    "btnOne": true,
+    "btnTwo": true
+  },
+
+  "whatIsIt": {
+    "title": "How Pricing Works",
+    "headingPlane1": "",
+    "headingColored1": "Platform plus modules,",
+    "headingPlane2": "priced for execution",
+    "headingColored2": "",
+    "description1": "xMatix pricing is built around two core components: a shared execution platform and the operational modules that run on it.",
+    "description2": "You pay once for the platform foundation and add modules as needed. Pricing scales based on execution usage and operational scope, not static user licenses.",
+    "imageSrc": "/images/WhatIsIt.png",
+    "imageAlt": "Image of a person using a computer"
+  },
+
+  "pricingData": {
+    "title": {
+      "topSubtitle": "Plans",
+      "text": "Choose a plan that matches your ",
+      "highlight": "execution maturity"
+    },
+    "subtitle": "Plans define the breadth of platform capabilities, governance controls, and scale limits. Modules can be added to any plan.",
+
+    "plans": [
+      {
+        "name": "Starter",
+        "price": 10,
+        "description": "For teams beginning their execution modernization journey.",
+        "featured": false,
+        "features": [
+          "Core execution platform",
+          "Limited workflows and automations",
+          "Standard governance and access controls",
+          "Suitable for single use case or pilot"
+        ]
+      },
+      {
+        "name": "Growth",
+        "price": 39,
+        "description": "For organizations scaling execution across teams and domains.",
+        "featured": true,
+        "features": [
+          "Expanded workflow and automation limits",
+          "Advanced governance and lifecycle management",
+          "Supports multiple modules and domains",
+          "Designed for production-grade execution"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": 52,
+        "description": "For complex, large-scale operational environments.",
+        "featured": false,
+        "features": [
+          "Unlimited execution scale",
+          "Advanced security and compliance",
+          "Multi-entity and partner support",
+          "Enterprise SLAs and deployments"
+        ]
+      }
+    ]
+  },
+
+  "faqData": {
+    "title": {
+      "text": "Frequently asked",
+      "highlight": " questions"
+    },
+    "faqs": [
+      {
+        "question": "How is pricing calculated?",
+        "answer": "Pricing is based on platform usage, execution scope, enabled modules, and add-ons."
+      },
+      {
+        "question": "Can we start small and scale later?",
+        "answer": "Yes. xMatix is designed for incremental adoption without replatforming."
+      },
+      {
+        "question": "Do modules require separate platform fees?",
+        "answer": "No. All modules run on the same shared platform."
+      },
+      {
+        "question": "Is Sense required?",
+        "answer": "No. Sense can be added when and where intelligence is needed."
+      },
+      {
+        "question": "Do you offer enterprise pricing and SLAs?",
+        "answer": "Yes. Enterprise plans support custom deployment, compliance, and SLAs."
+      }
+    ],
+    "cta": {
+      "text": "Still have a question in mind?",
+      "buttonText": "Contact Us"
+    }
+  },
+
+  "requestDemoData": {
+    "heading": "Get pricing tailored to your execution needs",
+    "description": "Pricing is scoped to your workflows, modules, data, and intelligence needs.",
+    "imageSrc": "/images/RequestDemo.png",
+    "imageAlt": "Business handshake",
+    "btnDesignOther": true,
+    "btnText": "Get Pricing",
+    "hasIcon": true
+  }
+}

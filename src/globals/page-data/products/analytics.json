@@ -1,0 +1,113 @@
+{
+  "slug": "analytics",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Analytics",
+  "subtitle": "Analytics built for execution",
+  "heroImage": "/images/analytics-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Analytics",
+      "mainHeading": [
+        {
+          "heading": "Analytics Built",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " for Execution",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "See what happens. Understand why. Act immediately.",
+      "description2": "xMatix Analytics delivers operational analytics directly connected to execution workflows so insights lead to action, not just reports."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Analytics",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Fall Short",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Traditional analytics systems analyze data after execution has already occurred, limiting their ability to drive real time decisions.",
+          "list": [
+            "Reports lag operational reality",
+            "Insights are disconnected from workflows",
+            "Root causes are hard to identify",
+            "Actions require manual follow up"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Analytics Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Analytics ties analytics directly to execution so insights are contextual, timely, and actionable.",
+          "list": [
+            "Execution aware data models",
+            "Real time operational insights",
+            "Context rich analysis",
+            "Action ready outputs"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Analytics Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Analytics modernizes analytics without replacing existing BI or reporting tools while improving decision speed and clarity.",
+      "cardsData": [
+        {
+          "title": "Execution Aware Analytics",
+          "description": "Analyze data generated during operational workflows for accurate insights."
+        },
+        {
+          "title": "Real Time Operational Dashboards",
+          "description": "Monitor performance as work is executed across teams and systems."
+        },
+        {
+          "title": "Root Cause Visibility",
+          "description": "Understand why outcomes occurred using full execution context."
+        },
+        {
+          "title": "Embedded Insights",
+          "description": "Surface analytics directly within workflows and user interfaces."
+        },
+        {
+          "title": "Decision Ready Intelligence",
+          "description": "Feed insights into Sense agents and workflow actions."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Analytics in Action",
+      "subHeading": "Turn insights into outcomes",
+      "description": "Improve operational visibility, accelerate decisions, and close the loop between insight and execution."
+    }
+  }
+}

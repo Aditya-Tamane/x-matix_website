@@ -1,0 +1,54 @@
+.dicto-container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 0 0;
+  color: #ffffff;
+  border-radius: 20px;
+  align-items: center;
+}
+.dicto-left {
+  flex: 1;
+  min-height: 200px;
+}
+.dicto-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dicto-image {
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: unset;
+}
+.dicto-accordion {
+  border-bottom: 0.5px solid #ffffff7c;
+  padding: 18px 0;
+}
+.dicto-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+.dicto-arrow {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.dicto-description {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  max-width: 520px;
+}

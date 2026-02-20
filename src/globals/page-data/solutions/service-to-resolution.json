@@ -1,0 +1,108 @@
+{
+  "slug": "service-to-resolution",
+  "category": "solutions",
+  "title": "Service to Resolution",
+  "subtitle": "end-to-end service execution",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/service-to-resolution-hero.jpg",
+  "group": "By Use Case",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "Service-to-Resolution Execution",
+      "headingPlane1": "Resolve service requests faster,",
+      "headingColored1": "from first ticket to final closure",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Service-to-resolution execution often breaks across CRM, field service, inventory, and finance systems. Each team works in isolation, creating delays, missed SLAs, and inconsistent customer experiences. xMatix enables end-to-end service execution on a single operational foundation, connecting service intake, dispatch, fulfilment, and closure with shared data, rules, and intelligence.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Service-to-Resolution Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Service execution breaks",
+      "headingColored1": "across systems and teams",
+      "headingPlane2": "",
+      "description": "Most service organisations rely on multiple systems to manage requests, dispatch work, and track outcomes. While each system handles a part of the process, no single platform owns the full service lifecycle, leading to slow resolution and poor visibility."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "CRM / Service Desk",
+        "description": "Captures service requests and cases but does not manage technician availability, parts readiness, or on-ground execution."
+      },
+      {
+        "number": "02",
+        "title": "Field Service Systems",
+        "description": "Handle scheduling and work orders but operate without real-time inventory, SLA context, or financial impact."
+      },
+      {
+        "number": "03",
+        "title": "Operations & Inventory",
+        "description": "Manage parts and logistics separately, causing delays when required materials are unavailable or misaligned with service priorities."
+      },
+      {
+        "number": "04",
+        "title": "AI & Analytics Tools",
+        "description": "Provide insights and alerts but cannot take action within live service workflows or resolve exceptions autonomously."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end service-to-resolution",
+      "headingColored1": "execution on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for service operations, unifying service intake, field execution, inventory, and closure into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures that every service request moves seamlessly from creation to resolution with shared context, embedded policies, and real-time coordination across teams.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Service-to-Resolution Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Service-to-Resolution Execution Flow",
+      "title": "How {{highlight}}service-to-resolution{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Every stage of service execution runs on a single operational layer, ensuring continuity, accountability, and real-time visibility from request intake to final resolution.",
+      "features": [
+        {
+          "title": "Service Request Intake",
+          "description": "Capture service requests across channels and automatically classify, prioritise, and route them using policy-driven rules and SLA commitments."
+        },
+        {
+          "title": "Dispatch & Scheduling",
+          "description": "Assign the right technician based on skills, availability, location, and workload while coordinating required parts and tools in advance."
+        },
+        {
+          "title": "On-Site Execution",
+          "description": "Execute service tasks with real-time access to work orders, asset history, and inventory, while resolving exceptions as they arise."
+        },
+        {
+          "title": "Resolution & Closure",
+          "description": "Confirm service completion, update records automatically, capture costs and outcomes, and close requests with full auditability and SLA compliance."
+        }
+      ],
+      "ctaText": "Explore Service Execution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See service-to-resolution executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix connects service, field execution, and operations into a single, outcome-driven service-to-resolution workflow."
+    }
+  }
+}

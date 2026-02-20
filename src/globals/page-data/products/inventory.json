@@ -1,0 +1,113 @@
+{
+  "slug": "inventory",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Inventory",
+  "subtitle": "Maintain inventory accuracy at every location",
+  "heroImage": "/images/inventory-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Inventory",
+      "mainHeading": [
+        {
+          "heading": "Maintain Inventory Accuracy",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " at Every Location",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Track precisely. Audit continuously. Act early.",
+      "description2": "xMatix Inventory helps organizations govern inventory execution across locations with real time visibility, standardized processes, and audit ready traceability."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Inventory",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Inventory accuracy suffers when stock movements, audits, and updates are spread across disconnected systems and manual processes.",
+          "list": [
+            "Stock movements are delayed or inconsistent",
+            "Physical counts do not match system records",
+            "Exceptions are detected too late",
+            "Inventory data lacks trust"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Inventory Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Inventory standardizes how inventory actions are executed, tracked, and reconciled so every movement follows a governed and measurable process.",
+          "list": [
+            "Structured stock workflows",
+            "Real time inventory updates",
+            "Guided audits and cycle counts",
+            "Early exception detection"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Inventory Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Inventory modernizes inventory execution without replacing existing ERP or warehouse systems while improving accuracy and control.",
+      "cardsData": [
+        {
+          "title": "Stock Movement Execution",
+          "description": "Orchestrate transfers, adjustments, reservations, and returns through standardized workflows."
+        },
+        {
+          "title": "Inventory Audit Workflows",
+          "description": "Run cycle counts and audits with guided tasks and validations."
+        },
+        {
+          "title": "Real Time Availability Tracking",
+          "description": "Maintain accurate stock visibility across locations and channels."
+        },
+        {
+          "title": "Exception Detection and Resolution",
+          "description": "Identify variances, shrinkage, and mismatches early and resolve them within governed workflows."
+        },
+        {
+          "title": "Cross Module Inventory Alignment",
+          "description": "Synchronize inventory execution with sales, warehouse, procurement, and service modules."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Inventory in Action",
+      "subHeading": "Trust your inventory data again",
+      "description": "Reduce stock discrepancies, improve fulfillment reliability, and gain confidence in inventory decisions without disrupting existing systems."
+    }
+  }
+}

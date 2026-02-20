@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import Header from '../components/common/Header/Header'
 import Footer from '../components/common/Footer/Footer'
 import Home1 from '../pages/home1'
-import ProductPage1 from '../globals/layouts/productPage1'
+import ProductPage1 from '../globals/layouts/xMatix-platform'
 
 export default function Home() {
   return (

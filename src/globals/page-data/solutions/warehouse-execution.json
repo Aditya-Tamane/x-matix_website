@@ -1,0 +1,108 @@
+{
+  "slug": "warehouse-execution",
+  "category": "solutions",
+  "title": "warehouse Execution",
+  "subtitle": "accurate end-to-end warehouse processing",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/warehouse-execution-hero.jpg",
+  "group": "By Use Case",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "warehouse Execution",
+      "headingPlane1": "Execute warranties accurately",
+      "headingColored1": "from claim to closure",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "warehouse execution often spans multiple systems and teams, from claim intake and validation to service fulfilment and closure. Disconnected processes lead to delays, inconsistent decisions, and poor customer experience. xMatix enables end-to-end warehouse execution on a single operational foundation, ensuring every warehouse claim is processed accurately, transparently, and on time.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "warehouse Execution Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "warehouse execution breaks across",
+      "headingColored1": "claims, service, and operations",
+      "headingPlane2": "",
+      "description": "Most organisations manage warranties using a combination of legacy systems, manual workflows, and spreadsheets. While individual teams handle parts of the process, no single platform owns warehouse execution end to end, resulting in inefficiencies, rework, and limited visibility."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "warehouse & Claims Systems",
+        "description": "Capture warehouse claims and entitlements but rely heavily on manual validation and disconnected approval processes."
+      },
+      {
+        "number": "02",
+        "title": "Service & Field Operations",
+        "description": "Execute repairs and replacements without tight alignment to warehouse rules, coverage limits, or claim status."
+      },
+      {
+        "number": "03",
+        "title": "Inventory & Logistics",
+        "description": "Manage parts issuance, returns, and replacements separately, creating delays and mismatches with warehouse execution."
+      },
+      {
+        "number": "04",
+        "title": "Finance & Reporting Tools",
+        "description": "Track warehouse costs and outcomes after execution, limiting the ability to control leakage during active claims."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end warehouse execution",
+      "headingColored1": "on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for warehouse operations, unifying claims, service actions, inventory movement, and closure into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures warehouse rules are applied consistently, exceptions are handled in real time, and execution remains auditable across the lifecycle.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "warehouse Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "warehouse Execution Flow",
+      "title": "How {{highlight}}warehouse execution{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "warehouse execution runs on a shared operational layer, ensuring continuity, accuracy, and accountability from the moment a claim is raised to its final closure.",
+      "features": [
+        {
+          "title": "Claim Capture & Entitlement Check",
+          "description": "Capture warehouse claims and automatically validate eligibility, coverage, and terms using shared asset, service, and policy data."
+        },
+        {
+          "title": "Approval & Authorisation",
+          "description": "Apply rule-based approvals and escalations to ensure consistent decisions while reducing manual intervention."
+        },
+        {
+          "title": "Service Fulfilment",
+          "description": "Coordinate repairs, replacements, or credits while tracking parts usage, labour, and costs in real time."
+        },
+        {
+          "title": "Closure & Audit",
+          "description": "Close warehouse claims with complete traceability, updated records, and auditable outcomes across service and finance."
+        }
+      ],
+      "ctaText": "Explore warehouse Execution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See warehouse execution executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix brings warehouse claims, service execution, and operational control together on a single execution platform."
+    }
+  }
+}

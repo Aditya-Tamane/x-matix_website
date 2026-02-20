@@ -1,0 +1,113 @@
+{
+  "slug": "partners",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Partners",
+  "subtitle": "Execute partner operations with control",
+  "heroImage": "/images/partners-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Partners",
+      "mainHeading": [
+        {
+          "heading": "Execute Partner Operations",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Control",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Align incentives. Govern execution. Scale ecosystems.",
+      "description2": "xMatix Partners helps organizations execute and govern partner operations across distributors, resellers, and ecosystem partners with consistent workflows and clear accountability."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Partner",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Partner operations often lack visibility, consistency, and enforcement across organizations.",
+          "list": [
+            "Partner processes vary widely",
+            "Incentives and rules are applied inconsistently",
+            "Performance data arrives late",
+            "Disputes are hard to resolve"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Partner Operations Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Partners standardizes how partner activities are executed and governed so every partner follows the same rules and processes.",
+          "list": [
+            "Structured partner workflows",
+            "Policy and contract enforcement",
+            "Performance aligned incentives",
+            "Transparent execution tracking"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Partners Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Partners modernizes partner execution without replacing existing CRM or partner systems while improving visibility, trust, and scale.",
+      "cardsData": [
+        {
+          "title": "Partner Lifecycle Execution",
+          "description": "Orchestrate onboarding, enablement, orders, and settlements through standardized workflows."
+        },
+        {
+          "title": "Policy and Contract Enforcement",
+          "description": "Ensure partners follow agreed terms, pricing rules, and compliance requirements."
+        },
+        {
+          "title": "Performance and Incentive Alignment",
+          "description": "Link partner actions to outcomes and rewards."
+        },
+        {
+          "title": "Cross Organization Coordination",
+          "description": "Connect partner actions with internal sales, finance, and operations."
+        },
+        {
+          "title": "Audit and Compliance Readiness",
+          "description": "Maintain complete partner execution records and approvals."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Partners in Action",
+      "subHeading": "Scale partner ecosystems with confidence",
+      "description": "Improve partner performance, reduce disputes, and maintain control across your ecosystem without disrupting existing systems."
+    }
+  }
+}

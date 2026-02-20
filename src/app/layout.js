@@ -2,6 +2,10 @@ import Header from '@/components/common/Header/Header';
 import Footer from '@/components/common/Footer/Footer';
 import { getMenuItems } from '@/components/NavigationData';
 import '@/styles/globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+
+config.autoAddCss = false;
 
 export const metadata = {
   title: 'xMatix',

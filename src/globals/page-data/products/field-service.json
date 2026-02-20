@@ -1,0 +1,114 @@
+{
+  "slug": "field-service",
+  "category": "products",
+  "group": "xMatix Platform",
+  "layout": "modules",
+  "title": "xMatix Service",
+  "subtitle": "Real-time AI-powered fraud detection",
+  "heroImage": "/images/anti-fraud-hero.jpg",
+  "data": {
+    "hero": {
+      "title": "xMatix Service",
+      "mainHeading": [
+        {
+          "heading": "Execute",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Reliable Service Resolution,",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Every Time",
+          "color": "#ffffff"
+        }
+      ],
+      "description1": "Dispatch smarter. Resolve faster. Govern outcomes.",
+      "description2": "xMatix Service helps organizations plan, execute, and govern service operations across field and support teams. \n Every service request follows a standardized, auditable workflow from intake to resolution"
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Service",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Most service organizations struggle with fragmented systems, manual coordination, SLA breaches, and limited visibility into service execution.",
+          "list": [
+            "Requests scattered across systems",
+            "Technician dispatch depends on tribal knowledge",
+            "SLAs tracked after failures occur",
+            "Root causes remain unclear"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Service standardizes how service requests are routed, executed, and resolved so every case follows a governed and measurable process.",
+          "list": [
+            "Structured service workflows",
+            "Intelligent routing and prioritization",
+            "Real time SLA monitoring",
+            "Consistent resolution outcomes"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
+        }
+      ]
+    },
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Service modernizes service execution without replacing existing ticketing, CRM, or ERP systems while improving speed, visibility, and control.",
+      "cardsData": [
+        {
+          "title": "End to End Service Workflow Execution",
+          "description": "Design and run service workflows from request intake to resolution and closure across teams and channels."
+        },
+        {
+          "title": "Intelligent Dispatch and Assignment",
+          "description": "Assign work based on skills, availability, location, and priority to improve first time resolution."
+        },
+        {
+          "title": "SLA and Policy Enforcement",
+          "description": "Enforce response times, escalation rules, and approval thresholds automatically during execution."
+        },
+        {
+          "title": "Real Time Service Visibility",
+          "description": "Track status, delays, handoffs, and outcomes in real time across field and support operations."
+        },
+        {
+          "title": "Human and System Action Orchestration",
+          "description": "Coordinate technician actions, approvals, inventory updates, and system integrations across service ecosystems."
+        }
+      ]
+    },
+    "requestADemo": {
+      "heading": "See xMatix Service in Action",
+      "subHeading": "Resolve service requests with confidence",
+      "description": "Deliver consistent service outcomes, reduce SLA breaches, and gain operational clarity without disrupting existing systems."
+    }
+  }
+}

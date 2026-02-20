@@ -1,0 +1,110 @@
+{
+  "slug": "field-sales",
+  "category": "products",
+  "group": "xMatix Platform",
+  "layout": "modules",
+  "title": "xMatix Field Sales",
+  "subtitle": "Real-time AI-powered fraud detection",
+  "heroImage": "/images/anti-fraud-hero.jpg",
+  "data": {
+    "hero": {
+      "title": "xMatix Field Sales",
+      "mainHeading": [
+        {
+          "heading": "Execute Smarter Field Sales",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": ", Every Visit",
+          "color": "#ffffff"
+        }
+      ],
+      "description1": "Plan routes. Execute consistently. Close with confidence.",
+      "description2": "xMatix Field Sales helps teams plan routes, execute store visits, capture orders, and enforce execution standards in real time. \n Every visit follows a governed workflow that is measurable, auditable, and outcome driven"
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Field Sales",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The Problem",
+          "content": "Most field sales teams struggle with missed visits, inconsistent execution, manual reporting, and limited visibility into what actually happens on the ground.",
+          "list": [
+            "Plans live in spreadsheets",
+            "Execution varies by rep",
+            "Data reaches managers too late",
+            "Outcomes depend on individuals, not systems"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Modules Image"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Field Sales standardizes how sales visits are planned, executed, and tracked so every visit follows the same process and produces reliable outcomes.",
+          "list": [
+            "Guided visit workflows",
+            "Real time validations",
+            "Built in intelligence",
+            "System enforced execution standards"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "Modules Image"
+        }
+      ]
+    },
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Field Sales modernizes field execution without replacing your CRM or ERP while delivering faster execution, governed adaptability, and measurable outcomes.",
+      "cardsData": [
+        {
+          "title": "End to End Visit Execution",
+          "description": "Design and run standardized sales visit workflows from route planning to order capture and follow up."
+        },
+        {
+          "title": "Policy and Approval Enforcement",
+          "description": "Ensure pricing, discounts, schemes, and credit rules are enforced automatically during execution."
+        },
+        {
+          "title": "Real Time Visibility and Data Capture",
+          "description": "Capture orders, inventory signals, photos, and compliance data with instant synchronization across systems."
+        },
+        {
+          "title": "No Code Process Changes",
+          "description": "Adapt visit flows, validations, and rules without code and respond faster to market changes."
+        },
+        {
+          "title": "Human and System Action Orchestration",
+          "description": "Coordinate representative actions, system updates, and approvals across CRM, ERP, and downstream systems."
+        }
+      ]
+    },
+    "requestADemo": {
+      "heading": "See xMatix Field Sales in Action",
+      "subHeading": "Execute lead to cash with confidence",
+      "description": "Standardize field execution, improve visit productivity, and gain real visibility into sales outcomes without disrupting existing systems."
+    }
+  }
+}

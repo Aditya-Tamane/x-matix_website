@@ -1,0 +1,64 @@
+.request-demo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.request-demo-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1;
+}
+
+.request-demo-right {
+    flex: 1;
+}
+
+.cta-pill .icon-rotate {
+    transform: rotate(-90deg)
+}
+
+h3.request-demo-title {
+    color: #F2F2F2;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3.request-demo-description {
+    color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cta-pill {
+  display: flex;
+  align-items: center;
+  background: #37364E;
+  border-radius: 30px;
+  border: 1px solid #F2F2F2B2;
+  min-width: 80%;
+}
+
+.cta-pill-input {
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 7px 16px;
+    font-size: 14px;
+}
+
+.cta-pill-input::placeholder {
+  color: #F2F2F2;
+}
+
+.request-demo-wrapper .request-demo-btn-new {
+ justify-content: center;
+ font-size: 14px;
+ padding : 10px 16px;
+ /* width : 60%; */
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "inventory-accuracy",
+  "category": "solutions",
+  "title": "Inventory Accuracy",
+  "subtitle": "real-time inventory accuracy",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/inventory-accuracy-hero.jpg",
+  "group": "By Use Case",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "Inventory Accuracy",
+      "headingPlane1": "Maintain accurate inventory",
+      "headingColored1": "across every location and system",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Inventory accuracy breaks when stock data is spread across ERP, warehouse, and operational systems. Manual adjustments, delayed updates, and disconnected processes lead to stockouts, overstocking, and audit issues. xMatix enables continuous inventory accuracy on a single operational foundation, ensuring inventory reflects reality across warehouses, field locations, and partners.",
+      "description2": "",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Inventory Accuracy Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Inventory accuracy breaks across",
+      "headingColored1": "warehouses, systems, and processes",
+      "headingPlane2": "",
+      "description": "Most organisations rely on periodic counts and manual reconciliations to correct inventory errors after they occur. With inventory managed across multiple systems, inaccuracies propagate quickly, impacting fulfilment, service, and financial reporting."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "ERP Inventory Records",
+        "description": "Maintain book inventory but lack real-time visibility into physical stock movements and execution-level changes."
+      },
+      {
+        "number": "02",
+        "title": "Warehouse & Field Operations",
+        "description": "Execute picks, issues, returns, and adjustments independently, often updating systems after the fact."
+      },
+      {
+        "number": "03",
+        "title": "Manual Audits & Cycle Counts",
+        "description": "Rely on periodic checks to identify discrepancies, leading to reactive corrections and operational disruption."
+      },
+      {
+        "number": "04",
+        "title": "Analytics & Reporting Tools",
+        "description": "Highlight inventory variances but cannot intervene during live operations to prevent inaccuracies."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end inventory accuracy",
+      "headingColored1": "on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for inventory operations, unifying warehouse activity, field consumption, adjustments, and audits into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it ensures inventory is updated in real time, discrepancies are detected early, and accuracy is maintained across locations.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Inventory Accuracy Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Inventory Accuracy Execution Flow",
+      "title": "How {{highlight}}inventory accuracy{{/highlight}} works on xMatix",
+      "subtitle": "",
+      "description": "Inventory accuracy is maintained through continuous execution and validation, ensuring stock levels reflect real-world movement at every step.",
+      "features": [
+        {
+          "title": "Real-Time Stock Updates",
+          "description": "Capture inventory movements as they occur across warehouses, field operations, and partner locations using shared execution workflows."
+        },
+        {
+          "title": "Cycle Counts & Verification",
+          "description": "Perform targeted cycle counts driven by variance thresholds, operational risk, and historical accuracy patterns."
+        },
+        {
+          "title": "Discrepancy Resolution",
+          "description": "Identify and resolve inventory mismatches immediately through controlled adjustments, approvals, and audit trails."
+        },
+        {
+          "title": "Continuous Audit Readiness",
+          "description": "Maintain a complete, traceable inventory history across all locations, supporting compliance, reporting, and financial accuracy."
+        }
+      ],
+      "ctaText": "Explore Inventory Accuracy",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See inventory accuracy executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix maintains accurate, real-time inventory across warehouses, field teams, and partners on a single execution platform."
+    }
+  }
+}

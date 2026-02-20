@@ -1,0 +1,118 @@
+.leadership {
+  color: #fff;
+  padding: 80px 24px;
+}
+
+.leadership__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.leadership__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.leadership__eyebrow {
+  color: #9ca3af;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.leadership__title {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.leadership__description {
+  color: #9ca3af;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.leadership__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* Card */
+
+.leader-card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #111;
+}
+
+.leader-card__imageWrapper {
+  position: relative;
+  height: 400px;
+}
+
+.leader-card__image {
+  object-fit: cover;
+}
+
+.leader-card__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.2),
+    transparent
+  );
+}
+
+.leader-card__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.leader-card__name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.leader-card__role {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.leader-card__socials {
+  display: flex;
+  gap: 8px;
+}
+
+.leader-card__socials a {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .leadership__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .leadership__title {
+    font-size: 32px;
+  }
+}

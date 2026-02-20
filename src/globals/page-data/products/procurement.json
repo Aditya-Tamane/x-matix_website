@@ -1,0 +1,113 @@
+{
+  "slug": "procurement",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Procurement",
+  "subtitle": "Execute procurement with control and speed",
+  "heroImage": "/images/procurement-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Procurement",
+      "mainHeading": [
+        {
+          "heading": "Execute Procurement",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Control and Speed",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Request faster. Approve smarter. Spend responsibly.",
+      "description2": "xMatix Procurement helps organizations standardize and govern procurement execution from request to purchase while maintaining financial and policy control."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Procurement",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Procurement processes often slow down operations due to manual approvals, disconnected demand signals, and limited spend visibility.",
+          "list": [
+            "Requests move slowly through approvals",
+            "Buying bypasses policy and budgets",
+            "Vendor coordination is manual",
+            "Audit trails are incomplete"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Procurement Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Procurement standardizes how procurement requests are reviewed, approved, and executed so every purchase follows governed workflows.",
+          "list": [
+            "Structured requisition workflows",
+            "Policy driven approvals",
+            "Real time spend visibility",
+            "Vendor execution coordination"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Procurement Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Procurement modernizes procurement execution without replacing existing ERP or finance systems while improving speed, compliance, and transparency.",
+      "cardsData": [
+        {
+          "title": "Requisition to Purchase Execution",
+          "description": "Orchestrate procurement workflows from request creation to purchase order issuance."
+        },
+        {
+          "title": "Policy Based Approvals",
+          "description": "Enforce spend limits, category rules, and approval thresholds automatically."
+        },
+        {
+          "title": "Vendor Coordination Workflows",
+          "description": "Manage supplier interactions, confirmations, and updates within governed processes."
+        },
+        {
+          "title": "Budget and Finance Alignment",
+          "description": "Ensure procurement actions align with budgets, commitments, and financial controls."
+        },
+        {
+          "title": "Audit Ready Procurement Records",
+          "description": "Maintain complete traceability across requests, approvals, and purchase actions."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Procurement in Action",
+      "subHeading": "Procure with confidence",
+      "description": "Reduce procurement cycle times, control spend, and improve compliance without disrupting existing systems."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "sales",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Sales",
+  "subtitle": "Execute sales with speed and control",
+  "heroImage": "/images/sales-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Sales",
+      "mainHeading": [
+        {
+          "heading": "Execute Sales",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Speed and Control",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Move deals forward. Enforce policies. Close predictably.",
+      "description2": "xMatix Sales helps organizations execute sales processes with consistent workflows, real-time governance, and full visibility from lead to order."
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Sales",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The Problem",
+          "content": "Sales teams rely on fragmented tools, manual approvals, and inconsistent processes that slow deal cycles and increase risk.",
+          "list": [
+            "Leads and opportunities are tracked but not governed",
+            "Pricing and discounts vary by representative",
+            "Approvals delay deals",
+            "Execution visibility is limited"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Sales Execution Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Sales standardizes how sales activities are executed so every deal follows a governed and repeatable process.",
+          "list": [
+            "Structured sales workflows",
+            "Policy-driven approvals",
+            "Real-time deal visibility",
+            "Integrated order execution"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Sales Approach"
+        }
+      ]
+    },
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Sales modernizes sales execution without replacing existing CRM systems while improving speed, control, and predictability.",
+      "cardsData": [
+        {
+          "title": "Lead and Opportunity Execution",
+          "description": "Guide lead qualification, opportunity progression, and stage movement through governed workflows."
+        },
+        {
+          "title": "Pricing and Discount Governance",
+          "description": "Enforce pricing rules, discount limits, and approval thresholds during execution."
+        },
+        {
+          "title": "Approval and Deal Control",
+          "description": "Route approvals automatically based on deal value, risk, and policy."
+        },
+        {
+          "title": "Order Readiness and Handoff",
+          "description": "Ensure deals move cleanly into order fulfillment and billing execution."
+        },
+        {
+          "title": "Cross-Team Coordination",
+          "description": "Align sales execution with finance, service, and supply chain teams."
+        }
+      ]
+    },
+    "requestADemo": {
+      "heading": "See xMatix Sales in Action",
+      "subHeading": "Close deals with confidence",
+      "description": "Reduce sales cycle time, prevent revenue leakage, and gain real-time visibility into deal execution without disrupting existing systems."
+    }
+  }
+}

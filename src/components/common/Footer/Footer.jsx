@@ -1,26 +1,35 @@
-import React from "react";
+import Link from 'next/link';
+import './Footer.css';
+import Image from 'next/image';
+import Logo from '../../../../public/images/Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faSquareFacebook, faSquareInstagram, faSquareXTwitter} from '@fortawesome/free-brands-svg-icons';
+import { ArrowUpIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+import { faChevronCircleDown, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
-    <footer className="section">
+    <footer className="footer-section">
       <div className="footer-inner">
-        {/* Brand */}
         <div className="footer-brand">
           <div className="brand-title">
-            <span className="x">x</span>Matix
+            <Link href={'/'}>
+              <Image
+                src={Logo}
+                alt='xMatix'
+                width={127.5}
+                height={48}
+              />
+            </Link>
           </div>
-
-          <p className="brand-tagline">
-            Experience how xMatix can simplify operations &amp; amplify
-            <br />
-            intelligence across your organization.
+          <p className="brand-tagline">Experience how xMatix can simplify operations &amp; amplify intelligence across your organization.
           </p>
 
           <div className="social-icons">
-            <a href="#" aria-label="X">X</a>
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Instagram">▢</a>
-            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="X"><FontAwesomeIcon icon={faSquareXTwitter} width={20} /></a>
+            <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faSquareFacebook} /></a>
+            <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faSquareInstagram} /></a>
+            <a href="#" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
 
@@ -51,7 +60,8 @@ export default function Footer() {
           <div className="column">
             <h3>Company</h3>
             <ul>
-              <li>About xMatix</li>
+              <li><Link href={'/company'} className="no-link">About xMatix</Link></li>
+              <li><Link href={'/pricing'} className="no-link">Our Plans</Link></li>
               <li>Leadership</li>
               <li>Career</li>
               <li>Partners / Alliances</li>
@@ -60,12 +70,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* Bottom */}
       <div className="footer-bottom">
         <p>© xMatix. All Rights Reserved.</p>
-        <a href="#" className="back-to-top">
-          Back to top ↑
+        <a href="" className="back-to-top">
+          Back to top <ArrowUpIcon width={16} height={16} style={{strokeWidth: 4}} />
         </a>
       </div>
     </footer>

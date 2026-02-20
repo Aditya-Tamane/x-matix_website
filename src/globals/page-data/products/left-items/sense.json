@@ -1,0 +1,119 @@
+{
+  "title": "xMatix Sense",
+  "subtitle": "The low-code / no-code execution foundation",
+  "slug": "sense",
+  "layout": "xMatixSense",
+  "heroImage": "/images/platform-hero.jpg",
+  "data": {
+    "xMatixSense": {
+      "title": "xMatix Sense",
+      "headingPlane1": "",
+      "headingColored1": "Agentic intelligence",
+      "headingPlane2": "for real operational execution",
+      "headingColored2": "",
+      "description1": "Embed intelligence directly into workflows to anticipate issues, guide decisions, and act within governed boundaries.",
+      "description2": "xMatix Sense is the agentic intelligence layer of the xMatix platform. It continuously observes execution signals across systems, predicts risks and opportunities, and recommends or triggers actions within live operational workflows.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Sense"
+    },
+    "whatIsIt": {
+      "title": "What it is",
+      "headingPlane1": "",
+      "headingColored1": "Intelligence designed to act",
+      "headingPlane2": "not static configuration",
+      "headingColored2": ", not just analyze",
+      "description1": "",
+      "description2": "xMatix Sense brings intelligence directly into the flow of work. \n Unlike traditional analytics or copilots that surface insights in dashboards or chats, Sense operates inside execution workflows. It monitors events, context, and outcomes in real time, enabling systems to anticipate issues and guide actions as work happens. \n Sense does not replace human judgment. It augments it with timely, policy-bound intelligence that improves execution speed and consistency.",
+      "imageSrc": "/images/whatIsIt.png",
+      "imageAlt": "What Is It"
+    },
+    "coreCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Agentic capabilities that",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " power smarter execution",
+          "color": "#ffffff"
+        }
+      ],
+      "description": "These capabilities allow intelligence to participate directly in operational workflows across domains.",
+      "coreCapabilitiesCard1": {
+        "title": "Policy Enforcement",
+        "content": "Ensure business rules, approvals, and controls are consistently enforced across all workflows."
+      },
+      "coreCapabilitiesCard2": {
+        "title": "Audit & Compliance",
+        "content": "Maintain full traceability of execution, decisions, and changes for regulatory compliance."
+      },
+      "coreCapabilitiesCard3": {
+        "title": "Omnichannel Execution",
+        "content": "Execute workflows seamlessly across web, mobile, and field operations."
+      },
+      "coreCapabilitiesCard4": {
+        "title": "Configurable Automation",
+        "content": "Adapt workflows and logic quickly without redeploying rigid systems."
+      },
+      "coreCapabilitiesCard5": {
+        "title": "Time-based Orchestration",
+        "content": "Trigger actions, SLAs, and escalations using real-time and scheduled events."
+      }
+    },
+    "outcomes": {
+      "title": "Example Outcomes",
+      "mainHeading": [
+        {
+          "heading": "Practical intelligence",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " across operations",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "number": "01",
+          "title": "Auto resolve stock shortages",
+          "description": "Detect inventory risks early and trigger replenishment or rerouting actions automatically."
+        },
+        {
+          "number": "02",
+          "title": "Predict SLA breaches",
+          "description": "Identify and recommend corrective actions before they occur to protect commitments."
+        },
+        {
+          "number": "03",
+          "title": "Optimize technician assignment",
+          "description": "Match skills, availability, and location to assign the right technician for each job."
+        },
+        {
+          "number": "04",
+          "title": "Detect payroll and incentive anomalies",
+          "description": "Flag payout errors, anomalies, or policy violations before payroll is finalized."
+        }
+      ]
+    },
+    "worksWith": {
+      "title": "Works With",
+      "mainHeading": [
+        {
+          "heading": "One platform.",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Every execution domain.",
+          "color": "#ffffff"
+        }
+      ],
+      "description": "All xMatix modules run on the same execution platform.  Sales, Service, Warehouse, Inventory, Procurement, Finance, Payroll, People, and Partners share a common foundation for workflows, data context, & governance."
+    },
+    "requestADemo": {
+      "heading": "Power execution with trusted data",
+      "subHeading": "",
+      "description": "See how xMatix Data Fabric enables real-time, governed execution across every operational domain."
+    }
+  }
+}

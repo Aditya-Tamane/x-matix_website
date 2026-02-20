@@ -1,0 +1,276 @@
+header.header {
+  position: fixed;
+  top: 8px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+nav.nav-pill {
+  border: 1px solid #ffffff4a;
+  border-radius: 35px;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  margin: 8px 7rem;
+  padding: 0 12px;
+  display: flex;
+  position: relative;
+  backdrop-filter: blur(8px);
+}
+
+.nav-button {
+  color: #f2f2f2;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: .5rem 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.3s ease;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav .logo, nav .logo a {
+  display: flex;
+}
+
+nav ul.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  align-items: center;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.nav-button.active {
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.overlap-container + .nav-button.active {
+  border-bottom: 0;
+}
+
+.overlap-container + .nav-button,
+.nav-button:hover {
+  background-color: #0088c7;
+  color: #fff;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-button svg {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.overlap-container + .nav-button svg,
+.nav-button:hover svg {
+  transform: rotate(180deg);
+}
+
+.dropdown-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.overlap-container {
+  z-index: 100;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 100%;
+  padding-top: 22px;
+}
+
+.mega-dropdown-container {
+  background: linear-gradient(229.9deg, #016C9D -176.59%, #00A4EF -50.22%, #B16AF0 120.91%, #7725BF 371.01%);
+  padding: 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mega-dropdown {
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.mega-inner {
+  display: flex;
+  gap: 6px;
+}
+
+.mega-left {
+  width: 280px;
+}
+
+.mega-left.flex-1 {
+  flex: 1;
+}
+
+.mega-left h3 {
+  color: #F2F2F2;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mega-left ul {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.mega-left li {
+  list-style: none;
+  /* width: max-content; */
+}
+
+.mega-left li a {
+  display: block;
+  text-decoration: none;
+}
+
+.left-title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.left-title-box svg {
+  stroke-width: 2;
+  display: none;
+}
+
+.left-title {
+  display: block;
+  color: #D4D4D4;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.left-subtitle {
+  display: block;
+  color: #717680;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.left-item {
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-arrow {
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  color: #60a5fa;
+}
+
+.left-item:hover {
+  background-color: #ffffff;
+  border: 1px solid #00A4EF;
+}
+
+.left-item:hover .left-title-box svg {
+  display: block;
+}
+
+.left-item:hover .left-title {
+  color: #08327E;
+}
+
+.left-item:hover .left-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mega-divider {
+  width: 0.2px;
+  background: #f2f2f266;
+}
+
+.mega-right {
+  flex: 1;
+}
+
+.products-columns {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 6px;
+}
+
+.product-link {
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 6px 10px;
+  width: 100%;
+}
+
+.product-link:hover, .product-link.active {
+  padding: 6px 10px;
+  /* width: fit-content; */
+  color: #F2F2F2;
+  background-color: #0088C7;
+  border-radius: 6px;
+}
+
+.solutions-mega {
+  padding: 8px;
+}
+
+.solutions-grid {
+    display: flex;
+    gap: 6px;
+}
+
+.solution-group h3 {
+  color: #F2F2F2;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.solution-link {
+  display: block;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.solution-link:hover {
+  color: #60a5fa;
+}

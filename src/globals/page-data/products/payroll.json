@@ -1,0 +1,113 @@
+{
+  "slug": "payroll",
+  "category": "products",
+  "layout": "modules",
+  "title": "xMatix Payroll",
+  "subtitle": "Execute payroll with accuracy and confidence",
+  "heroImage": "/images/payroll-hero.jpg",
+
+  "data": {
+    "hero": {
+      "title": "xMatix Payroll",
+      "mainHeading": [
+        {
+          "heading": "Execute Payroll",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " with Accuracy and Confidence",
+          "color": "#00A4EF"
+        }
+      ],
+      "description1": "Pay on time. Comply always. Resolve exceptions early.",
+      "description2": "xMatix Payroll helps organizations execute payroll operations with governed workflows, real time validations, and full audit readiness across the payroll lifecycle."
+    },
+
+    "howWeHelp": {
+      "title": "How We Help",
+      "mainHeading": [
+        {
+          "heading": "Why",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Payroll",
+          "color": "#00A4EF"
+        },
+        {
+          "heading": " Execution Breaks",
+          "color": "#ffffff"
+        }
+      ],
+      "cardsData": [
+        {
+          "title": "The problem",
+          "content": "Payroll errors often arise from fragmented data, late inputs, manual corrections, and limited visibility into execution before payouts.",
+          "list": [
+            "Attendance and incentive data arrives late",
+            "Compliance checks happen after processing",
+            "Errors are detected too close to payout",
+            "Corrections require manual intervention"
+          ],
+          "imageSrc": "/images/modulesCard1.png",
+          "imageAlt": "Payroll Problem"
+        },
+        {
+          "title": "The xMatix Approach",
+          "content": "xMatix Payroll standardizes how payroll is prepared, validated, approved, and executed so every payroll cycle follows a consistent and governed process.",
+          "list": [
+            "Structured payroll workflows",
+            "Real time data validations",
+            "Built in compliance checks",
+            "Early exception detection"
+          ],
+          "imageSrc": "/images/modulesCard2.png",
+          "imageAlt": "xMatix Payroll Approach"
+        }
+      ]
+    },
+
+    "keyCapabilities": {
+      "title": "Core Capabilities",
+      "mainHeading": [
+        {
+          "heading": "Key",
+          "color": "#ffffff"
+        },
+        {
+          "heading": " Capabilities",
+          "color": "#00A4EF"
+        }
+      ],
+      "description2": "xMatix Payroll modernizes payroll execution without replacing existing payroll or ERP systems while improving accuracy, compliance, and control.",
+      "cardsData": [
+        {
+          "title": "Payroll Cycle Execution",
+          "description": "Orchestrate payroll workflows from data collection to final payout approval."
+        },
+        {
+          "title": "Policy and Compliance Enforcement",
+          "description": "Apply statutory rules, tax policies, and company controls automatically during execution."
+        },
+        {
+          "title": "Exception Detection and Resolution",
+          "description": "Identify discrepancies, anomalies, and missing inputs early and resolve them within governed workflows."
+        },
+        {
+          "title": "Integration with Time and Incentives",
+          "description": "Align payroll execution with attendance, incentives, and approved adjustments."
+        },
+        {
+          "title": "Audit Ready Payroll Records",
+          "description": "Maintain complete payroll history, approvals, and compliance documentation."
+        }
+      ]
+    },
+
+    "requestADemo": {
+      "heading": "See xMatix Payroll in Action",
+      "subHeading": "Run payroll without surprises",
+      "description": "Reduce payroll errors, improve compliance, and gain confidence in every payout without disrupting existing systems."
+    }
+  }
+}

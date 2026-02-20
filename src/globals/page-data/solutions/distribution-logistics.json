@@ -1,0 +1,108 @@
+{
+  "slug": "distribution-logistics",
+  "category": "solutions",
+  "title": "Distribution & Logistics",
+  "subtitle": "speed and accuracy across warehouses and transport",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/distribution-logistics-hero.jpg",
+  "group": "By Industry",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "Distribution & Logistics",
+      "headingPlane1": "Execute distribution and logistics operations",
+      "headingColored1": "with speed and accuracy",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "Distribution and logistics operations rely on precise coordination across warehouses, transport, partners, and customers. Execution breaks when orders, inventory, fulfilment, and billing are managed across disconnected systems.",
+      "description2": "xMatix enables end-to-end execution for distribution and logistics on a single operational foundation, ensuring faster fulfilment, accurate inventory, and real-time operational control.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "Distribution and Logistics Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Distribution execution breaks across",
+      "headingColored1": "warehouses, transport, and systems",
+      "headingPlane2": "",
+      "description": "Most distribution and logistics organisations operate with fragmented tools for warehouse management, order processing, transport, and finance. While each system performs its role, no single platform orchestrates execution end to end, leading to delays, errors, and limited visibility."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Order & ERP Systems",
+        "description": "Manage orders and financial records but lack real-time visibility into warehouse execution and shipment status."
+      },
+      {
+        "number": "02",
+        "title": "Warehouse Management Systems",
+        "description": "Execute picking, packing, and dispatch in isolation, without shared context across orders, inventory, and transport."
+      },
+      {
+        "number": "03",
+        "title": "Transport & Logistics Tools",
+        "description": "Track shipments separately, often disconnected from warehouse execution, customer commitments, and billing processes."
+      },
+      {
+        "number": "04",
+        "title": "Reporting & Analytics",
+        "description": "Provide lagging operational metrics without the ability to influence or correct live execution issues."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "End-to-end distribution and logistics",
+      "headingColored1": "execution on one platform",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution layer for distribution and logistics operations, unifying order processing, warehouse execution, transport coordination, and settlement into a single continuous workflow. Built on the xMatix Platform, Data Fabric, and Sense, it enables real-time coordination, policy-driven execution, and complete visibility across the supply chain.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Distribution Execution Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "Distribution and Logistics Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "Distribution & Logistics Execution Flow",
+      "title": "How {{highlight}}distribution and logistics{{/highlight}} work on xMatix",
+      "subtitle": "",
+      "description": "Distribution and logistics execution runs on a shared operational layer, ensuring accuracy, speed, and accountability from order creation to final delivery.",
+      "features": [
+        {
+          "title": "Order Intake & Planning",
+          "description": "Capture and prioritise orders with real-time inventory visibility, delivery commitments, and policy-driven planning."
+        },
+        {
+          "title": "Warehouse Execution",
+          "description": "Execute picking, packing, and dispatch with shared context across inventory, orders, and transport schedules."
+        },
+        {
+          "title": "Transport & Delivery",
+          "description": "Coordinate carriers, track shipments in real time, and manage exceptions during transit."
+        },
+        {
+          "title": "Confirmation & Settlement",
+          "description": "Confirm delivery, update inventory and financials automatically, and close orders with full traceability."
+        }
+      ],
+      "ctaText": "Explore Distribution & Logistics",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See distribution and logistics executed on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix brings distribution, warehouse, and logistics execution together on a single, outcome-driven platform."
+    }
+  }
+}

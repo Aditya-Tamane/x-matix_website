@@ -1,0 +1,108 @@
+{
+  "slug": "coo-operations",
+  "category": "solutions",
+  "title": "COO / Operations",
+  "subtitle": "speed, control, and accountability across operations",
+  "layout": "solutionLayout",
+  "heroImage": "/images/solutions/coo-operations-hero.jpg",
+  "group": "By Role",
+  "data": {
+
+    "xMatixPlatform": {
+      "title": "For COOs & Operations Leaders",
+      "headingPlane1": "Execute operations with",
+      "headingColored1": "speed, control, and accountability",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "COOs and operations leaders are responsible for delivering outcomes across sales, service, supply chain, and workforce — often using fragmented systems that slow execution and increase risk.",
+      "description2": "xMatix provides a single execution layer that connects operational processes end to end, enabling faster decisions, consistent execution, and real-time visibility across the organisation.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "COO Operations Execution Platform"
+    },
+
+    "ecosystemSection": {
+      "title": "The Problem",
+      "headingPlane1": "Operational execution breaks across",
+      "headingColored1": "functions and systems",
+      "headingPlane2": "",
+      "description": "Most operations teams rely on multiple systems and manual coordination to run day-to-day execution. While each function optimises locally, no platform orchestrates execution across the full operational lifecycle, leading to delays, escalations, and missed targets."
+    },
+
+    "ecosystem": [
+      {
+        "number": "01",
+        "title": "Siloed Functional Systems",
+        "description": "Sales, service, warehouse, and finance operate on separate platforms, creating handoffs and execution gaps."
+      },
+      {
+        "number": "02",
+        "title": "Manual Exception Handling",
+        "description": "Operational issues are resolved through emails, calls, and spreadsheets rather than governed workflows."
+      },
+      {
+        "number": "03",
+        "title": "Limited Real-Time Visibility",
+        "description": "Leaders see performance after the fact, with little ability to intervene during live execution."
+      },
+      {
+        "number": "04",
+        "title": "Inconsistent Execution at Scale",
+        "description": "Processes vary by team or location, making it difficult to maintain quality and accountability."
+      }
+    ],
+
+    "whatIsIt": {
+      "title": "How xMatix Helps",
+      "headingPlane1": "A single execution layer for",
+      "headingColored1": "operational excellence",
+      "headingPlane2": "",
+      "headingColored2": "",
+      "description1": "",
+      "description2": "xMatix acts as the execution backbone for operations, unifying workflows, data, and decisioning across functions. Built on the xMatix Platform, Data Fabric, and Sense, it enables COOs to orchestrate operations end to end, respond to issues in real time, and scale execution without increasing complexity.",
+      "imageSrc": "/images/xMatixPlatform.png",
+      "imageAlt": "xMatix Operations Platform"
+    },
+
+    "showStepLayout": false,
+    "showCardLayout": true,
+
+    "cardLayoutData": {
+      "imageUrl": "/images/image2_card.png",
+      "imageAlt": "COO Operations Execution Flow",
+      "imagePosition": "right",
+      "contentType": "cards",
+      "theme": "dark",
+      "accentColor": "#00d9ff",
+      "topSubtitle": "COO / Operations Execution Flow",
+      "title": "How {{highlight}}operations teams{{/highlight}} execute on xMatix",
+      "subtitle": "",
+      "description": "Operations execution runs on a shared operational layer, ensuring alignment, accountability, and adaptability across the organisation.",
+      "features": [
+        {
+          "title": "Standardise Execution Workflows",
+          "description": "Define and deploy consistent operational workflows across teams while allowing local flexibility where needed."
+        },
+        {
+          "title": "Orchestrate Cross-Functional Processes",
+          "description": "Coordinate execution across sales, service, supply chain, and finance without manual handoffs."
+        },
+        {
+          "title": "Detect and Resolve Exceptions",
+          "description": "Identify operational issues early and resolve them within governed workflows rather than ad hoc interventions."
+        },
+        {
+          "title": "Continuously Improve Performance",
+          "description": "Use real-time operational data to refine processes, optimise capacity, and improve outcomes over time."
+        }
+      ],
+      "ctaText": "Explore Operations Execution",
+      "ctaLink": "#"
+    },
+
+    "requestADemo": {
+      "heading": "See how operations teams execute on xMatix",
+      "subHeading": "",
+      "description": "Request a demo to see how xMatix helps COOs and operations leaders run faster, more resilient operations on a single execution platform."
+    }
+  }
+}

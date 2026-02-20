@@ -1,5 +1,6 @@
 import React from 'react';
-import CTA from './common/Button/button';
+import Button from './common/Button/button';
+import { ArrowDownTrayIcon, CpuChipIcon } from '@heroicons/react/24/outline';
 
 export default function Hero() {
   return (
@@ -16,19 +17,17 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <span className="badge">The Next Generation of Dealer Management</span>
-
-        <h1
-          className="hero-title"
-          dangerouslySetInnerHTML={{ __html: "A composable, agentic<br/>business execution platform" }}
-        />
-
-        <p className="hero-subtitle">
-          Run sales, service, supply chain, finance, and people on a single no-code foundation
-          — powered by unified data and autonomous intelligence.
+        <h5 className="section-card-title mb-0">
+          <CpuChipIcon width={24} height={24} /> The Next Generation of Dealer Management
+        </h5>
+        <h1 className="hero-title mb-0">
+              A composable, agentic 
+              <p className="highlight">business execution platform</p>
+        </h1>
+        <p className="hero-subtitle mb-4">
+          Run sales, service, supply chain, finance, and people on a single no-code foundation — powered by unified data and autonomous intelligence.
         </p>
-
-        <CTA title='Request a Demo' type='primary' size='large'/>
+        <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18}/>}/>
       </div>
     </section>
   );
