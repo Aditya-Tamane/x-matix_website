@@ -2,6 +2,8 @@
 import React from 'react';
 import './BigCard.css';
 import { ArrowTopRightOnSquareIcon, ArrowTrendingUpIcon, BoltIcon, ChartBarIcon, CloudIcon, ComputerDesktopIcon, CpuChipIcon, ShieldCheckIcon, TruckIcon } from '@heroicons/react/24/outline';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
 const BigCard = ({ 
   imageUrl, 
@@ -96,7 +98,7 @@ const featureIcons = [
               }}
             >
               {ctaText}
-              <ArrowTopRightOnSquareIcon width={16} height={16}/>
+              <FontAwesomeIcon icon={faArrowRightToBracket}/>
             </button>
           )}
         </div>

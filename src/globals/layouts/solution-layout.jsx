@@ -17,11 +17,15 @@ import {
   DevicePhoneMobileIcon,
   ClockIcon,
   BoltIcon,
-  Cog6ToothIcon
+  Cog6ToothIcon,
+  ArrowRightIcon,
+  VideoCameraIcon
 } from '@heroicons/react/24/outline';
 import Accordian from "@/components/common/accordian/accordian-component";
 import Ecosystem from "@/components/common/ecosystem/ecosystem";
 import BigCard from "@/components/common/long-card/BigCard";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightToBracket, faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 
 export default function solutionLayout(props) {
 //         const cardLayoutData = {
@@ -101,13 +105,13 @@ export default function solutionLayout(props) {
         titleIcon={<CommandLineIcon width={18.75} height={18.75} />}
         buttons={
           <>
-            <Button title="Request a Demo" hasIcon={true} />
-            <Button title="See How it Works" type="secondary" />
+            <Button title="Request a Demo" hasIcon={true} icon={<FontAwesomeIcon icon={faArrowRightToBracket} />}/>
+            <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18} className='icon-rotate'/>}/>
           </>
         }
       />
 
-      <Ecosystem data={data.ecosystem} sectionData={data.ecosystemSection}/>
+      <Ecosystem data={data.ecosystem} sectionData={data.ecosystemSection} showCounter={true} />
 
       <SectionCard
         data={data.whatIsIt}

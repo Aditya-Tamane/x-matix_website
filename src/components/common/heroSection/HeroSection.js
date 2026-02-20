@@ -9,6 +9,7 @@ export default function HeroSection({
 topSubtitle = '',
 title = '',
 subtitle = '',
+para = '',
 btnOne = true,
 btnTwo = true
 }) {
@@ -42,13 +43,16 @@ btnTwo = true
         <p className="hero-subtitle">
           {subtitle ? subtitle : 'Run sales, service, supply chain, finance, and people on a single no-code foundation — powered by unified data and autonomous intelligence.'}
         </p>
+        <p className="hero-subtitle">
+          {para ? para : 'Traditional enterprise software records activity after it happens. xMatix is built to drive execution as it happens, connecting workflows, data, and intelligence into a single operational foundation.'}
+        </p>
         {/* <div className="hero-buttons">
         {btnOne && <Button title='Request a Demo' type='primary' size='large' onClick={() => window.location.href = 'mailto:xmatix@xmatix.com'}  icon={<ArrowDownTrayIcon width={18} height={18} className="icon-rotate"/>} />}
         {btnTwo && <Button title='See How it Works' type='secondary' size='large'icon={<VideoCameraIcon width={18} height={18}/>}/>}
         </div> */}
         <div className="hero-buttons-container">
-            <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18}/>} />
-            <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18} className='icon-rotate'/>}/>
+            {btnOne && <Button title='Request a Demo' type='primary' size='medium' hasIcon={true} icon={<ArrowDownTrayIcon width={18} height={18}/>} />}
+            {btnTwo && <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18} className='icon-rotate'/>}/>}
         </div>
       </div>
     </section>

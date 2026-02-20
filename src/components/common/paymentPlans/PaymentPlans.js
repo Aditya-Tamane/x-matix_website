@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { ArrowTopRightOnSquareIcon, ComputerDesktopIcon, CreditCardIcon, SparklesIcon } from '@heroicons/react/24/outline';
 import './paymentPlans.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightToBracket, faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function PaymentPlans(pricingData) {
   const data = pricingData?.pricingData;
@@ -52,9 +54,7 @@ export default function PaymentPlans(pricingData) {
               <ul className="featuresList">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="featureItem">
-                    <svg className="checkIcon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                    </svg>
+                    <FontAwesomeIcon icon={faStar} height={16} width={16} color='#00A4EF'/>
                     <span>{feature}</span>
                   </li>
                 ))}
@@ -63,7 +63,7 @@ export default function PaymentPlans(pricingData) {
 
             <button className="ctaButton">
               <span>Get Started</span>
-             <ArrowTopRightOnSquareIcon width={18.75} height={18.75} />
+             <FontAwesomeIcon icon={faArrowRightToBracket} />
             </button>
           </div>
         ))}

@@ -1,0 +1,56 @@
+{
+  "HeroData": {
+    "topSubtitle": "About xMatix",
+    "title": "Building the execution layer {{highlight}}for modern operations{{/highlight}}",
+    "subtitle": "xMatix exists to help organizations execute work across sales, service, supply chain, finance, and workforce operations without being constrained by rigid systems.",
+    "para": "Traditional enterprise software records activity after it happens. xMatix is built to drive execution as it happens, connecting workflows, data, and intelligence into a single operational foundation."
+  },
+  "ecosystemSection": {
+    "title": "Mission and Vision",
+    "headingPlane1": "Guiding how",
+    "headingColored1": "execution evolves",
+    "headingPlane2": "",
+    "description": "At xMatix, we focus on outcomes: faster change, governed autonomy, and real execution visibility across end-to-end workflows."
+  },
+  "ecosystem": [
+    {
+      "number": "01",
+      "title": "Our mission",
+      "description": "Enable organizations to design, govern, and evolve how work gets done — without heavy code or system rewrites."
+    },
+    {
+      "number": "02",
+      "title": "Our vision",
+      "description": "A future where operations adapt continuously, intelligence acts responsibly, and execution flows seamlessly across systems and teams."
+    }
+  ],
+  "ecosystemSection2": {
+    "title": "Careers",
+    "headingPlane1": "Join us to build",
+    "headingColored1": "execution-first",
+    "headingPlane2": "products",
+    "description": "We’re looking for people who care about clarity, ownership, and shipping systems that make operations measurably better."
+  },
+  "ecosystem2": [
+    {
+      "title": "Account Manager",
+      "description": "We are looking for an account manager. Anyone can apply for this.",
+      "fulltime": "Fulltime",
+      "inOffice": "In Office",
+      "location": "Pune",
+      "time": "Just Now",
+      "ctaText": "Apply",
+      "ctaHref": "/company"
+    },
+    {
+      "title": "Product Designer",
+      "description": "Design clear, modern interfaces for complex execution workflows.",
+      "fulltime": "Fulltime",
+      "inOffice": "In Office",
+      "location": "Pune",
+      "time": "Just Now",
+      "ctaText": "Apply",
+      "ctaHref": "/company"
+    }
+  ]
+}

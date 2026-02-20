@@ -54,26 +54,92 @@
   margin-bottom: 16px;
 }
 
-.ecosystem-number {
-  font-size: 32px;
+.ecosystems-number {
+  font-size: 18px;
   font-weight: 700;
   color: #4da6c7;
   line-height: 1;
 }
 
-.ecosystem-title {
-  font-size: 32px;
+.ecosystems-title {
+  font-size: 18px;
   font-weight: 700;
   margin: 0;
   color: white;
   line-height: 1;
 }
 
-.description {
-  font-size: 18px;
+.ecosystems-description {
+  font-size: 16px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
   margin: 0;
+}
+
+.ecosystem-pills {
+  display: flex;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.ecosystem-pill {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.ecosystem-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.ecosystem-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.ecosystem-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ecosystem-meta-item svg {
+  flex: 0 0 auto;
+  opacity: 0.9;
+}
+
+.ecosystem-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(0, 164, 239, 0.85);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.ecosystem-cta:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.ecosystem-cta-disabled {
+  cursor: default;
+  opacity: 0.95;
 }
 @media (max-width: 1024px) {
   .container {
