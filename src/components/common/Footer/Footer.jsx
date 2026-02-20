@@ -60,7 +60,7 @@ export default function Footer() {
           <div className="column">
             <h3>Company</h3>
             <ul>
-              <li>About xMatix</li>
+              <li><Link href={'/company'} className="no-link">About xMatix</Link></li>
               <li><Link href={'/pricing'} className="no-link">Our Plans</Link></li>
               <li>Leadership</li>
               <li>Career</li>

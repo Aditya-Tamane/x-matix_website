@@ -60,12 +60,14 @@ export default function Domains() {
         ))}
         <div className="domains-last-row">
           {bottomDomains.map((domain) => (
+            <Link href={`/products/${domain.href}`} key={domain.title} >
             <Card
               key={domain.title}
               icon={domain.icon}
               title={domain.title}
               description={domain.desc}
             />
+          </Link>
           ))}
         </div>
       </div>

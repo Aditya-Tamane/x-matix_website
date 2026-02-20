@@ -19,7 +19,8 @@ import {
   DevicePhoneMobileIcon,
   ClockIcon,
   BoltIcon,
-  Cog6ToothIcon
+  Cog6ToothIcon,
+  VideoCameraIcon
 } from '@heroicons/react/24/outline';
 
 export default function ProductPage3(props) {
@@ -32,7 +33,7 @@ export default function ProductPage3(props) {
         buttons={
           <>
             <Button title="Request a Demo" hasIcon={true} />
-            <Button title="See How it Works" type="secondary" />
+            <Button title='See how it works' type='secondary' size='medium' hasIcon={true} icon={<VideoCameraIcon width={18} height={18} className='icon-rotate'/>}/>
           </>
         }
       />

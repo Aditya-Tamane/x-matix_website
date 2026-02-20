@@ -4,6 +4,8 @@ import Button from '../Button/button';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import './RequestDemo.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
 const img = {
   src: '/images/RequestDemo.png',
@@ -14,7 +16,7 @@ function RequestDemo({data={}}) {
 
   const renderBtn = () => {
     if (data?.btnDesignOther) {
-      return (<Button className="request-demo-btn-new" title={data?.btnText || 'Get Started with xMatix Data Fabric'} hasIcon={data?.hasIcon} icon={<ArrowDownTrayIcon width={20} height={20} className="icon-rotate"/>}/>)
+      return (<Button className="request-demo-btn-new" title={data?.btnText || 'Get Started with xMatix Data Fabric'} hasIcon={data?.hasIcon} icon={<FontAwesomeIcon icon={faArrowRightToBracket} />}/>)
     }
     else {
       return (

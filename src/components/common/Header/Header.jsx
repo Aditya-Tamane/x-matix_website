@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
@@ -20,6 +20,10 @@ export default function Header({
 }) {
   const pathname = usePathname();
   const [activeMega, setActiveMega] = useState(null);
+
+  useEffect(() => {
+    setActiveMega(null);
+  }, [pathname]);
 
   const prodData = {
     leftItems: [],
@@ -56,7 +60,7 @@ export default function Header({
                         <ul>
                           {prodData.leftItems.map(item => (
                             <li key={item.slug}>
-                              <Link href={item.href}>
+                              <Link href={item.href} onClick={() => setActiveMega(null)}>
                               <div className="left-item">
                                 <div className="left-text">
                                   <span className="left-title-box">
@@ -78,6 +82,7 @@ export default function Header({
                             <Link
                               key={product.href}
                               href={product.href}
+                              onClick={() => setActiveMega(null)}
                               className={`product-link ${pathname.includes(product.href) ? 'active' : ''}`}
                             >
                               {product.title}
@@ -115,7 +120,7 @@ export default function Header({
                             <ul>
                               {solData.itemsByGroup[group]?.map(item => (
                                 <li key={item.slug}>
-                                  <Link href={item.href}>
+                                  <Link href={item.href} onClick={() => setActiveMega(null)}>
                                     <div className="left-item">
                                       <div className="left-text">
                                         <span className="left-title-box">
