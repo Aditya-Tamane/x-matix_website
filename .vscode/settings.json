@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/bbce9d00-4b4c-429d-939e-94257ee8d6ab/resourceGroups/rgCIXmatixWeb/providers/Microsoft.Web/sites/xmatix",
+    "appService.deploySubpath": "."
+}

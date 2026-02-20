@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
 const img = {
-  src: '/images/RequestDemo.png',
+  src: '/images/requestDemo.png',
   alt: 'Business handshake',
 }
 
